@@ -8,6 +8,7 @@
 			<a href="/" class="font-semibold tracking-tight text-lg">Road Condition Intelligence</a>
 			<nav class="flex items-center gap-4 text-sm">
 				<a href="/mvp" class="text-neutral-600 hover:text-neutral-900 transition">MVP</a>
+				<a href="/priorita" class="text-neutral-600 hover:text-neutral-900 transition">Priorità</a>
 				<a href="/catalog" class="text-neutral-600 hover:text-neutral-900 transition">Catalog</a>
 				<a href="/explorer" class="text-neutral-600 hover:text-neutral-900 transition">Explorer</a>
 			</nav>

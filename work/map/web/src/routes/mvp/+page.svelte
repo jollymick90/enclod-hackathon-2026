@@ -33,8 +33,8 @@
 
 	<div class="mt-6">
 		<MultiLayerMap
-			layers={data.layers}
-			defaultVisible={new Set(['rischio-storico', 'training-incidenti', 'osm-roads', 'osm-traffic'])}
+			layers={data.layers.filter((l) => l.slug !== 'training-incidenti')}
+			defaultVisible={new Set(['rischio-storico', 'osm-roads', 'osm-traffic'])}
 			filterOptions={data.filterOptions}
 		/>
 	</div>

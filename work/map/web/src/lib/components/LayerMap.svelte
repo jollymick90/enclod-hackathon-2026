@@ -82,12 +82,36 @@
 	onMount(() => {
 		if (!container) return;
 
+		// Deep-link: /layers/<slug>#<lng>,<lat> (es. dalla pagina Priorità)
+		// centra sul punto a zoom alto e lo evidenzia con un marker.
+		let center = layer.defaultCenter;
+		let zoom = layer.defaultZoom;
+		const hash = window.location.hash.match(/^#(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)$/);
+		if (hash) {
+			center = [parseFloat(hash[1]), parseFloat(hash[2])];
+			zoom = 15.5;
+		}
+
 		map = new maplibregl.Map({
 			container,
 			style: BASEMAP_STYLE,
-			center: layer.defaultCenter,
-			zoom: layer.defaultZoom
+			center,
+			zoom
 		});
+
+		if (hash && map) {
+			// Punto indicativo: marker grande + anello pulsante per trovarlo a colpo d'occhio
+			const ring = document.createElement('div');
+			ring.style.cssText =
+				'width:36px;height:36px;border-radius:50%;border:3px solid #1d4ed8;' +
+				'background:rgba(29,78,216,.15);animation:pulse-ring 1.6s ease-out infinite;';
+			const styleEl = document.createElement('style');
+			styleEl.textContent =
+				'@keyframes pulse-ring{0%{transform:scale(.6);opacity:1}100%{transform:scale(1.8);opacity:0}}';
+			document.head.appendChild(styleEl);
+			new maplibregl.Marker({ element: ring }).setLngLat(center).addTo(map);
+			new maplibregl.Marker({ color: '#1d4ed8', scale: 1.25 }).setLngLat(center).addTo(map);
+		}
 
 		map.on('load', () => {
 			if (!map) return;
