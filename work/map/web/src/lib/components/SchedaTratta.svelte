@@ -26,14 +26,24 @@
 		loading = true;
 		err = '';
 		detail = null;
+		let stale = false;
 		fetch(`/api/tratte/${id}`)
 			.then(async (r) => {
 				if (!r.ok) throw new Error((await r.json())?.message ?? r.statusText);
 				return r.json();
 			})
-			.then((d: TrattaDetail) => { detail = d; })
-			.catch((e) => { err = e instanceof Error ? e.message : 'Errore di caricamento'; })
-			.finally(() => { loading = false; });
+			.then((d: TrattaDetail) => {
+				if (!stale) detail = d;
+			})
+			.catch((e) => {
+				if (!stale) err = e instanceof Error ? e.message : 'Errore di caricamento';
+			})
+			.finally(() => {
+				if (!stale) loading = false;
+			});
+		return () => {
+			stale = true;
+		};
 	});
 
 	const liv = $derived(detail ? livelloIndice(detail.segment.indice) : null);
