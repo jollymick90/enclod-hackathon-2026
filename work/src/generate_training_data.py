@@ -337,6 +337,14 @@ def main():
     training.to_csv(out_csv, index=False)
     print(f"  Salvato: {out_csv}")
 
+    # Consegna al team ML: positivi e negativi anche come file separati
+    out_pos = OUT_DIR / 'casi_positivi.csv'
+    out_neg = OUT_DIR / 'casi_negativi_sintetici.csv'
+    positivi.to_csv(out_pos, index=False)
+    negativi_out.to_csv(out_neg, index=False)
+    print(f"  Salvato: {out_pos}")
+    print(f"  Salvato: {out_neg}")
+
     print("Costruisco la visualizzazione...")
     charts_b64 = build_distribution_charts(positivi, negativi_out)
     map_obj    = build_map(positivi, negativi_out, corridoi)

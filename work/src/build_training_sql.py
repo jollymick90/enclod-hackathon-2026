@@ -80,7 +80,6 @@ def main() -> None:
                 "comune": r.get("comune"),
                 "nome_strada": r.get("nome_strada"),
                 "tipo_luogo": r.get("tipo_luogo"),
-                "kmt_etm": to_float(r.get("kmt_etm")),
                 "fondo": r.get("fondo"),
                 "segnaletica": r.get("segnaletica"),
                 "meteo": r.get("meteo"),
@@ -105,7 +104,6 @@ def main() -> None:
   comune           text,
   nome_strada      text,
   tipo_luogo       text,
-  kmt_etm          real,
   fondo            text,
   segnaletica      text,
   meteo            text,
@@ -114,15 +112,14 @@ def main() -> None:
 );\n\n""")
 
         cols = ("geom", "mese", "giorno_settimana", "fascia_oraria", "comune", "nome_strada",
-                "tipo_luogo", "kmt_etm", "fondo", "segnaletica", "meteo", "incidente", "esito")
+                "tipo_luogo", "fondo", "segnaletica", "meteo", "incidente", "esito")
         w(f"INSERT INTO data.training_points ({', '.join(cols)}) VALUES\n")
         vals = []
         for r in rows:
             geom = f"ST_SetSRID(ST_MakePoint({r['lon']}, {r['lat']}), 4326)"
-            kmt = "NULL" if r["kmt_etm"] is None else r["kmt_etm"]
             vals.append(
                 f"({geom}, {r['mese']}, {q(r['giorno_settimana'])}, {q(r['fascia_oraria'])}, "
-                f"{q(r['comune'])}, {q(r['nome_strada'])}, {q(r['tipo_luogo'])}, {kmt}, "
+                f"{q(r['comune'])}, {q(r['nome_strada'])}, {q(r['tipo_luogo'])}, "
                 f"{q(r['fondo'])}, {q(r['segnaletica'])}, {q(r['meteo'])}, {r['incidente']}, {q(r['esito'])})"
             )
         w(",\n".join(vals) + ";\n\n")
@@ -142,7 +139,7 @@ def main() -> None:
 ) VALUES (
   'training-incidenti',
   'Dataset di training — incidenti vs strade sicure',
-  'Dataset per il modello predittivo: {n_pos} incidenti reali (rosso) e {n_neg} record di controllo sintetici "strada sicura" (verde), ancorati alle stesse posizioni reali ma con condizioni spazio-temporali diverse. Filtra per esito, comune, fascia oraria, meteo e fondo per esplorare i pattern.',
+  'Dataset per il modello predittivo: {n_pos} incidenti reali (rosso) e {n_neg} record di controllo sintetici "strada sicura" (verde), campionati lungo la geometria reale dei corridoi SP 46 / SP 349 / SP 350 (grafo OSM) con condizioni spazio-temporali variate. Filtra per esito, comune, fascia oraria, meteo e fondo per esplorare i pattern.',
   'vector',
   'point',
   'training_points',

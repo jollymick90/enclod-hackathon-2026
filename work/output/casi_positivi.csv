@@ -1,0 +1,739 @@
+mese,giorno_settimana,fascia_oraria,comune,nome_strada,tipo_luogo,fondo,segnaletica,meteo,lon,lat,incidente
+3,Domenica,Notte,TORREBELVICINO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.294533,45.718648,1
+11,Mercoledì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3795,45.73033,1
+11,Sabato,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.385602,45.732028,1
+4,Venerdì,Sera,SANTORSO,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.386812,45.732363,1
+3,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.419838,45.743846,1
+11,Domenica,Mattino,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Asciutto,,Altro,11.4315522,45.7985881,1
+3,Martedì,Pomeriggio,CARRE',SP 349 Costo,Intersezione segnalata,Bagnato,,Altro,11.440164,45.738273,1
+11,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.44274,45.759901,1
+10,Lunedì,Pomeriggio,ZANE',SP 349 Costo,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.445844,45.730591,1
+2,Giovedì,Pomeriggio,THIENE,SP 349 var Costo Variante,Curva,Sdrucciolevole,Temporanea di cantiere,Neve,11.453159,45.704606,1
+12,Mercoledì,Mattino,THIENE,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4556289,45.7022157,1
+4,Giovedì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.46683,45.614309,1
+2,Venerdì,Pomeriggio,THIENE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.488596,45.671388,1
+11,Mercoledì,Sera,THIENE,SP 349 Costo,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.488616,45.671549,1
+11,Martedì,Pomeriggio,THIENE,SP 349 Costo,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4886589,45.6715303,1
+1,Martedì,Sera,COSTABISSARA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4934587,45.6035374,1
+2,Giovedì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4935453,45.6033191,1
+4,Sabato,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4936495,45.6031554,1
+2,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4937706,45.6029626,1
+11,Martedì,Sera,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4974624,45.5920366,1
+1,Lunedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.5010631,45.5881193,1
+10,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.502708,45.586175,1
+4,Mercoledì,Pomeriggio,VICENZA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.506202,45.582012,1
+12,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Bagnato,Orizzontale,Pioggia,11.507947,45.538013,1
+12,Lunedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.509232,45.547022,1
+4,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5092701,45.5470606,1
+3,Mercoledì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.518466,45.554739,1
+3,Sabato,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51847,45.554709,1
+3,Lunedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51848,45.554719,1
+2,Giovedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.518501,45.554729,1
+10,Martedì,Pomeriggio,TORREBELVICINO,SP 046 var Torrebelvicino,Curva,Bagnato,Orizzontale,Pioggia,11.303165,45.7189153,1
+10,Giovedì,Mattino,TORREBELVICINO,SP 046 var Torrebelvicino,Intersezione segnalata,Asciutto,Assente,Sereno,11.3062513,45.7181957,1
+2,Sabato,Sera,TORREBELVICINO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.315144,45.7191404,1
+10,Domenica,Pomeriggio,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3611937,45.8100465,1
+12,Venerdì,Pomeriggio,ARSIERO,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.3617351,45.8043212,1
+10,Domenica,Notte,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3744982,45.8029973,1
+10,Venerdì,Sera,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3770026,45.7298164,1
+12,Martedì,Sera,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3821524,45.7311307,1
+11,Martedì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Incrocio,Bagnato,Orizzontale,Pioggia,11.394732,45.7343659,1
+4,Domenica,Mattino,SANTORSO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.3947374,45.7343771,1
+1,Giovedì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4029288,45.6769515,1
+1,Domenica,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4190765,45.6525864,1
+1,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.423692,45.7469627,1
+11,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4238081,45.7470689,1
+4,Giovedì,Mattino,SCHIO,SP 349 var Costo Variante,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4253736,45.7198212,1
+12,Giovedì,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4307273,45.7494283,1
+10,Sabato,Notte,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4331627,45.6390075,1
+11,Mercoledì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4347448,45.638099,1
+4,Giovedì,Sera,CARRE',SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4400291,45.7381775,1
+10,Sabato,Sera,CARRE',SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.440115,45.7382374,1
+11,Lunedì,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4418718,45.7594376,1
+2,Lunedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.442722,45.7599064,1
+12,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4427382,45.759941,1
+10,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4427596,45.7599373,1
+11,Martedì,Sera,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4485884,45.7269181,1
+2,Sabato,Mattino,ZANE',SP 349 Costo,Intersezione con semaforo o vigile,Asciutto,,Altro,11.4517906,45.7215758,1
+4,Domenica,Pomeriggio,CALTRANO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4540517,45.770756,1
+10,Lunedì,Sera,ZANE',SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.456421,45.717102,1
+10,Lunedì,Pomeriggio,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4585289,45.7160634,1
+10,Venerdì,Pomeriggio,ZANE',SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4588689,45.7158206,1
+4,Martedì,Pomeriggio,ZANE',SP 349 Costo,Incrocio,Asciutto,,Altro,11.4589743,45.7157572,1
+11,Giovedì,Pomeriggio,THIENE,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4606541,45.6976929,1
+11,Sabato,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Intersezione con semaforo o vigile,Bagnato,,Altro,11.4668834,45.6143151,1
+4,Venerdì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4756142,45.6092976,1
+4,Lunedì,Pomeriggio,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4848971,45.6834578,1
+4,Sabato,Sera,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4849376,45.6831684,1
+12,Venerdì,Mattino,THIENE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4885557,45.671597,1
+3,Martedì,Notte,THIENE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.48862,45.671374,1
+11,Mercoledì,Pomeriggio,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4886308,45.6713805,1
+11,Giovedì,Pomeriggio,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,,Altro,11.4913934,45.6195024,1
+2,Martedì,Sera,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Sdrucciolevole,,Altro,11.4926192,45.6591084,1
+3,Martedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4926714,45.6590303,1
+4,Giovedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4929008,45.6583501,1
+1,Martedì,Sera,COSTABISSARA,SP 349 Costo,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4933997,45.6039802,1
+10,Sabato,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.494811,45.6004654,1
+10,Martedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4948803,45.600092,1
+2,Lunedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4961984,45.5966615,1
+3,Lunedì,Mattino,ASIAGO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4965916,45.869035,1
+10,Martedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4975491,45.5921645,1
+12,Mercoledì,Mattino,ASIAGO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.500293,45.8713956,1
+10,Sabato,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5091658,45.5470255,1
+11,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.5091658,45.5469955,1
+11,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Orizzontale,Pioggia,11.5092516,45.5470556,1
+2,Lunedì,Notte,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,Assente,Sereno,11.509257,45.5469992,1
+4,Sabato,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5092677,45.5469936,1
+3,Mercoledì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Bagnato,Orizzontale,Pioggia,11.5155272,45.5521684,1
+2,Mercoledì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.518414,45.5548016,1
+11,Sabato,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,Assente,Sereno,11.5184964,45.5547616,1
+2,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,Assente,Sereno,11.5185159,45.5547979,1
+4,Domenica,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.518591,45.5547753,1
+3,Giovedì,Sera,VALLI DEL PASUBIO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.2347651,45.7494384,1
+2,Giovedì,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Ghiacciato,Assente,Sereno,11.243434,45.7437483,1
+1,Domenica,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.262306,45.7400569,1
+12,Giovedì,Pomeriggio,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.361652,45.8042241,1
+1,Domenica,Notte,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3673542,45.8243251,1
+12,Martedì,Sera,SCHIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3725723,45.7286719,1
+12,Sabato,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3769671,45.729834,1
+4,Venerdì,Mattino,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.3803446,45.6854553,1
+10,Martedì,Mattino,SCHIO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.3852692,45.6963485,1
+1,Lunedì,Mattino,ASIAGO,SP 349 Costo,Curva,Ghiacciato,Assente,Sereno,11.3938103,45.9501902,1
+2,Sabato,Mattino,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.3941848,45.6892065,1
+12,Giovedì,Mattino,MALO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.402843,45.6771614,1
+10,Sabato,Mattino,MALO,SP 046 Pasubio,Rotatoria,Bagnato,Orizzontale,Pioggia,11.4067054,45.6663057,1
+10,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.4091651,45.6635615,1
+11,Giovedì,Sera,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Bagnato,,Altro,11.409976,45.7897768,1
+11,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4122,45.66067,1
+2,Mercoledì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4148486,45.6579227,1
+2,Mercoledì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4149129,45.6578177,1
+10,Domenica,Pomeriggio,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.418196,45.6539932,1
+4,Venerdì,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Innevato,Orizzontale,Pioggia,11.42652,45.81024,1
+3,Venerdì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4269468,45.7498684,1
+11,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rotatoria,Asciutto,Assente,Sereno,11.4288712,45.7516319,1
+12,Mercoledì,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4293023,45.7525323,1
+10,Lunedì,Notte,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione segnalata,Bagnato,Assente,Sereno,11.4312744,45.7663629,1
+10,Sabato,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4336348,45.7637808,1
+10,Domenica,Sera,MARANO VICENTINO,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4382766,45.7123815,1
+12,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4382861,45.7575018,1
+10,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.438452,45.7610488,1
+4,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4384949,45.7610862,1
+4,Giovedì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4422715,45.6291123,1
+2,Lunedì,Mattino,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4565462,45.7170833,1
+11,Venerdì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.459105,45.6208333,1
+11,Mercoledì,Pomeriggio,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4744258,45.8647766,1
+11,Sabato,Sera,THIENE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4845645,45.6844622,1
+2,Lunedì,Sera,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4846262,45.6843386,1
+4,Mercoledì,Pomeriggio,THIENE,SP 349 Costo,Incrocio,Asciutto,,Altro,11.4876196,45.6747513,1
+11,Sabato,Mattino,CALDOGNO,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4921069,45.6323759,1
+4,Venerdì,Sera,CALDOGNO,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4921284,45.6323759,1
+11,Venerdì,Mattino,VILLAVERLA,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4927981,45.6438503,1
+4,Giovedì,Pomeriggio,COSTABISSARA,SP 349 Costo,Rettilineo,Asciutto,Orizzontale,Pioggia,11.4933413,45.6041924,1
+2,Lunedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.49379,45.65594,1
+1,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4938021,45.6028393,1
+3,Giovedì,Mattino,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.493981,45.650717,1
+11,Lunedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4944029,45.6537457,1
+2,Mercoledì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Dosso,Asciutto,Assente,Sereno,11.4971047,45.5934608,1
+3,Venerdì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione segnalata,Asciutto,Assente,Sereno,11.50812,45.53822,1
+1,Giovedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Dosso,Bagnato,Assente,Sereno,11.5085167,45.5426599,1
+3,Mercoledì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.50932,45.54725,1
+10,Mercoledì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51848,45.5548,1
+10,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5185673,45.5547268,1
+10,Sabato,Notte,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.518586,45.5547188,1
+2,Lunedì,Mattino,TORREBELVICINO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.27979,45.72724,1
+10,Mercoledì,Pomeriggio,ARSIERO,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.36713,45.82387,1
+2,Venerdì,Mattino,SCHIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3692265,45.727025,1
+12,Lunedì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Rettilineo,Bagnato,Assente,Sereno,11.375,45.72925,1
+10,Venerdì,Mattino,SANTORSO,SP 350 Val d'Astico,Incrocio,Bagnato,Assente,Sereno,11.37983,45.73052,1
+4,Martedì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.3867736,45.732316,1
+2,Giovedì,Pomeriggio,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.3904886,45.6922711,1
+10,Sabato,Mattino,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3947174,45.7343897,1
+2,Lunedì,Sera,MALO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.40314,45.67764,1
+3,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Rotatoria,Asciutto,,Altro,11.4064643,45.6661297,1
+4,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4079242,45.6647552,1
+2,Martedì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4091213,45.6635546,1
+12,Giovedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.4141506,45.6585607,1
+12,Giovedì,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.4207838,45.7852476,1
+3,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4240228,45.7469152,1
+11,Martedì,Mattino,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4265952,45.8114731,1
+1,Venerdì,Sera,COGOLLO DEL CENGIO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.43185,45.79846,1
+4,Venerdì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.43284,45.76421,1
+12,Mercoledì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.438216,45.7575837,1
+3,Lunedì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4384,45.7597,1
+3,Venerdì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Bagnato,,Altro,11.4391185,45.6332824,1
+10,Lunedì,Sera,ZANE',SP 349 var Costo Variante,Galleria illuminata,Bagnato,Orizzontale,Pioggia,11.4411734,45.7108258,1
+2,Domenica,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4421769,45.7595732,1
+3,Venerdì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4430258,45.7599938,1
+1,Mercoledì,Pomeriggio,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4452207,45.7314924,1
+11,Mercoledì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4490897,45.6250847,1
+11,Giovedì,Mattino,CHIUPPANO,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4499411,45.7639128,1
+1,Domenica,Pomeriggio,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4548452,45.7200458,1
+1,Mercoledì,Mattino,ZANE',SP 349 Costo,Intersezione con semaforo o vigile,Bagnato,,Altro,11.4588314,45.7158419,1
+10,Giovedì,Pomeriggio,THIENE,SP 349 var Costo Variante,Rotatoria,Bagnato,Orizzontale,Pioggia,11.460843,45.6977468,1
+1,Mercoledì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4668092,45.6143177,1
+3,Domenica,Sera,THIENE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4886333,45.6713715,1
+10,Giovedì,Sera,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4912726,45.6195794,1
+10,Giovedì,Sera,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,,Altro,11.4934205,45.6470437,1
+11,Mercoledì,Pomeriggio,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4937638,45.6500512,1
+2,Sabato,Sera,VILLAVERLA,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.494603,45.653112,1
+12,Mercoledì,Pomeriggio,VICENZA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.5041401,45.5844851,1
+1,Mercoledì,Mattino,ASIAGO,SP 349 Costo,Intersezione segnalata,Bagnato,,Altro,11.5056896,45.8736366,1
+11,Domenica,Sera,VICENZA,SP 046 Pasubio,Intersezione non segnalata,Bagnato,Assente,Sereno,11.5062956,45.5819901,1
+10,Domenica,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Bagnato,Assente,Sereno,11.50927,45.54708,1
+11,Martedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Bagnato,Assente,Sereno,11.50928,45.54654,1
+12,Venerdì,Notte,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Curva,Bagnato,Assente,Sereno,11.512611,45.5504994,1
+3,Lunedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51843,45.55484,1
+10,Lunedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,Assente,Sereno,11.51845,45.55479,1
+4,Mercoledì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51859,45.55474,1
+11,Giovedì,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.26787,45.73672,1
+2,Sabato,Mattino,VALDASTICO,SP 350 Val d'Astico,Rettilineo,Sdrucciolevole,Assente,Sereno,11.3587297,45.8792382,1
+12,Mercoledì,Sera,ARSIERO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.35936,45.80566,1
+1,Lunedì,Pomeriggio,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3596495,45.8072233,1
+1,Giovedì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.37406,45.72907,1
+4,Lunedì,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Curva,Bagnato,Orizzontale,Pioggia,11.3908123,45.7964117,1
+1,Giovedì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Incrocio,Bagnato,Orizzontale,Pioggia,11.3947222,45.7343522,1
+4,Martedì,Mattino,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Intersezione non segnalata,Asciutto,Assente,Sereno,11.4079261,45.7904591,1
+1,Venerdì,Sera,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.4134154,45.659325,1
+1,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.414464,45.6582264,1
+11,Venerdì,Mattino,MALO,SP 046 Pasubio,Rotatoria,Asciutto,,Altro,11.4145744,45.6583352,1
+12,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Incrocio,Bagnato,Orizzontale,Pioggia,11.418866,45.6524072,1
+11,Giovedì,Pomeriggio,SCHIO,SP 349 var Costo Variante,Rotatoria,Bagnato,Orizzontale,Pioggia,11.4208972,45.7248705,1
+3,Martedì,Mattino,SCHIO,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4209846,45.7249218,1
+4,Venerdì,Mattino,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.42287,45.78435,1
+4,Venerdì,Sera,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,,Altro,11.423447,45.6481963,1
+10,Venerdì,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Curva,Bagnato,Verticale,Nebbia,11.42487,45.8085,1
+2,Domenica,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.42742,45.75003,1
+10,Mercoledì,Mattino,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Bagnato,,Altro,11.4301454,45.641401,1
+10,Giovedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4304726,45.7531358,1
+3,Sabato,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4316717,45.7487743,1
+11,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4317997,45.748625,1
+12,Mercoledì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4348184,45.7633603,1
+3,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Bagnato,Assente,Sereno,11.435103,45.7447861,1
+3,Giovedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4358986,45.7437914,1
+10,Venerdì,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.437441,45.7417931,1
+3,Venerdì,Pomeriggio,ROANA,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.44095,45.84371,1
+2,Mercoledì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Incrocio,Bagnato,Orizzontale,Pioggia,11.4410002,45.6305795,1
+3,Venerdì,Sera,ZANE',SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.451835,45.7215129,1
+2,Sabato,Mattino,ZANE',SP 349 Costo,Rotatoria,Bagnato,Orizzontale,Pioggia,11.4552458,45.7175412,1
+12,Giovedì,Pomeriggio,CHIUPPANO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4571663,45.7679359,1
+3,Venerdì,Pomeriggio,THIENE,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4601791,45.6972144,1
+4,Sabato,Pomeriggio,ZANE',SP 349 Costo,Rettilineo,Asciutto,,Altro,11.4624325,45.7137749,1
+3,Sabato,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.4669305,45.6143626,1
+3,Sabato,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.46715,45.61411,1
+4,Domenica,Sera,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.48147,45.88116,1
+2,Domenica,Sera,THIENE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4886386,45.6713877,1
+2,Sabato,Sera,THIENE,SP 349 Costo,Incrocio,Asciutto,,Altro,11.4887029,45.6715696,1
+11,Domenica,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4892559,45.6055122,1
+4,Mercoledì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4908277,45.6049765,1
+10,Domenica,Notte,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.49161,45.62053,1
+4,Martedì,Notte,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.49285,45.65845,1
+11,Domenica,Notte,COSTABISSARA,SP 046 Pasubio,Incrocio,Bagnato,Assente,Sereno,11.49337,45.60375,1
+4,Mercoledì,Sera,CALDOGNO,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.493396,45.6039447,1
+1,Venerdì,Pomeriggio,COSTABISSARA,SP 349 Costo,Intersezione segnalata,Asciutto,,Altro,11.4934007,45.6037187,1
+11,Domenica,Sera,VILLAVERLA,SP 349 Costo,Rettilineo,Bagnato,Assente,Sereno,11.493578,45.6566975,1
+10,Sabato,Sera,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,,Altro,11.4936029,45.6490987,1
+12,Giovedì,Mattino,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4936057,45.6566107,1
+10,Mercoledì,Sera,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,,Altro,11.4936378,45.6566332,1
+12,Sabato,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.494901,45.6001511,1
+1,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4995816,45.5898104,1
+12,Mercoledì,Sera,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.49967,45.5898,1
+10,Domenica,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.5018325,45.587206,1
+3,Domenica,Pomeriggio,ASIAGO,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.5057055,45.873652,1
+2,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione segnalata,Asciutto,Assente,Sereno,11.5081029,45.5338849,1
+12,Mercoledì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.50899,45.54692,1
+3,Giovedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50912,45.5461,1
+4,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50914,45.54646,1
+3,Lunedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5092003,45.5468912,1
+10,Venerdì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,,Altro,11.5092094,45.5469847,1
+2,Giovedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5092382,45.5470205,1
+1,Martedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Bagnato,Assente,Sereno,11.50929,45.547,1
+2,Venerdì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5184381,45.5547407,1
+3,Venerdì,Pomeriggio,VALDASTICO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3575817,45.8806274,1
+3,Martedì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3751057,45.7293177,1
+3,Venerdì,Mattino,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3763769,45.8020147,1
+1,Sabato,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.37777,45.80134,1
+12,Giovedì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3875199,45.7325467,1
+10,Giovedì,Mattino,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.3943972,45.6891456,1
+4,Mercoledì,Mattino,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3947441,45.7343659,1
+12,Giovedì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.397808,45.735242,1
+3,Sabato,Notte,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.39895,45.68546,1
+4,Giovedì,Sera,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.39903,45.68517,1
+10,Lunedì,Mattino,MALO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4025778,45.6774302,1
+10,Venerdì,Sera,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4051688,45.6716344,1
+3,Sabato,Sera,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4087902,45.7380958,1
+2,Domenica,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,,Vento forte,11.4181203,45.654145,1
+2,Domenica,Notte,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.41819,45.65401,1
+1,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Verticale,Nebbia,11.4273221,45.7688562,1
+12,Lunedì,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4352358,45.7873315,1
+1,Domenica,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Curva,Bagnato,Assente,Sereno,11.43857,45.76091,1
+12,Venerdì,Pomeriggio,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4411688,45.7109793,1
+12,Sabato,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4434688,45.7810558,1
+10,Venerdì,Pomeriggio,CARRE',SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4435126,45.7339993,1
+12,Venerdì,Notte,ZANE',SP 349 Costo,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4458846,45.7305901,1
+2,Lunedì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.446122,45.627658,1
+12,Mercoledì,Sera,CALTRANO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4502706,45.7769119,1
+4,Venerdì,Sera,CALTRANO,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.45121,45.77345,1
+11,Sabato,Sera,ZANE',SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4624732,45.7137539,1
+1,Sabato,Pomeriggio,ZANE',SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4624963,45.7138348,1
+3,Giovedì,Mattino,ZANE',SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4632374,45.7133679,1
+10,Venerdì,Sera,ROANA,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.47533,45.86562,1
+4,Giovedì,Sera,THIENE,SP 349 Costo,Incrocio,Asciutto,,Altro,11.4845535,45.68439,1
+1,Giovedì,Pomeriggio,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4846598,45.6842362,1
+3,Lunedì,Mattino,THIENE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4886469,45.6714705,1
+2,Mercoledì,Pomeriggio,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,,Altro,11.4903756,45.6155771,1
+2,Martedì,Notte,CALDOGNO,SP 349 Costo,Incrocio,Bagnato,Assente,Sereno,11.49103,45.61934,1
+2,Lunedì,Mattino,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4914441,45.6233257,1
+2,Giovedì,Mattino,VILLAVERLA,SP 349 Costo,Rotatoria,Bagnato,Orizzontale,Pioggia,11.4926963,45.6438035,1
+4,Sabato,Notte,VILLAVERLA,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4927786,45.6438218,1
+10,Domenica,Sera,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.492893,45.6583325,1
+3,Giovedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4933933,45.6476767,1
+12,Lunedì,Sera,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4936685,45.6500201,1
+3,Lunedì,Mattino,VILLAVERLA,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4937585,45.6501431,1
+12,Mercoledì,Mattino,COSTABISSARA,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,,Altro,11.4949627,45.6001811,1
+4,Lunedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4978684,45.5922142,1
+10,Venerdì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50917,45.54629,1
+4,Lunedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5092694,45.5469962,1
+10,Venerdì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5093123,45.5470759,1
+1,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione segnalata,Bagnato,Assente,Sereno,11.50932,45.54707,1
+3,Lunedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.50933,45.54709,1
+10,Lunedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.5160593,45.5524963,1
+1,Domenica,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.2247826,45.7532515,1
+2,Sabato,Sera,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.2614807,45.7402882,1
+12,Lunedì,Pomeriggio,TORREBELVICINO,SP 046 Pasubio,Intersezione non segnalata,Asciutto,Assente,Sereno,11.3021313,45.719219,1
+2,Sabato,Mattino,ARSIERO,SP 350 Val d'Astico,Rettilineo,Bagnato,Assente,Sereno,11.3680745,45.8255572,1
+2,Venerdì,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3751701,45.7293552,1
+10,Martedì,Sera,SANTORSO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.3770628,45.7298333,1
+10,Domenica,Sera,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.38212,45.73113,1
+4,Lunedì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3851913,45.7319333,1
+2,Martedì,Sera,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.3927349,45.6904302,1
+10,Giovedì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.393126,45.7339493,1
+11,Lunedì,Pomeriggio,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Intersezione segnalata,Bagnato,Assente,Sereno,11.3970101,45.687136,1
+3,Mercoledì,Sera,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4103609,45.6624044,1
+10,Giovedì,Mattino,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.41089,45.66181,1
+4,Mercoledì,Sera,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4181756,45.6540162,1
+10,Venerdì,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Curva,Bagnato,Orizzontale,Pioggia,11.41989,45.78549,1
+2,Martedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4200125,45.6514807,1
+3,Martedì,Sera,SCHIO,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4208587,45.7250903,1
+2,Giovedì,Notte,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.42386,45.78408,1
+11,Venerdì,Mattino,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.4292794,45.7793928,1
+10,Martedì,Sera,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4300897,45.6414616,1
+4,Venerdì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4316318,45.6403007,1
+11,Giovedì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4327678,45.7641673,1
+12,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.4354632,45.6375214,1
+3,Martedì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.43583,45.76279,1
+2,Lunedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4359087,45.7627643,1
+11,Venerdì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4359187,45.7438972,1
+10,Lunedì,Mattino,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4397149,45.7855673,1
+2,Giovedì,Pomeriggio,CARRE',SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4401398,45.7381879,1
+2,Lunedì,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4427263,45.7599044,1
+4,Lunedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4427799,45.7599306,1
+10,Martedì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.4433569,45.6285973,1
+4,Sabato,Notte,ISOLA VICENTINA,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.44579,45.62781,1
+12,Sabato,Notte,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4464971,45.6272812,1
+4,Domenica,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4466666,45.6271359,1
+4,Mercoledì,Mattino,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4488292,45.7070235,1
+1,Domenica,Notte,ZANE',SP 349 Costo,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.4517729,45.7216347,1
+4,Venerdì,Pomeriggio,CHIUPPANO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.45374,45.76589,1
+3,Venerdì,Mattino,THIENE,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4538575,45.7040738,1
+12,Venerdì,Sera,CALTRANO,SP 349 Costo,Dosso,Asciutto,Assente,Sereno,11.45607,45.7705,1
+11,Lunedì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4587376,45.6210468,1
+11,Sabato,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Intersezione segnalata,Bagnato,,Altro,11.4591946,45.6207958,1
+1,Giovedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4668503,45.6143404,1
+2,Lunedì,Notte,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.48233,45.60796,1
+3,Martedì,Mattino,THIENE,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4875299,45.6749425,1
+10,Lunedì,Mattino,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4913591,45.6195385,1
+12,Martedì,Sera,COSTABISSARA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4934043,45.6038505,1
+11,Mercoledì,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4935233,45.6569719,1
+4,Venerdì,Sera,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4936562,45.6565977,1
+3,Mercoledì,Mattino,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4943073,45.6537555,1
+11,Domenica,Sera,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4944696,45.6011739,1
+11,Mercoledì,Mattino,COSTABISSARA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4949412,45.6001586,1
+3,Domenica,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4954875,45.5986509,1
+1,Venerdì,Pomeriggio,ASIAGO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.49655,45.86896,1
+4,Domenica,Notte,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.5001399,45.5891961,1
+3,Sabato,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5090859,45.5470739,1
+1,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50918,45.54644,1
+12,Giovedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.50931,45.54703,1
+12,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.50934,45.54705,1
+11,Martedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51846,45.55477,1
+2,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,Verticale,Nebbia,11.51846,45.55479,1
+10,Mercoledì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51854,45.55479,1
+11,Sabato,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.51856,45.55474,1
+12,Mercoledì,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Incrocio,Bagnato,Orizzontale,Pioggia,11.262225,45.7399816,1
+1,Lunedì,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.2683073,45.7363178,1
+12,Venerdì,Mattino,TORREBELVICINO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.2926321,45.7187609,1
+11,Martedì,Sera,ARSIERO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3595741,45.8052906,1
+11,Sabato,Sera,ARSIERO,SP 350 Val d'Astico,Incrocio,Bagnato,Orizzontale,Pioggia,11.3596922,45.8072671,1
+4,Sabato,Sera,ARSIERO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.36798,45.80331,1
+10,Martedì,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3725754,45.7286974,1
+2,Venerdì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3815092,45.7309364,1
+10,Venerdì,Mattino,SANTORSO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.394728,45.734379,1
+3,Giovedì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4010704,45.6808924,1
+3,Lunedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.40475,45.67304,1
+4,Venerdì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.406585,45.6665812,1
+4,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4185229,45.7431307,1
+11,Mercoledì,Mattino,SCHIO,SP 349 var Costo Variante,Rotatoria,Bagnato,Assente,Sereno,11.4208721,45.7249649,1
+2,Sabato,Pomeriggio,SCHIO,SP 349 var Costo Variante,Rotatoria,Bagnato,Assente,Sereno,11.4217635,45.7246123,1
+3,Giovedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4228941,45.648895,1
+12,Giovedì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4234745,45.6482334,1
+10,Mercoledì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4241039,45.7469868,1
+2,Giovedì,Notte,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4243473,45.6473012,1
+12,Domenica,Notte,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.42511,45.64632,1
+11,Domenica,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Curva,Bagnato,Verticale,Nebbia,11.4256213,45.7697192,1
+11,Venerdì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4273257,45.7498311,1
+2,Lunedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4294111,45.7513293,1
+12,Sabato,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4306652,45.6410126,1
+3,Domenica,Sera,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.4308766,45.6408349,1
+3,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.43091,45.64078,1
+2,Sabato,Sera,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.43145,45.6403,1
+3,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4316541,45.7649308,1
+4,Domenica,Pomeriggio,ROANA,SP 349 Costo,Rettilineo,Asciutto,,Altro,11.4322558,45.8372218,1
+10,Lunedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4327544,45.7543166,1
+11,Venerdì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4333701,45.763934,1
+11,Domenica,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4339977,45.7462842,1
+1,Sabato,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.43401,45.74626,1
+4,Domenica,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4347446,45.6380488,1
+11,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4355025,45.7444085,1
+3,Sabato,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4358512,45.7628027,1
+10,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.436952,45.7566888,1
+10,Sabato,Pomeriggio,ROANA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4372712,45.8432542,1
+3,Giovedì,Pomeriggio,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4388204,45.8429658,1
+3,Lunedì,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4415604,45.7843033,1
+1,Venerdì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4422946,45.6290977,1
+11,Giovedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.4425609,45.6289285,1
+12,Martedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4449117,45.6279608,1
+11,Mercoledì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Sdrucciolevole,Assente,Sereno,11.447532,45.6262766,1
+2,Venerdì,Pomeriggio,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4495553,45.7066512,1
+11,Lunedì,Sera,CHIUPPANO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4573145,45.7680546,1
+2,Giovedì,Mattino,THIENE,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4598948,45.697651,1
+11,Giovedì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.461159,45.6196652,1
+10,Giovedì,Mattino,THIENE,SP 349 Costo,Intersezione segnalata,Asciutto,Verticale,Nebbia,11.4845913,45.6843733,1
+3,Martedì,Mattino,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4861699,45.6793991,1
+12,Domenica,Sera,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4876209,45.6747565,1
+11,Sabato,Mattino,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4881086,45.6732113,1
+4,Domenica,Mattino,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4887,45.86938,1
+4,Venerdì,Mattino,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4892598,45.6696386,1
+1,Martedì,Sera,ASIAGO,SP 349 Costo,Curva,Ghiacciato,Assente,Sereno,11.48954,45.86966,1
+4,Venerdì,Pomeriggio,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4899894,45.6672844,1
+12,Domenica,Sera,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4904497,45.6135859,1
+1,Venerdì,Notte,CALDOGNO,SP 349 Costo,Intersezione segnalata,Ghiacciato,Assente,Sereno,11.4904588,45.6136475,1
+2,Sabato,Pomeriggio,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4911669,45.6193417,1
+10,Lunedì,Mattino,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4920277,45.6394287,1
+1,Giovedì,Notte,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4942689,45.6513156,1
+11,Giovedì,Mattino,ASIAGO,SP 349 Costo,Intersezione segnalata,Sdrucciolevole,Orizzontale,Pioggia,11.4965942,45.8690119,1
+1,Venerdì,Notte,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.5022166,45.5867763,1
+3,Sabato,Mattino,VICENZA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.5063079,45.5820207,1
+3,Lunedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50823,45.53936,1
+11,Martedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione segnalata,Asciutto,Assente,Sereno,11.50868,45.53499,1
+3,Lunedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50895,45.54466,1
+10,Giovedì,Notte,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.5091173,45.5467517,1
+11,Giovedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.50932,45.54709,1
+3,Sabato,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.5093283,45.5470081,1
+2,Lunedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.51864,45.55469,1
+11,Mercoledì,Mattino,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Ghiacciato,Assente,Sereno,11.2611184,45.7404768,1
+11,Martedì,Pomeriggio,TORREBELVICINO,SP 046 var Torrebelvicino,Intersezione segnalata,Asciutto,Assente,Sereno,11.3197009,45.7136717,1
+2,Mercoledì,Sera,TORREBELVICINO,SP 046 var Torrebelvicino,Intersezione segnalata,Asciutto,Assente,Sereno,11.3198196,45.713666,1
+10,Martedì,Mattino,ARSIERO,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.3768443,45.8018048,1
+11,Mercoledì,Mattino,SANTORSO,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.3804323,45.7306626,1
+1,Domenica,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Bagnato,Assente,Sereno,11.3845997,45.7317675,1
+11,Venerdì,Mattino,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.3863721,45.7976597,1
+3,Mercoledì,Sera,SCHIO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.3881905,45.6940985,1
+10,Sabato,Sera,SCHIO,SP 046 Pasubio,Rotatoria,Bagnato,Orizzontale,Pioggia,11.3945348,45.6893681,1
+3,Martedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4004182,45.6823244,1
+10,Mercoledì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.4031132,45.7364661,1
+12,Giovedì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4051668,45.6716413,1
+3,Mercoledì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.4087249,45.7381084,1
+11,Mercoledì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4136129,45.6591856,1
+12,Martedì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione non segnalata,Asciutto,Assente,Sereno,11.4236473,45.7465921,1
+4,Martedì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Bagnato,Orizzontale,Pioggia,11.4273391,45.7498404,1
+10,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4291256,45.7522307,1
+11,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rotatoria,Bagnato,Orizzontale,Pioggia,11.4291899,45.7525095,1
+12,Sabato,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4294166,45.7514308,1
+1,Martedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Bagnato,,Altro,11.4300891,45.641499,1
+1,Mercoledì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.432731,45.7542827,1
+3,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4345443,45.755386,1
+10,Lunedì,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.43498,45.63779,1
+11,Martedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4352383,45.7557906,1
+12,Sabato,Notte,MALO,SP 046 Pasubio,Rotatoria,Bagnato,Orizzontale,Pioggia,11.43559,45.6375914,1
+12,Martedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.435928,45.7438114,1
+12,Martedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione non segnalata,Asciutto,Assente,Sereno,11.4359481,45.7437899,1
+2,Mercoledì,Sera,CARRE',SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4374985,45.7418004,1
+2,Lunedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4390431,45.63337,1
+11,Martedì,Pomeriggio,ZANE',SP 349 Costo,Rettilineo,Bagnato,,Altro,11.4448077,45.7323034,1
+11,Lunedì,Sera,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,,Altro,11.4468202,45.7080542,1
+11,Venerdì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.4473886,45.6264332,1
+2,Martedì,Pomeriggio,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4518855,45.7215007,1
+10,Martedì,Sera,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4562894,45.7171791,1
+12,Domenica,Mattino,THIENE,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4566694,45.7010318,1
+1,Mercoledì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4610463,45.6197315,1
+11,Giovedì,Mattino,ZANE',SP 349 Costo,Incrocio,Asciutto,,Altro,11.4637253,45.7131312,1
+4,Sabato,Sera,ISOLA VICENTINA,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4668274,45.6143259,1
+3,Giovedì,Notte,THIENE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4875887,45.674764,1
+3,Venerdì,Pomeriggio,THIENE,SP 349 Costo,Rettilineo,Bagnato,,Altro,11.4879388,45.6737062,1
+10,Mercoledì,Mattino,VILLAVERLA,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4921007,45.6435808,1
+12,Giovedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4935652,45.6490945,1
+2,Sabato,Sera,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.495864,45.59747,1
+12,Domenica,Pomeriggio,ASIAGO,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4965495,45.8690145,1
+10,Martedì,Notte,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4995978,45.589867,1
+1,Sabato,Notte,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione segnalata,Asciutto,Assente,Sereno,11.509362,45.5471018,1
+10,Domenica,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Bagnato,Assente,Sereno,11.50944,45.54717,1
+4,Domenica,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Curva,Asciutto,Assente,Sereno,11.5100656,45.5484146,1
+12,Lunedì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Incrocio,Asciutto,Assente,Sereno,11.51854,45.55476,1
+10,Venerdì,Sera,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.2534226,45.7432952,1
+3,Domenica,Pomeriggio,TORREBELVICINO,SP 046 var Torrebelvicino,Intersezione segnalata,Asciutto,Assente,Sereno,11.3117877,45.7145288,1
+1,Sabato,Mattino,ARSIERO,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.3695998,45.8337093,1
+3,Sabato,Sera,SCHIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.373136,45.728806,1
+10,Martedì,Pomeriggio,ARSIERO,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.3736588,45.803167,1
+12,Mercoledì,Mattino,ARSIERO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3743951,45.8029722,1
+2,Venerdì,Notte,SANTORSO,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.3871368,45.7324451,1
+11,Domenica,Pomeriggio,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.3970114,45.6871348,1
+10,Giovedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.403155,45.6775235,1
+1,Giovedì,Mattino,MALO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4144325,45.6582074,1
+12,Sabato,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.416554,45.7421254,1
+12,Venerdì,Sera,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.41818,45.65399,1
+12,Martedì,Sera,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.4181932,45.6540296,1
+11,Lunedì,Notte,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Bagnato,Assente,Sereno,11.41823,45.654,1
+2,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4226007,45.6492047,1
+10,Martedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.4228503,45.6488878,1
+3,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.42353,45.64824,1
+2,Martedì,Mattino,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4238338,45.7840723,1
+3,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione segnalata,Asciutto,Assente,Sereno,11.425744,45.769617,1
+1,Mercoledì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4292128,45.7524656,1
+4,Domenica,Mattino,PIOVENE ROCCHETTE,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.429428,45.751482,1
+11,Lunedì,Mattino,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.42982,45.7941,1
+3,Sabato,Sera,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4323614,45.8371258,1
+2,Venerdì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4328428,45.6393463,1
+4,Sabato,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4335579,45.7548131,1
+4,Mercoledì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4358716,45.7438942,1
+12,Domenica,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.435885,45.7439101,1
+2,Lunedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Intersezione non segnalata,Asciutto,Assente,Sereno,11.436391,45.7563919,1
+12,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.438263,45.757855,1
+10,Sabato,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4412349,45.6299332,1
+2,Venerdì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.44263,45.62893,1
+10,Sabato,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4429551,45.7600333,1
+3,Domenica,Pomeriggio,ZANE',SP 349 Costo,Incrocio,Asciutto,,Altro,11.4483012,45.7275532,1
+3,Venerdì,Sera,ZANE',SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4588814,45.7158477,1
+3,Venerdì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.46418,45.61688,1
+2,Venerdì,Sera,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4845943,45.6843591,1
+2,Venerdì,Pomeriggio,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4871235,45.6763047,1
+10,Martedì,Mattino,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4876215,45.6747008,1
+11,Martedì,Mattino,THIENE,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4891083,45.6700855,1
+10,Sabato,Pomeriggio,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4904599,45.6136232,1
+10,Martedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.49113,45.6049,1
+12,Sabato,Sera,VILLAVERLA,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4921459,45.6620499,1
+12,Giovedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Bagnato,Orizzontale,Pioggia,11.492649,45.659093,1
+3,Mercoledì,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4927176,45.6422437,1
+12,Mercoledì,Mattino,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4935786,45.6490861,1
+2,Giovedì,Sera,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4935892,45.6490924,1
+10,Martedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,,Altro,11.493599,45.6491176,1
+2,Lunedì,Mattino,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4937662,45.6500301,1
+3,Mercoledì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4941784,45.6020223,1
+11,Sabato,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4957043,45.5979795,1
+3,Venerdì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4957399,45.597846,1
+11,Sabato,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.4958018,45.597834,1
+2,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.50388,45.58488,1
+4,Lunedì,Pomeriggio,VICENZA,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.506254,45.5820754,1
+1,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Intersezione segnalata,Asciutto,Assente,Sereno,11.5082414,45.5338497,1
+1,Sabato,Notte,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.509455,45.5469408,1
+2,Domenica,Notte,VALDASTICO,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.35578,45.88418,1
+1,Sabato,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Bagnato,Orizzontale,Pioggia,11.3812679,45.7309159,1
+10,Sabato,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.386147,45.732152,1
+2,Sabato,Pomeriggio,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4182117,45.6540436,1
+12,Sabato,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4184785,45.6535506,1
+12,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.4188238,45.6530391,1
+12,Mercoledì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Curva,Bagnato,Orizzontale,Pioggia,11.4217324,45.7448346,1
+3,Venerdì,Sera,MALO,SP 046 Pasubio,Rettilineo,Bagnato,,Altro,11.4247863,45.6467801,1
+10,Martedì,Mattino,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.426858,45.644787,1
+1,Sabato,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Curva,Bagnato,,Altro,11.4290871,45.7817087,1
+10,Domenica,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,,Altro,11.4312736,45.7663041,1
+2,Sabato,Notte,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.43453,45.71428,1
+10,Mercoledì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4410707,45.6303331,1
+1,Sabato,Sera,ISOLA VICENTINA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.44221,45.62917,1
+1,Sabato,Mattino,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.443087,45.845408,1
+2,Domenica,Pomeriggio,CALTRANO,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.44922,45.77548,1
+1,Sabato,Pomeriggio,THIENE,SP 349 var Costo Variante,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4550842,45.702742,1
+10,Lunedì,Notte,ZANE',SP 349 Costo,Incrocio,Bagnato,Assente,Sereno,11.45878,45.71589,1
+1,Mercoledì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4617029,45.6193056,1
+2,Sabato,Pomeriggio,ROANA,SP 349 Costo,Incrocio,Bagnato,Assente,Sereno,11.469412,45.889919,1
+1,Mercoledì,Pomeriggio,THIENE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4871168,45.6763115,1
+2,Mercoledì,Sera,THIENE,SP 349 Costo,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4885974,45.671673,1
+3,Martedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4912849,45.6619599,1
+12,Lunedì,Sera,VILLAVERLA,SP 349 Costo,Rettilineo,Bagnato,Assente,Sereno,11.491494,45.6347119,1
+10,Sabato,Pomeriggio,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.4925051,45.6409687,1
+11,Sabato,Sera,COSTABISSARA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.49293,45.60352,1
+10,Venerdì,Mattino,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4935466,45.6568909,1
+12,Sabato,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,,Altro,11.4942645,45.651135,1
+2,Giovedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.495707,45.5980417,1
+10,Sabato,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.49581,45.59787,1
+10,Martedì,Sera,COSTABISSARA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.49786,45.59182,1
+11,Mercoledì,Pomeriggio,ASIAGO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4993017,45.8762908,1
+1,Lunedì,Mattino,COSTABISSARA,SP 046 Pasubio,Rettilineo,Bagnato,Verticale,Nebbia,11.5,45.58939,1
+1,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.5012512,45.5879073,1
+1,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.50814,45.53892,1
+10,Martedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.50923,45.54715,1
+1,Mercoledì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Bagnato,Assente,Sereno,11.50943,45.54709,1
+1,Giovedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Bagnato,Assente,Sereno,11.51841,45.55472,1
+2,Mercoledì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.51854,45.55473,1
+4,Mercoledì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.5185937,45.5547345,1
+11,Domenica,Mattino,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.266941,45.7372176,1
+4,Sabato,Sera,VALLI DEL PASUBIO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.2704831,45.7349137,1
+12,Domenica,Sera,LASTEBASSE,SP 350 Val d'Astico,Rettilineo,Bagnato,Assente,Sereno,11.29662,45.91166,1
+12,Sabato,Notte,SCHIO,SP 046 var Torrebelvicino,Rettilineo,Bagnato,Assente,Sereno,11.3329906,45.7140255,1
+11,Domenica,Notte,SCHIO,SP 350 Val d'Astico,Curva,Bagnato,Orizzontale,Pioggia,11.3706864,45.7281271,1
+3,Venerdì,Notte,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Bagnato,Assente,Sereno,11.38037,45.80005,1
+10,Sabato,Sera,ASIAGO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.39227,45.95035,1
+12,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.3998495,45.6834968,1
+11,Martedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4025156,45.6778932,1
+4,Venerdì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Rotatoria,Asciutto,Assente,Sereno,11.4047015,45.73647,1
+10,Mercoledì,Mattino,MALO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4066394,45.6663015,1
+12,Giovedì,Mattino,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Bagnato,,Altro,11.41186,45.78877,1
+10,Giovedì,Sera,MALO,SP 046 Pasubio,Rotatoria,Bagnato,Assente,Sereno,11.41439,45.65821,1
+2,Giovedì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4154222,45.6574032,1
+3,Martedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.41668,45.65605,1
+11,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.4182358,45.6540173,1
+11,Giovedì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4265223,45.7491191,1
+11,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.4302423,45.6413619,1
+12,Martedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,,Altro,11.4314094,45.6404119,1
+11,Martedì,Sera,COGOLLO DEL CENGIO,SP 349 Costo,Curva,Bagnato,Orizzontale,Pioggia,11.43504,45.79369,1
+2,Venerdì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.43632,45.76252,1
+1,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4375412,45.7570199,1
+10,Giovedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4411,45.63062,1
+3,Giovedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Incrocio,Asciutto,,Altro,11.44224,45.62915,1
+10,Domenica,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.44343,45.78109,1
+10,Mercoledì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4471496,45.6266585,1
+10,Venerdì,Mattino,ZANE',SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4551144,45.7181523,1
+3,Lunedì,Mattino,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.456,45.62233,1
+3,Sabato,Mattino,THIENE,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4573451,45.7002844,1
+10,Mercoledì,Pomeriggio,THIENE,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.45981,45.69785,1
+4,Giovedì,Sera,THIENE,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.460159,45.697879,1
+11,Martedì,Pomeriggio,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4887622,45.671106,1
+3,Sabato,Pomeriggio,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4890807,45.6702061,1
+12,Lunedì,Mattino,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4913524,45.6195232,1
+11,Sabato,Pomeriggio,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.491432,45.6283109,1
+4,Sabato,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4914328,45.63565,1
+10,Domenica,Sera,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.492517,45.640771,1
+1,Mercoledì,Sera,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.49997,45.58951,1
+10,Giovedì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.50279,45.58637,1
+1,Sabato,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Bagnato,Orizzontale,Pioggia,11.51854,45.55468,1
+1,Venerdì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.51857,45.55468,1
+3,Giovedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.5186,45.55468,1
+11,Domenica,Mattino,VALLI DEL PASUBIO,SP 046 Pasubio,Curva,Bagnato,,Altro,11.2560484,45.7435997,1
+10,Lunedì,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.270647,45.7348461,1
+2,Lunedì,Pomeriggio,TORREBELVICINO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.29804,45.71898,1
+12,Sabato,Notte,TORREBELVICINO,SP 046 var Torrebelvicino,Incrocio,Bagnato,,Altro,11.3019151,45.7191976,1
+4,Sabato,Sera,TORREBELVICINO,SP 046 var Torrebelvicino,Incrocio,Bagnato,Assente,Sereno,11.3019614,45.7191911,1
+12,Martedì,Pomeriggio,TORREBELVICINO,SP 046 var Torrebelvicino,Intersezione segnalata,Asciutto,Assente,Sereno,11.302072,45.7191592,1
+12,Martedì,Mattino,TORREBELVICINO,SP 046 var Torrebelvicino,Rettilineo,Asciutto,Assente,Sereno,11.303628,45.7187378,1
+12,Venerdì,Pomeriggio,SCHIO,SP 046 var Torrebelvicino,Rotatoria,Bagnato,,Altro,11.3329622,45.7150326,1
+12,Martedì,Sera,ARSIERO,SP 350 Val d'Astico,Pendenza,Asciutto,Assente,Sereno,11.36391,45.8033,1
+3,Martedì,Pomeriggio,SANTORSO,SP 350 Val d'Astico,Intersezione con semaforo o vigile,Asciutto,Assente,Sereno,11.3735,45.7289145,1
+1,Giovedì,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.3749822,45.7292883,1
+11,Domenica,Mattino,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.37706,45.72985,1
+12,Mercoledì,Pomeriggio,SCHIO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.3860345,45.6958048,1
+2,Venerdì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4024298,45.6779944,1
+4,Sabato,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4033847,45.6760379,1
+4,Martedì,Notte,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4054641,45.6705456,1
+2,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4144537,45.6582542,1
+10,Giovedì,Pomeriggio,MALO,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.4146069,45.6583414,1
+11,Sabato,Pomeriggio,SCHIO,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4216842,45.7246328,1
+2,Domenica,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4236063,45.7841253,1
+12,Lunedì,Sera,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4271471,45.7828391,1
+12,Martedì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4272617,45.7498331,1
+3,Domenica,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4291383,45.7980682,1
+12,Giovedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Bagnato,Orizzontale,Pioggia,11.4327373,45.7542834,1
+3,Giovedì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4361183,45.7626471,1
+3,Venerdì,Pomeriggio,ROANA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.43778,45.84318,1
+4,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4380252,45.75729,1
+3,Lunedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4382025,45.6343807,1
+11,Giovedì,Pomeriggio,MARANO VICENTINO,SP 349 var Costo Variante,Rettilineo,Bagnato,,Altro,11.438554,45.7121729,1
+3,Domenica,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4386193,45.7400626,1
+11,Mercoledì,Pomeriggio,CARRE',SP 349 Costo,Rotatoria,Asciutto,,Altro,11.4401582,45.738183,1
+10,Mercoledì,Sera,ZANE',SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4418,45.73604,1
+11,Domenica,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.44381,45.62839,1
+2,Sabato,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4442239,45.7827666,1
+1,Venerdì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.44584,45.62772,1
+4,Giovedì,Pomeriggio,ZANE',SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4494515,45.7067275,1
+4,Venerdì,Sera,ZANE',SP 349 Costo,Intersezione con semaforo o vigile,Bagnato,,Altro,11.4517522,45.7216556,1
+10,Sabato,Mattino,CALTRANO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4523855,45.7723166,1
+10,Giovedì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.45286,45.62375,1
+1,Lunedì,Pomeriggio,CALTRANO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.45534,45.770781,1
+3,Mercoledì,Pomeriggio,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4580064,45.6215075,1
+3,Lunedì,Pomeriggio,THIENE,SP 349 var Costo Variante,Rettilineo,Asciutto,Assente,Sereno,11.4588018,45.6987487,1
+3,Lunedì,Pomeriggio,THIENE,SP 349 var Costo Variante,Rotatoria,Asciutto,Assente,Sereno,11.4604422,45.6972239,1
+11,Mercoledì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4809354,45.6083717,1
+2,Lunedì,Sera,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4856641,45.6068081,1
+2,Sabato,Notte,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.49133,45.62679,1
+4,Sabato,Sera,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4913658,45.6244694,1
+11,Domenica,Notte,CALDOGNO,SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.49313,45.60467,1
+2,Domenica,Notte,COSTABISSARA,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4933847,45.6038597,1
+10,Venerdì,Sera,VILLAVERLA,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.49424,45.65125,1
+12,Sabato,Sera,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4943074,45.6542889,1
+2,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4959981,45.5971633,1
+10,Martedì,Sera,COSTABISSARA,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.4974319,45.5923068,1
+12,Venerdì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.49945,45.59001,1
+12,Martedì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Curva,Bagnato,Verticale,Nebbia,11.5080112,45.5415753,1
+4,Giovedì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.5093227,45.5471539,1
+1,Venerdì,Mattino,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Bagnato,Assente,Sereno,11.5138967,45.5511765,1
+1,Venerdì,Pomeriggio,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rotatoria,Asciutto,Assente,Sereno,11.5185503,45.5547304,1
+1,Domenica,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Curva,Bagnato,Orizzontale,Pioggia,11.2385073,45.7448471,1
+4,Sabato,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.2395015,45.7446504,1
+12,Martedì,Pomeriggio,VALLI DEL PASUBIO,SP 046 Pasubio,Rettilineo,Bagnato,Assente,Sereno,11.2599195,45.7412295,1
+2,Sabato,Mattino,VALLI DEL PASUBIO,SP 046 Pasubio,Intersezione segnalata,Asciutto,,Altro,11.2707437,45.7347674,1
+12,Venerdì,Mattino,TORREBELVICINO,SP 046 Pasubio,Curva,Bagnato,Assente,Sereno,11.279028,45.727934,1
+12,Sabato,Notte,TORREBELVICINO,SP 046 var Torrebelvicino,Intersezione segnalata,Bagnato,Assente,Sereno,11.3117077,45.714568,1
+12,Sabato,Pomeriggio,VALDASTICO,SP 350 Val d'Astico,Curva,Bagnato,Assente,Sereno,11.35975,45.87479,1
+4,Lunedì,Mattino,SCHIO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.3856669,45.6961054,1
+10,Lunedì,Sera,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3866002,45.7322732,1
+10,Mercoledì,Mattino,SANTORSO,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.3868188,45.7323369,1
+4,Giovedì,Pomeriggio,SCHIO,SP 046 Pasubio,Incrocio,Bagnato,Orizzontale,Pioggia,11.3919397,45.6911499,1
+11,Mercoledì,Pomeriggio,SAN VITO DI LEGUZZANO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.392452,45.6906864,1
+10,Martedì,Sera,SANTORSO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.397321,45.7350437,1
+10,Lunedì,Sera,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4031272,45.6765725,1
+11,Giovedì,Sera,MALO,SP 046 Pasubio,Incrocio,Bagnato,Orizzontale,Pioggia,11.4095631,45.6631751,1
+2,Mercoledì,Pomeriggio,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.409605,45.6631558,1
+11,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Intersezione segnalata,Asciutto,Assente,Sereno,11.4133817,45.6592919,1
+10,Sabato,Mattino,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4151501,45.6576197,1
+3,Venerdì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4175736,45.6548786,1
+2,Venerdì,Sera,MALO,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.4181305,45.654015,1
+3,Martedì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Bagnato,Orizzontale,Pioggia,11.42163,45.74479,1
+10,Mercoledì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4243732,45.7472181,1
+12,Domenica,Notte,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.4254917,45.7703147,1
+4,Mercoledì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4258311,45.7714191,1
+11,Giovedì,Sera,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4263052,45.7831247,1
+4,Venerdì,Pomeriggio,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Assente,Sereno,11.4272989,45.7498367,1
+4,Lunedì,Pomeriggio,COGOLLO DEL CENGIO,SP 350 Val d'Astico,Rettilineo,Asciutto,Assente,Sereno,11.4277144,45.7751839,1
+3,Giovedì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rotatoria,Asciutto,Assente,Sereno,11.428919,45.7515027,1
+3,Sabato,Pomeriggio,COGOLLO DEL CENGIO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.43029,45.79504,1
+10,Lunedì,Pomeriggio,MALO,SP 046 Pasubio,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4313829,45.6403841,1
+10,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Incrocio,Asciutto,Assente,Sereno,11.43594,45.74385,1
+2,Venerdì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.43662,45.63636,1
+10,Giovedì,Sera,PIOVENE ROCCHETTE,SP 349 Costo,Curva,Asciutto,,Altro,11.4381564,45.7575762,1
+2,Domenica,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Rotatoria,Asciutto,Assente,Sereno,11.4382744,45.7575921,1
+2,Martedì,Mattino,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Incrocio,Asciutto,Verticale,Nebbia,11.4384414,45.7599985,1
+12,Giovedì,Sera,PIOVENE ROCCHETTE,SP 350 Val d'Astico,Curva,Asciutto,Assente,Sereno,11.438489,45.7611326,1
+11,Martedì,Pomeriggio,PIOVENE ROCCHETTE,SP 349 Costo,Rettilineo,Bagnato,Assente,Sereno,11.442449,45.7597256,1
+1,Domenica,Mattino,ZANE',SP 349 Costo,Intersezione con semaforo o vigile,Bagnato,Orizzontale,Pioggia,11.4458876,45.7306075,1
+4,Mercoledì,Sera,ISOLA VICENTINA,SP 046 Pasubio,Rettilineo,Asciutto,Assente,Sereno,11.4512305,45.6242098,1
+1,Domenica,Pomeriggio,CHIUPPANO,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4538276,45.7660044,1
+10,Venerdì,Sera,CHIUPPANO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4572219,45.7678212,1
+3,Martedì,Mattino,THIENE,SP 349 var Costo Variante,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4574606,45.700103,1
+2,Venerdì,Pomeriggio,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4574715,45.7165658,1
+3,Sabato,Notte,ZANE',SP 349 Costo,Rotatoria,Asciutto,Assente,Sereno,11.4615867,45.7143211,1
+10,Giovedì,Sera,ZANE',SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4632224,45.713339,1
+12,Martedì,Mattino,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4849496,45.6832102,1
+3,Sabato,Mattino,COSTABISSARA,SP 046 Pasubio,Incrocio,Asciutto,Assente,Sereno,11.487973,45.6060096,1
+1,Domenica,Notte,THIENE,SP 349 Costo,Intersezione con semaforo o vigile,Bagnato,,Altro,11.4887,45.67146,1
+2,Sabato,Mattino,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.490409,45.611437,1
+10,Sabato,Pomeriggio,CALDOGNO,SP 349 Costo,Curva,Asciutto,Assente,Sereno,11.4904197,45.6108322,1
+11,Lunedì,Mattino,THIENE,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4907539,45.6649103,1
+11,Mercoledì,Pomeriggio,CALDOGNO,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.49131,45.61942,1
+11,Sabato,Notte,CALDOGNO,SP 349 Costo,Rettilineo,Asciutto,Verticale,Nebbia,11.4931624,45.604623,1
+2,Sabato,Notte,COSTABISSARA,SP 046 Pasubio,Rotatoria,Asciutto,Assente,Sereno,11.49355,45.60361,1
+4,Giovedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Bagnato,Orizzontale,Pioggia,11.4936116,45.6492186,1
+10,Giovedì,Pomeriggio,VILLAVERLA,SP 349 Costo,Intersezione segnalata,Asciutto,Assente,Sereno,11.4936666,45.6565086,1
+1,Giovedì,Mattino,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4940656,45.6549197,1
+11,Domenica,Pomeriggio,VILLAVERLA,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.4941203,45.6509834,1
+12,Sabato,Mattino,COSTABISSARA,SP 046 Pasubio,Rotatoria,Bagnato,Assente,Sereno,11.4948,45.60014,1
+1,Giovedì,Pomeriggio,COSTABISSARA,SP 046 Pasubio,Curva,Asciutto,Assente,Sereno,11.49732,45.59201,1
+2,Mercoledì,Notte,ASIAGO,SP 349 Costo,Rettilineo,Asciutto,Assente,Sereno,11.49834,45.8701,1
+3,Venerdì,Sera,VICENZA,SP 046 rac Pasubio Raccordo del Sole,Rettilineo,Asciutto,Assente,Sereno,11.5175625,45.5537993,1
