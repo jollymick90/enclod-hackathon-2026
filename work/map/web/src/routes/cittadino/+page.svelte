@@ -120,7 +120,8 @@
 				},
 			},
 		]}
-		onFeatureClick={(slug, props) => {
+		onFeatureClick={(slug, props, lngLat) => {
+			if (mode === 'pick') { pos = lngLat; mode = 'form'; return; }
 			if (slug === 'rischio-storico' && mode === 'idle') selected = Number(props.id);
 		}}
 		{onMapClick}

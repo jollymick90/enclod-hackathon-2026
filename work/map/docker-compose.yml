@@ -47,6 +47,9 @@ services:
       PUBLIC_MARTIN_URL: http://localhost:3010
       PORT: "3000"
       HOST: "0.0.0.0"
+      FEATURE_IMPORTANCE_PATH: /data/output/feature_importance.json
+    volumes:
+      - ../output:/data/output:ro
     ports:
       - "127.0.0.1:3030:3000"
     networks:
