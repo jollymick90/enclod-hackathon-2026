@@ -1,42 +1,74 @@
-<div class="mx-auto max-w-6xl px-6 py-8">
-	<section class="mt-8">
-		<h1 class="text-3xl font-bold tracking-tight">Road Condition Intelligence</h1>
-		<p class="mt-2 text-neutral-500">enCLOD Hackathon Vicenza 2026 · Challenge 01</p>
+<script lang="ts">
+	import type { PageData } from './$types';
 
-		<div class="mt-10 grid gap-6 sm:grid-cols-2">
-			<a
-				href="/mvp"
-				class="group block rounded-2xl border-2 border-neutral-200 bg-white p-8 hover:border-blue-400 hover:shadow-md transition"
-			>
-				<div class="flex items-center gap-3">
-					<span class="text-3xl">🗺️</span>
-					<span class="text-xl font-bold tracking-tight">MVP</span>
-				</div>
-				<p class="mt-3 text-neutral-600 leading-relaxed">
-					Visualizzazione del modello predittivo: incidenti reali e punti di controllo sintetici
-					sui corridoi SP 46, 349 e 350.
-				</p>
-				<span class="mt-5 inline-block text-sm font-medium text-blue-600 group-hover:underline">
-					Apri demo →
-				</span>
-			</a>
+	let { data }: { data: PageData } = $props();
 
-			<a
-				href="/catalog"
-				class="group block rounded-2xl border-2 border-neutral-200 bg-white p-8 hover:border-violet-400 hover:shadow-md transition"
-			>
-				<div class="flex items-center gap-3">
-					<span class="text-3xl">🗂️</span>
-					<span class="text-xl font-bold tracking-tight">Catalog</span>
-				</div>
-				<p class="mt-3 text-neutral-600 leading-relaxed">
-					Tutti i layer pubblicati: rete stradale OSM, edifici, land-use, POI e dati di training.
-					Explorer multi-layer interattivo.
-				</p>
-				<span class="mt-5 inline-block text-sm font-medium text-violet-600 group-hover:underline">
-					Sfoglia layer →
-				</span>
-			</a>
+	const CARDS = [
+		{
+			href: '/analisi', icona: '📊', titolo: 'Analisi storica',
+			testo: 'Dove e perché succedono gli incidenti: mappa e fattori, dal 2010 a oggi.',
+			kpi: `${data.kpi.incidenti} incidenti analizzati`,
+		},
+		{
+			href: '/previsione', icona: '🌦', titolo: 'Previsione',
+			testo: 'Quanto diventa rischiosa ogni tratta quando cambiano meteo e orario.',
+			kpi: 'rischio per scenario',
+		},
+		{
+			href: '/priorita', icona: '🛠', titolo: 'Piano manutenzioni',
+			testo: 'Dove intervenire prima: comuni, strade e tratte in ordine di priorità.',
+			kpi: `${data.kpi.critiche} tratte critiche su ${data.kpi.totale}`,
+		},
+		{
+			href: '/cittadino', icona: '👥', titolo: 'Cittadino',
+			testo: 'La mappa pubblica del rischio e le segnalazioni di chi la strada la vive.',
+			kpi: `${data.kpi.segnalazioni} segnalazioni ricevute`,
+		},
+	];
+</script>
+
+<svelte:head>
+	<title>SaferRoads Vicenza</title>
+</svelte:head>
+
+<div class="mx-auto max-w-5xl px-4 sm:px-6 py-8 sm:py-12">
+	<h1 class="text-3xl font-bold tracking-tight">Strade più sicure, decisioni più semplici.</h1>
+	<p class="mt-2 max-w-2xl text-neutral-600">
+		Il rischio di incidente sulle strade provinciali di Vicenza, spiegato in modo che chiunque
+		possa capirlo — e usarlo per decidere.
+	</p>
+
+	<div class="mt-6 flex flex-wrap gap-3">
+		<div class="rounded-xl border border-neutral-200 bg-white px-5 py-3">
+			<div class="text-2xl font-bold">{data.kpi.incidenti}</div>
+			<div class="text-xs text-neutral-500">incidenti 2010–2023</div>
 		</div>
-	</section>
+		<div class="rounded-xl border border-neutral-200 bg-white px-5 py-3">
+			<div class="text-2xl font-bold">{data.kpi.km} km</div>
+			<div class="text-xs text-neutral-500">di strade monitorate</div>
+		</div>
+		<div class="rounded-xl border border-red-100 bg-red-50 px-5 py-3">
+			<div class="text-2xl font-bold text-red-700">{data.kpi.critiche}</div>
+			<div class="text-xs text-red-600">tratte a rischio critico</div>
+		</div>
+	</div>
+
+	<div class="mt-8 grid gap-4 sm:grid-cols-2">
+		{#each CARDS as card (card.href)}
+			<a
+				href={card.href}
+				class="group rounded-2xl border border-neutral-200 bg-white p-5 transition hover:border-blue-300 hover:shadow-md"
+			>
+				<div class="text-2xl">{card.icona}</div>
+				<h2 class="mt-2 text-lg font-semibold group-hover:text-blue-800">{card.titolo}</h2>
+				<p class="mt-1 text-sm text-neutral-600">{card.testo}</p>
+				<div class="mt-3 text-xs font-medium text-blue-700">{card.kpi} →</div>
+			</a>
+		{/each}
+	</div>
+
+	<p class="mt-8 text-xs text-neutral-400">
+		Corridoi SP 46 Pasubio · SP 349 Costo · SP 350 Val d'Astico — dati Provincia di Vicenza,
+		ARPAV, OpenStreetMap.
+	</p>
 </div>
