@@ -68,7 +68,7 @@ STYLE = {
         "circle-opacity": 0.85,
     },
     # Campi su cui il frontend costruisce dei <select> (valori distinti calcolati lato server).
-    "filters": ["anno", "comune", "gravita"],
+    "filters": ["anno", "mese", "giorno_settimana", "fascia_oraria", "comune", "nome_strada", "natura", "fondo", "meteo", "gravita"],
     "legend": [
         {"label": "Mortale", "color": "#dc2626"},
         {"label": "Con feriti", "color": "#f59e0b"},

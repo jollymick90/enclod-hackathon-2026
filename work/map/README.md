@@ -46,6 +46,23 @@ docker compose restart martin   # Martin scopre le tabelle nuove solo all'avvio
 
 Per un reset completo (riesegue tutti i seed): `docker compose down -v && docker compose up -d --build`.
 
+## Layer OSM (Geofabrik)
+
+I 20 layer OpenStreetMap (strade, edifici, uso del suolo, POI, acque…) sono troppo
+pesanti per i seed SQL: li carica `work/src/import_osm_layers.py`, che ritaglia gli
+shapefile Geofabrik del Nord-Est sulla provincia di Vicenza e scrive direttamente
+nel DB via COPY (tabelle `data.osm_*` + righe nel catalogo).
+
+```bash
+# dal root del repo, con lo stack già su
+.venv/bin/python3.14 work/src/import_osm_layers.py            # tutti i temi
+.venv/bin/python3.14 work/src/import_osm_layers.py --list     # elenco temi
+.venv/bin/python3.14 work/src/import_osm_layers.py --only roads,buildings
+cd work/map && docker compose restart martin
+```
+
+⚠️ Dopo un `docker compose down -v` i layer OSM vanno reimportati (non sono nei seed).
+
 ## Aggiungere un layer
 
 1. Crea una tabella `data.<nome>` con una colonna `geom geometry(Point|LineString|Polygon, 4326)`.

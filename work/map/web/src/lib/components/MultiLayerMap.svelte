@@ -1,0 +1,342 @@
+<script lang="ts">
+	import { onMount, onDestroy } from 'svelte';
+	import maplibregl from 'maplibre-gl';
+	import 'maplibre-gl/dist/maplibre-gl.css';
+
+	import type { Layer } from '$lib/types';
+	import { martinSource } from '$lib/tiles/martin';
+	import { defaults } from '$lib/style/defaults';
+	import { applyStyle } from '$lib/style/apply';
+
+	// ── Road sub-types ───────────────────────────────────────────────────────
+	type RoadSub = { id: string; label: string; color: string; fclasses: string[] | null; width: number };
+
+	const ROAD_SUBTYPES: RoadSub[] = [
+		{ id: 'road-motorway',  label: 'Autostrade',        color: '#e8590c', fclasses: ['motorway','motorway_link'],                                          width: 4   },
+		{ id: 'road-trunk',     label: 'Statali / Trunk',   color: '#f08c00', fclasses: ['trunk','trunk_link'],                                                width: 3   },
+		{ id: 'road-primary',   label: 'Primarie (SP)',      color: '#f59f00', fclasses: ['primary','primary_link'],                                            width: 2.5 },
+		{ id: 'road-secondary', label: 'Secondarie',         color: '#fcc419', fclasses: ['secondary','secondary_link'],                                        width: 2   },
+		{ id: 'road-tertiary',  label: 'Terziarie',          color: '#74b816', fclasses: ['tertiary','tertiary_link'],                                          width: 1.5 },
+		{ id: 'road-urban',     label: 'Urbane / residenz.', color: '#868e96', fclasses: ['residential','living_street','pedestrian','unclassified'],            width: 1   },
+		{ id: 'road-service',   label: 'Servizio / altro',   color: '#adb5bd', fclasses: null /* = tutto il resto */,                                           width: 0.6 },
+	];
+
+	const ALL_EXPLICIT_FCLASSES = ROAD_SUBTYPES
+		.filter((s) => s.fclasses !== null)
+		.flatMap((s) => s.fclasses as string[]);
+
+	function roadFilter(sub: RoadSub): unknown[] | null {
+		if (sub.fclasses === null)
+			return ['!', ['in', ['get', 'fclass'], ['literal', ALL_EXPLICIT_FCLASSES]]];
+		return ['in', ['get', 'fclass'], ['literal', sub.fclasses]];
+	}
+
+	// osm-roads viene rimpiazzato dai sotto-layer; escluso dal grouping normale
+	const OSM_ROADS_SLUG = 'osm-roads';
+
+	// ── Props ────────────────────────────────────────────────────────────────
+	const DEFAULT_VISIBLE = new Set([
+		'incidenti-vicenza', 'training-incidenti', 'osm-roads',
+	]);
+
+	let {
+		layers,
+		defaultVisible = DEFAULT_VISIBLE,
+		filterOptions = {},
+	}: {
+		layers: Layer[];
+		defaultVisible?: Set<string>;
+		// { [slug]: { [field]: distinctValues[] } } — solo per i layer che ne hanno bisogno
+		filterOptions?: Record<string, Record<string, (string | number)[]>>;
+	} = $props();
+
+	// Espandi 'osm-roads' nei suoi sotto-layer
+	function expandVisible(dv: Set<string>): Set<string> {
+		const s = new Set(dv);
+		if (s.has(OSM_ROADS_SLUG)) {
+			s.delete(OSM_ROADS_SLUG);
+			for (const sub of ROAD_SUBTYPES) s.add(sub.id);
+		}
+		return s;
+	}
+
+	// ── State ────────────────────────────────────────────────────────────────
+	const vectorLayers = $derived(
+		layers.filter((l) => l.kind === 'vector' && l.sourceTable && l.geomType),
+	);
+	const groups = $derived(buildGroups(vectorLayers));
+
+	let visible      = $state<Set<string>>(expandVisible(defaultVisible));
+	let basemapOn    = $state(true);
+	let container: HTMLDivElement | undefined = $state();
+	let map: maplibregl.Map | undefined;
+	let mapReady     = $state(false);
+	let hasRoads     = $derived(vectorLayers.some((l) => l.slug === OSM_ROADS_SLUG));
+
+	// ── Grouping ─────────────────────────────────────────────────────────────
+	type SidebarItem =
+		| { kind: 'layer'; layer: Layer }
+		| { kind: 'road';  sub: RoadSub };
+
+	type SidebarGroup = { label: string; items: SidebarItem[] };
+
+	function buildGroups(all: Layer[]): SidebarGroup[] {
+		const noRoads = all.filter((l) => l.slug !== OSM_ROADS_SLUG);
+
+		const solution  = noRoads.filter((l) => !l.tags.includes('osm'));
+		const osmBase   = noRoads.filter((l) => l.tags.includes('osm') && (
+			l.slug.includes('water') || l.slug.includes('railway') ||
+			l.slug.includes('landuse') || l.slug.includes('natural') ||
+			l.slug.includes('protected') || l.slug.includes('adminarea')));
+		const osmPeople = noRoads.filter((l) => l.tags.includes('osm') && (
+			l.slug.includes('place') || l.slug.includes('poi') ||
+			l.slug.includes('pofw') || l.slug.includes('building')));
+		const osmMob    = noRoads.filter((l) => l.tags.includes('osm') && (
+			l.slug.includes('traffic') || l.slug.includes('transport')));
+
+		const toItems = (ls: Layer[]): SidebarItem[] => ls.map((l) => ({ kind: 'layer', layer: l }));
+
+		const roadGroup: SidebarGroup = {
+			label: 'OSM — Strade',
+			items: ROAD_SUBTYPES.map((sub) => ({ kind: 'road', sub })),
+		};
+
+		return [
+			solution.length  ? { label: 'Soluzione',            items: toItems(solution)  } : null,
+			hasRoads         ? roadGroup                                                     : null,
+			osmBase.length   ? { label: 'OSM — Territorio',     items: toItems(osmBase)   } : null,
+			osmPeople.length ? { label: 'OSM — Luoghi/edifici', items: toItems(osmPeople) } : null,
+			osmMob.length    ? { label: 'OSM — Mobilità',       items: toItems(osmMob)    } : null,
+		].filter(Boolean) as SidebarGroup[];
+	}
+
+	// ── Filter state ─────────────────────────────────────────────────────────
+	// { [slug]: { [field]: selectedValue ('' = tutti) } }
+	let layerFilters = $state<Record<string, Record<string, string>>>({});
+
+	function setLayerFilter(slug: string, field: string, value: string) {
+		layerFilters = { ...layerFilters, [slug]: { ...(layerFilters[slug] ?? {}), [field]: value } };
+		if (!map || !mapReady) return;
+		const active = Object.entries(layerFilters[slug] ?? {}).filter(([, v]) => v !== '');
+		const opts = filterOptions[slug] ?? {};
+		const conditions = active.map(([f, v]) => {
+			const typed = (opts[f] ?? []).find((o) => String(o) === v) ?? v;
+			return ['==', ['get', f], typed];
+		});
+		const filter = conditions.length ? ['all', ...conditions] : null;
+		if (map.getLayer(mlId(slug)))
+			map.setFilter(mlId(slug), filter as maplibregl.FilterSpecification | null);
+	}
+
+	function fieldLabel(f: string) {
+		return f.replace(/_/g, ' ').replace(/^\w/, (c) => c.toUpperCase());
+	}
+
+	// ── Toggle helpers ───────────────────────────────────────────────────────
+	function mlId(id: string) { return `ml-${id}`; }
+
+	function applyVisibility(id: string, on: boolean) {
+		if (map?.getLayer(mlId(id)))
+			map.setLayoutProperty(mlId(id), 'visibility', on ? 'visible' : 'none');
+	}
+
+	function toggle(id: string) {
+		const next = new Set(visible);
+		if (next.has(id)) next.delete(id); else next.add(id);
+		visible = next;
+		applyVisibility(id, next.has(id));
+	}
+
+	function toggleBasemap() {
+		basemapOn = !basemapOn;
+		if (map?.getLayer('osm'))
+			map.setLayoutProperty('osm', 'visibility', basemapOn ? 'visible' : 'none');
+	}
+
+	function toggleGroup(items: SidebarItem[], on: boolean) {
+		for (const item of items) {
+			const id = item.kind === 'layer' ? item.layer.slug : item.sub.id;
+			const currently = visible.has(id);
+			if (on !== currently) toggle(id);
+		}
+	}
+
+	// ── Popup ────────────────────────────────────────────────────────────────
+	function escapeHtml(v: unknown) {
+		return String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+	}
+
+	function attachPopup(layerTitle: string, mapLayerId: string) {
+		if (!map) return;
+		const popup = new maplibregl.Popup({ closeButton: true, maxWidth: '300px' });
+		map.on('click', mapLayerId, (e) => {
+			const f = e.features?.[0];
+			if (!f || !map) return;
+			const props = f.properties ?? {};
+			const rows = Object.entries(props)
+				.filter(([k, v]) => k !== 'id' && v !== null && v !== '')
+				.slice(0, 12)
+				.map(([k, v]) =>
+					`<tr><td class="pr-2 text-neutral-400 align-top text-xs">${escapeHtml(k)}</td>` +
+					`<td class="font-medium text-xs">${escapeHtml(v)}</td></tr>`)
+				.join('');
+			popup.setLngLat(e.lngLat)
+				.setHTML(`<div class="font-semibold text-xs mb-1">${escapeHtml(layerTitle)}</div><table><tbody>${rows}</tbody></table>`)
+				.addTo(map);
+		});
+		map.on('mouseenter', mapLayerId, () => { if (map) map.getCanvas().style.cursor = 'pointer'; });
+		map.on('mouseleave', mapLayerId, () => { if (map) map.getCanvas().style.cursor = ''; });
+	}
+
+	// ── Basemap ──────────────────────────────────────────────────────────────
+	const BASEMAP: maplibregl.StyleSpecification = {
+		version: 8,
+		sources: { osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, attribution: '© OpenStreetMap contributors' } },
+		layers:  [{ id: 'osm', type: 'raster', source: 'osm' }],
+	};
+
+	// ── Mount ────────────────────────────────────────────────────────────────
+	onMount(() => {
+		if (!container) return;
+		map = new maplibregl.Map({ container, style: BASEMAP, center: [11.35, 45.65], zoom: 10 });
+		map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+		map.on('load', () => {
+			if (!map) return;
+
+			for (const layer of vectorLayers) {
+				if (layer.slug === OSM_ROADS_SLUG) {
+					// Aggiungi una sorgente e N sotto-layer filtrati per fclass
+					map.addSource(`src-${OSM_ROADS_SLUG}`, martinSource(layer.sourceTable!));
+					for (const sub of ROAD_SUBTYPES) {
+						const filter = roadFilter(sub);
+						const spec: Record<string, unknown> = {
+							id: mlId(sub.id),
+							source: `src-${OSM_ROADS_SLUG}`,
+							'source-layer': layer.sourceTable!,
+							type: 'line',
+							layout: { visibility: visible.has(sub.id) ? 'visible' : 'none' },
+							paint: { 'line-color': sub.color, 'line-width': sub.width },
+						};
+						if (filter) spec['filter'] = filter;
+						map.addLayer(spec as maplibregl.LayerSpecification);
+						attachPopup(`Strada — ${sub.label}`, mlId(sub.id));
+					}
+					continue;
+				}
+
+				// Layer normale dal catalogo
+				map.addSource(`src-${layer.slug}`, martinSource(layer.sourceTable!));
+				const { filters: _f, legend: _l, minzoom: _mz, ...mapStyle } =
+					(layer.style ?? {}) as Record<string, unknown>;
+				const base   = defaults.vector[layer.geomType!] as Record<string, unknown>;
+				const merged = applyStyle(
+					Object.keys(mapStyle).length ? mapStyle : null, base, layer.sourceTable!,
+				) as Record<string, unknown>;
+				const spec: Record<string, unknown> = {
+					...merged,
+					id: mlId(layer.slug),
+					source: `src-${layer.slug}`,
+					layout: { ...((merged.layout as Record<string, unknown>) ?? {}), visibility: visible.has(layer.slug) ? 'visible' : 'none' },
+				};
+				if (typeof _mz === 'number') spec['minzoom'] = _mz;
+				map.addLayer(spec as maplibregl.LayerSpecification);
+				attachPopup(layer.title, mlId(layer.slug));
+			}
+
+			mapReady = true;
+		});
+	});
+
+	onDestroy(() => map?.remove());
+</script>
+
+<div class="flex gap-4 items-start">
+	<!-- Sidebar -->
+	<aside class="w-52 shrink-0 rounded-xl border border-neutral-200 bg-white text-xs overflow-hidden max-h-[72vh] overflow-y-auto">
+
+		<!-- Basemap -->
+		<div class="border-b border-neutral-100">
+			<div class="px-3 py-2 bg-neutral-50">
+				<span class="font-semibold text-neutral-700">Basemap</span>
+			</div>
+			<label class="flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-neutral-50 transition">
+				<input type="checkbox" checked={basemapOn} onchange={toggleBasemap} class="accent-blue-600" />
+				<span class="text-neutral-700">OpenStreetMap</span>
+			</label>
+		</div>
+
+		<!-- Layer groups -->
+		{#each groups as group (group.label)}
+			<div class="border-b border-neutral-100 last:border-0">
+				<div class="flex items-center justify-between gap-2 px-3 py-2 bg-neutral-50">
+					<span class="font-semibold text-neutral-700">{group.label}</span>
+					<div class="flex gap-1">
+						<button
+							onclick={() => toggleGroup(group.items, true)}
+							class="px-1.5 py-0.5 rounded text-neutral-400 hover:text-neutral-700 hover:bg-neutral-200 transition"
+							title="Attiva tutti">all</button>
+						<button
+							onclick={() => toggleGroup(group.items, false)}
+							class="px-1.5 py-0.5 rounded text-neutral-400 hover:text-neutral-700 hover:bg-neutral-200 transition"
+							title="Disattiva tutti">off</button>
+					</div>
+				</div>
+
+				{#each group.items as item (item.kind === 'layer' ? item.layer.slug : item.sub.id)}
+					{#if item.kind === 'road'}
+						<label class="flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-neutral-50 transition">
+							<input
+								type="checkbox"
+								checked={visible.has(item.sub.id)}
+								onchange={() => toggle(item.sub.id)}
+								class="accent-blue-600 shrink-0"
+							/>
+							<span
+								class="inline-block h-2.5 w-2.5 shrink-0 rounded-sm"
+								style="background:{item.sub.color}"
+							></span>
+							<span class="leading-tight text-neutral-700 truncate">{item.sub.label}</span>
+						</label>
+					{:else}
+						<label class="flex items-center gap-2 px-3 py-1.5 cursor-pointer hover:bg-neutral-50 transition">
+							<input
+								type="checkbox"
+								checked={visible.has(item.layer.slug)}
+								onchange={() => toggle(item.layer.slug)}
+								class="accent-blue-600 shrink-0"
+							/>
+							<span class="leading-tight text-neutral-700 truncate" title={item.layer.title}>
+								{item.layer.title.replace(/^OSM — /, '').replace(/^Dataset di training — /, '')}
+							</span>
+						</label>
+						{#if visible.has(item.layer.slug) && filterOptions[item.layer.slug]}
+							<div class="px-3 pb-2 flex flex-col gap-1">
+								{#each Object.entries(filterOptions[item.layer.slug]) as [field, opts] (field)}
+									<div class="flex flex-col gap-0.5">
+										<span class="text-[10px] text-neutral-400 leading-none">{fieldLabel(field)}</span>
+										<select
+											value={layerFilters[item.layer.slug]?.[field] ?? ''}
+											onchange={(e) => setLayerFilter(item.layer.slug, field, e.currentTarget.value)}
+											class="w-full rounded border border-neutral-200 bg-white px-1.5 py-0.5 text-[11px] text-neutral-700"
+										>
+											<option value="">Tutti</option>
+											{#each opts as opt (opt)}
+												<option value={String(opt)}>{opt}</option>
+											{/each}
+										</select>
+									</div>
+								{/each}
+							</div>
+						{/if}
+					{/if}
+				{/each}
+			</div>
+		{/each}
+	</aside>
+
+	<!-- Mappa -->
+	<div class="flex-1 min-w-0">
+		<div bind:this={container} class="w-full h-[72vh] rounded-xl overflow-hidden border border-neutral-200"></div>
+	</div>
+</div>

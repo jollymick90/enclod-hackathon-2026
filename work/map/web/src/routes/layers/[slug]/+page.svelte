@@ -12,7 +12,7 @@
 </svelte:head>
 
 <section>
-	<a href="/" class="text-sm text-neutral-500 hover:text-neutral-800">← back to catalog</a>
+	<a href="/catalog" class="text-sm text-neutral-500 hover:text-neutral-800">← catalog</a>
 
 	<header class="mt-3">
 		<div class="flex items-start justify-between gap-3">
