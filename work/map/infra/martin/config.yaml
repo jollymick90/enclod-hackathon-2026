@@ -1,0 +1,12 @@
+listen_addresses: '0.0.0.0:3000'
+
+postgres:
+  connection_string: 'postgres://postgres:postgres@db:5432/geosentinel'
+
+  # Auto-discover only tables in the `data` schema.
+  # The `public.layers` catalog table is intentionally NOT exposed.
+  auto_publish:
+    tables:
+      from_schemas:
+        - data
+    functions: false

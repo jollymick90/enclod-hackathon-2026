@@ -1,0 +1,17 @@
+scelta feature
+per il modello:
+mese,
+giorno_settimana,
+fascia_oraria,
+comune,
+nome_strada,
+tipo_luogo,
+indirizzo, -> variabile categorica
+kmt_etm,
+fondo,
+segnaletica,
+meteo,
+incidente
+
+p
+

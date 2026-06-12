@@ -1,0 +1,26 @@
+# Dataset scaricati (pesanti: zip multi-GB, .SAFE, ecc.)
+data/dataset
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node / build (la piattaforma in work/map ricrea questi in Docker)
+node_modules/
+**/node_modules/
+**/build/
+**/.svelte-kit/
+**/.vite/
+.pnpm-store/
+
+# macOS / IDE
+.DS_Store
+**/.DS_Store
+.idea/
+
+# env con segreti (committiamo solo .env.example)
+.env
+.env.local
+.env.*.local

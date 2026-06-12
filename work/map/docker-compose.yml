@@ -1,0 +1,64 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-geosentinel}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      # Seed eseguiti in ordine al primo boot: schema, poi i due dataset.
+      - ./infra/postgres/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+      - ./infra/postgres/02-accidents.sql:/docker-entrypoint-initdb.d/02-accidents.sql:ro
+      - ./infra/postgres/03-training.sql:/docker-entrypoint-initdb.d/03-training.sql:ro
+    networks:
+      - mappa_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-geosentinel}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  martin:
+    image: ghcr.io/maplibre/martin:latest
+    restart: unless-stopped
+    command: ["--config", "/config/config.yaml"]
+    ports:
+      - "127.0.0.1:3010:3000"
+    volumes:
+      - ./infra/martin/config.yaml:/config/config.yaml:ro
+    networks:
+      - mappa_net
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@db:5432/geosentinel
+      PUBLIC_MARTIN_URL: http://localhost:3010
+      PORT: "3000"
+      HOST: "0.0.0.0"
+    ports:
+      - "127.0.0.1:3030:3000"
+    networks:
+      - mappa_net
+    depends_on:
+      db:
+        condition: service_healthy
+      martin:
+        condition: service_started
+
+volumes:
+  db_data:
+
+networks:
+  mappa_net:
+    driver: bridge
