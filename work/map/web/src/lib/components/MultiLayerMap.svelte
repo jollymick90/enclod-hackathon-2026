@@ -153,6 +153,71 @@
 		].filter(Boolean) as SidebarGroup[];
 	}
 
+	// ── Scenario predittivo (B1): ricolora i segmenti col risk del modello ──
+	const RISK_SLUG = 'rischio-storico';
+	const SCENARIO_METEO = ['Sereno', 'Pioggia', 'Nebbia', 'Neve', 'Vento forte', 'Altro'];
+	const SCENARIO_FASCE = ['Mattino', 'Pomeriggio', 'Sera', 'Notte'];
+
+	const hasRiskLayer = $derived(vectorLayers.some((l) => l.slug === RISK_SLUG));
+	let scenarioMeteo = $state('');
+	let scenarioFascia = $state('');
+	let scenarioMax = $state(0);
+	let scenarioError = $state('');
+
+	// Colore assoluto sul risk del modello (0 → verde, RISK_FULL → rosso pieno)
+	const RISK_FULL = 0.5;
+	function riskColor(r: number): string {
+		const stops: [number, string][] = [
+			[0, '#2f9e44'], [0.15, '#ffd43b'], [0.3, '#f76707'], [0.5, '#c92a2a'],
+		];
+		const t = Math.min(r, RISK_FULL);
+		for (let i = stops.length - 1; i >= 0; i--) if (t >= stops[i][0]) {
+			if (i === stops.length - 1) return stops[i][1];
+			const [a, ca] = stops[i], [b, cb] = stops[i + 1];
+			const k = (t - a) / (b - a);
+			const hex = (c: string) => [1, 3, 5].map((j) => parseInt(c.slice(j, j + 2), 16));
+			const [r1, g1, b1] = hex(ca), [r2, g2, b2] = hex(cb);
+			const mix = (x: number, y: number) => Math.round(x + (y - x) * k);
+			return `rgb(${mix(r1, r2)},${mix(g1, g2)},${mix(b1, b2)})`;
+		}
+		return stops[0][1];
+	}
+
+	const STORICO_COLOR = [
+		'interpolate', ['linear'], ['get', 'indice'],
+		0, '#2f9e44', 15, '#ffd43b', 40, '#f76707', 70, '#c92a2a',
+	];
+
+	async function applicaScenario() {
+		if (!map || !mapReady || !map.getLayer(mlId(RISK_SLUG))) return;
+		scenarioError = '';
+		if (!scenarioMeteo || !scenarioFascia) {
+			// reset → colore storico
+			map.setPaintProperty(mlId(RISK_SLUG), 'line-color', STORICO_COLOR);
+			scenarioMax = 0;
+			return;
+		}
+		try {
+			const res = await fetch(
+				`/api/segment-risk?meteo=${encodeURIComponent(scenarioMeteo)}&fascia=${encodeURIComponent(scenarioFascia)}`
+			);
+			if (!res.ok) throw new Error((await res.json())?.message ?? res.statusText);
+			const risk: Record<string, number> = await res.json();
+			const expr: unknown[] = ['match', ['get', 'id']];
+			let max = 0;
+			for (const [id, r] of Object.entries(risk)) {
+				expr.push(Number(id), riskColor(r));
+				if (r > max) max = r;
+			}
+			expr.push('#9ca3af'); // segmenti senza predizione
+			scenarioMax = max;
+			map.setPaintProperty(mlId(RISK_SLUG), 'line-color', expr);
+			if (!visible.has(RISK_SLUG)) toggle(RISK_SLUG);
+		} catch (e) {
+			scenarioError = e instanceof Error ? e.message : 'Errore caricamento scenario';
+		}
+	}
+
 	// ── Filter state ─────────────────────────────────────────────────────────
 	// { [slug]: { [field]: selectedValue ('' = tutti) } }
 	let layerFilters = $state<Record<string, Record<string, string>>>({});
@@ -323,6 +388,51 @@
 <div class="flex gap-4 items-start">
 	<!-- Sidebar -->
 	<aside class="w-52 shrink-0 rounded-xl border border-neutral-200 bg-white text-xs overflow-hidden max-h-[72vh] overflow-y-auto">
+
+		<!-- Scenario predittivo -->
+		{#if hasRiskLayer}
+			<div class="border-b border-neutral-100">
+				<div class="px-3 py-2 bg-blue-50">
+					<span class="font-semibold text-blue-800">Scenario predittivo</span>
+				</div>
+				<div class="px-3 py-2 flex flex-col gap-1.5">
+					<div class="flex flex-col gap-0.5">
+						<span class="text-[10px] text-neutral-400 leading-none">Meteo</span>
+						<select
+							bind:value={scenarioMeteo}
+							onchange={applicaScenario}
+							class="w-full rounded border border-neutral-200 bg-white px-1.5 py-0.5 text-[11px] text-neutral-700"
+						>
+							<option value="">— storico —</option>
+							{#each SCENARIO_METEO as m (m)}<option value={m}>{m}</option>{/each}
+						</select>
+					</div>
+					<div class="flex flex-col gap-0.5">
+						<span class="text-[10px] text-neutral-400 leading-none">Fascia oraria</span>
+						<select
+							bind:value={scenarioFascia}
+							onchange={applicaScenario}
+							class="w-full rounded border border-neutral-200 bg-white px-1.5 py-0.5 text-[11px] text-neutral-700"
+						>
+							<option value="">— storico —</option>
+							{#each SCENARIO_FASCE as f (f)}<option value={f}>{f}</option>{/each}
+						</select>
+					</div>
+					{#if scenarioMeteo && scenarioFascia && scenarioMax > 0}
+						<p class="text-[10px] leading-snug text-blue-700">
+							Colore = rischio predetto dal modello (max scenario: {(scenarioMax * 100).toFixed(0)}%)
+						</p>
+					{:else}
+						<p class="text-[10px] leading-snug text-neutral-400">
+							Scegli meteo + fascia per colorare i segmenti col modello; vuoto = indice storico.
+						</p>
+					{/if}
+					{#if scenarioError}
+						<p class="text-[10px] leading-snug text-red-600">{scenarioError}</p>
+					{/if}
+				</div>
+			</div>
+		{/if}
 
 		<!-- Basemap -->
 		<div class="border-b border-neutral-100">

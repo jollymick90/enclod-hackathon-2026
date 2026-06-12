@@ -1,0 +1,4297 @@
+segment_id,meteo,fascia_oraria,risk
+1,Sereno,Mattino,0.02
+2,Sereno,Mattino,0.02
+3,Sereno,Mattino,0.02
+4,Sereno,Mattino,0.02
+5,Sereno,Mattino,0.02
+6,Sereno,Mattino,0.02
+7,Sereno,Mattino,0.02
+8,Sereno,Mattino,0.02
+9,Sereno,Mattino,0.02
+10,Sereno,Mattino,0.02
+11,Sereno,Mattino,0.02
+12,Sereno,Mattino,0.02
+13,Sereno,Mattino,0.02
+14,Sereno,Mattino,0.02
+15,Sereno,Mattino,0.02
+16,Sereno,Mattino,0.04
+17,Sereno,Mattino,0.02
+18,Sereno,Mattino,0.04
+19,Sereno,Mattino,0.04
+20,Sereno,Mattino,0.04
+21,Sereno,Mattino,0.04
+22,Sereno,Mattino,0.04
+23,Sereno,Mattino,0.04
+24,Sereno,Mattino,0.04
+25,Sereno,Mattino,0.04
+26,Sereno,Mattino,0.02
+27,Sereno,Mattino,0.02
+28,Sereno,Mattino,0.02
+29,Sereno,Mattino,0.02
+30,Sereno,Mattino,0.02
+31,Sereno,Mattino,0.02
+32,Sereno,Mattino,0.02
+33,Sereno,Mattino,0.02
+34,Sereno,Mattino,0.1333
+35,Sereno,Mattino,0.1333
+36,Sereno,Mattino,0.1333
+37,Sereno,Mattino,0.1333
+38,Sereno,Mattino,0.1333
+39,Sereno,Mattino,0.1333
+40,Sereno,Mattino,0.1333
+41,Sereno,Mattino,0.1333
+42,Sereno,Mattino,0.1333
+43,Sereno,Mattino,0.02
+44,Sereno,Mattino,0.02
+45,Sereno,Mattino,0.02
+46,Sereno,Mattino,0.02
+47,Sereno,Mattino,0.02
+48,Sereno,Mattino,0.1333
+49,Sereno,Mattino,0.02
+50,Sereno,Mattino,0.02
+51,Sereno,Mattino,0.02
+52,Sereno,Mattino,0.02
+53,Sereno,Mattino,0.02
+54,Sereno,Mattino,0.02
+55,Sereno,Mattino,0.02
+56,Sereno,Mattino,0.02
+57,Sereno,Mattino,0.02
+58,Sereno,Mattino,0.02
+59,Sereno,Mattino,0.02
+60,Sereno,Mattino,0.02
+61,Sereno,Mattino,0.02
+62,Sereno,Mattino,0.02
+63,Sereno,Mattino,0.0267
+64,Sereno,Mattino,0.0267
+65,Sereno,Mattino,0.0267
+66,Sereno,Mattino,0.0267
+67,Sereno,Mattino,0.0267
+68,Sereno,Mattino,0.0267
+69,Sereno,Mattino,0.02
+70,Sereno,Mattino,0.02
+71,Sereno,Mattino,0.02
+72,Sereno,Mattino,0.04
+73,Sereno,Mattino,0.02
+74,Sereno,Mattino,0.02
+75,Sereno,Mattino,0.02
+76,Sereno,Mattino,0.0467
+77,Sereno,Mattino,0.0467
+78,Sereno,Mattino,0.02
+79,Sereno,Mattino,0.02
+80,Sereno,Mattino,0.02
+81,Sereno,Mattino,0.02
+82,Sereno,Mattino,0.02
+83,Sereno,Mattino,0.02
+84,Sereno,Mattino,0.02
+85,Sereno,Mattino,0.02
+86,Sereno,Mattino,0.02
+87,Sereno,Mattino,0.02
+88,Sereno,Mattino,0.02
+89,Sereno,Mattino,0.02
+90,Sereno,Mattino,0.0467
+91,Sereno,Mattino,0.0467
+92,Sereno,Mattino,0.02
+93,Sereno,Mattino,0.0533
+94,Sereno,Mattino,0.02
+95,Sereno,Mattino,0.02
+96,Sereno,Mattino,0.0533
+97,Sereno,Mattino,0.0533
+98,Sereno,Mattino,0.3333
+99,Sereno,Mattino,0.02
+100,Sereno,Mattino,0.02
+101,Sereno,Mattino,0.02
+102,Sereno,Mattino,0.1867
+103,Sereno,Mattino,0.1867
+104,Sereno,Mattino,0.1867
+105,Sereno,Mattino,0.1867
+106,Sereno,Mattino,0.1867
+107,Sereno,Mattino,0.1867
+108,Sereno,Mattino,0.1867
+109,Sereno,Mattino,0.1867
+110,Sereno,Mattino,0.1867
+111,Sereno,Mattino,0.1867
+112,Sereno,Mattino,0.1867
+113,Sereno,Mattino,0.1867
+114,Sereno,Mattino,0.02
+115,Sereno,Mattino,0.0533
+116,Sereno,Mattino,0.02
+117,Sereno,Mattino,0.02
+118,Sereno,Mattino,0.02
+119,Sereno,Mattino,0.02
+120,Sereno,Mattino,0.02
+121,Sereno,Mattino,0.02
+122,Sereno,Mattino,0.0533
+123,Sereno,Mattino,0.0533
+124,Sereno,Mattino,0.02
+125,Sereno,Mattino,0.2067
+126,Sereno,Mattino,0.2067
+127,Sereno,Mattino,0.2067
+128,Sereno,Mattino,0.02
+129,Sereno,Mattino,0.02
+130,Sereno,Mattino,0.2067
+131,Sereno,Mattino,0.2067
+132,Sereno,Mattino,0.02
+133,Sereno,Mattino,0.0467
+134,Sereno,Mattino,0.0467
+135,Sereno,Mattino,0.02
+136,Sereno,Mattino,0.0933
+137,Sereno,Mattino,0.0933
+138,Sereno,Mattino,0.0933
+139,Sereno,Mattino,0.04
+140,Sereno,Mattino,0.04
+141,Sereno,Mattino,0.04
+142,Sereno,Mattino,0.0333
+143,Sereno,Mattino,0.0333
+144,Sereno,Mattino,0.0333
+145,Sereno,Mattino,0.04
+146,Sereno,Mattino,0.0933
+147,Sereno,Mattino,0.0933
+148,Sereno,Mattino,0.0933
+149,Sereno,Mattino,0.0933
+150,Sereno,Mattino,0.0933
+151,Sereno,Mattino,0.04
+152,Sereno,Mattino,0.04
+153,Sereno,Mattino,0.04
+154,Sereno,Mattino,0.04
+155,Sereno,Mattino,0.04
+156,Sereno,Mattino,0.04
+157,Sereno,Mattino,0.04
+158,Sereno,Mattino,0.04
+159,Sereno,Mattino,0.04
+160,Sereno,Mattino,0.04
+161,Sereno,Mattino,0.04
+162,Sereno,Mattino,0.04
+163,Sereno,Mattino,0.04
+164,Sereno,Mattino,0.04
+165,Sereno,Mattino,0.04
+166,Sereno,Mattino,0.04
+167,Sereno,Mattino,0.04
+168,Sereno,Mattino,0.04
+169,Sereno,Mattino,0.04
+170,Sereno,Mattino,0.04
+171,Sereno,Mattino,0.2067
+172,Sereno,Mattino,0.2067
+173,Sereno,Mattino,0.2067
+174,Sereno,Mattino,0.2067
+175,Sereno,Mattino,0.2067
+176,Sereno,Mattino,0.2067
+177,Sereno,Mattino,0.0733
+178,Sereno,Mattino,0.0733
+179,Sereno,Mattino,0.0733
+1,Sereno,Notte,0.0267
+2,Sereno,Notte,0.0267
+3,Sereno,Notte,0.0267
+4,Sereno,Notte,0.0267
+5,Sereno,Notte,0.0267
+6,Sereno,Notte,0.0267
+7,Sereno,Notte,0.0267
+8,Sereno,Notte,0.0267
+9,Sereno,Notte,0.0267
+10,Sereno,Notte,0.0267
+11,Sereno,Notte,0.0267
+12,Sereno,Notte,0.0267
+13,Sereno,Notte,0.0267
+14,Sereno,Notte,0.0267
+15,Sereno,Notte,0.0267
+16,Sereno,Notte,0.0933
+17,Sereno,Notte,0.0267
+18,Sereno,Notte,0.0467
+19,Sereno,Notte,0.0467
+20,Sereno,Notte,0.0467
+21,Sereno,Notte,0.0467
+22,Sereno,Notte,0.0467
+23,Sereno,Notte,0.0467
+24,Sereno,Notte,0.0467
+25,Sereno,Notte,0.0467
+26,Sereno,Notte,0.0267
+27,Sereno,Notte,0.0267
+28,Sereno,Notte,0.0267
+29,Sereno,Notte,0.0267
+30,Sereno,Notte,0.0267
+31,Sereno,Notte,0.0267
+32,Sereno,Notte,0.0267
+33,Sereno,Notte,0.0267
+34,Sereno,Notte,0.1333
+35,Sereno,Notte,0.1333
+36,Sereno,Notte,0.1333
+37,Sereno,Notte,0.1333
+38,Sereno,Notte,0.1333
+39,Sereno,Notte,0.1333
+40,Sereno,Notte,0.1333
+41,Sereno,Notte,0.1333
+42,Sereno,Notte,0.1333
+43,Sereno,Notte,0.0267
+44,Sereno,Notte,0.0267
+45,Sereno,Notte,0.0267
+46,Sereno,Notte,0.0267
+47,Sereno,Notte,0.0267
+48,Sereno,Notte,0.1333
+49,Sereno,Notte,0.0267
+50,Sereno,Notte,0.0267
+51,Sereno,Notte,0.0267
+52,Sereno,Notte,0.0267
+53,Sereno,Notte,0.0267
+54,Sereno,Notte,0.0267
+55,Sereno,Notte,0.0267
+56,Sereno,Notte,0.0267
+57,Sereno,Notte,0.0267
+58,Sereno,Notte,0.0267
+59,Sereno,Notte,0.0267
+60,Sereno,Notte,0.0267
+61,Sereno,Notte,0.0267
+62,Sereno,Notte,0.0267
+63,Sereno,Notte,0.0333
+64,Sereno,Notte,0.0333
+65,Sereno,Notte,0.0333
+66,Sereno,Notte,0.0333
+67,Sereno,Notte,0.0333
+68,Sereno,Notte,0.0333
+69,Sereno,Notte,0.0267
+70,Sereno,Notte,0.0267
+71,Sereno,Notte,0.0267
+72,Sereno,Notte,0.0933
+73,Sereno,Notte,0.0267
+74,Sereno,Notte,0.0267
+75,Sereno,Notte,0.0267
+76,Sereno,Notte,0.0733
+77,Sereno,Notte,0.0733
+78,Sereno,Notte,0.0267
+79,Sereno,Notte,0.0267
+80,Sereno,Notte,0.0267
+81,Sereno,Notte,0.0267
+82,Sereno,Notte,0.0267
+83,Sereno,Notte,0.0267
+84,Sereno,Notte,0.0267
+85,Sereno,Notte,0.0267
+86,Sereno,Notte,0.0267
+87,Sereno,Notte,0.0267
+88,Sereno,Notte,0.0267
+89,Sereno,Notte,0.0267
+90,Sereno,Notte,0.0733
+91,Sereno,Notte,0.0733
+92,Sereno,Notte,0.0267
+93,Sereno,Notte,0.0467
+94,Sereno,Notte,0.0267
+95,Sereno,Notte,0.0267
+96,Sereno,Notte,0.0467
+97,Sereno,Notte,0.0467
+98,Sereno,Notte,0.3133
+99,Sereno,Notte,0.0267
+100,Sereno,Notte,0.0267
+101,Sereno,Notte,0.0267
+102,Sereno,Notte,0.1133
+103,Sereno,Notte,0.1133
+104,Sereno,Notte,0.1133
+105,Sereno,Notte,0.1133
+106,Sereno,Notte,0.1133
+107,Sereno,Notte,0.1133
+108,Sereno,Notte,0.1133
+109,Sereno,Notte,0.1133
+110,Sereno,Notte,0.1133
+111,Sereno,Notte,0.1133
+112,Sereno,Notte,0.1133
+113,Sereno,Notte,0.1133
+114,Sereno,Notte,0.0267
+115,Sereno,Notte,0.0467
+116,Sereno,Notte,0.0267
+117,Sereno,Notte,0.0267
+118,Sereno,Notte,0.0267
+119,Sereno,Notte,0.0267
+120,Sereno,Notte,0.0267
+121,Sereno,Notte,0.0267
+122,Sereno,Notte,0.0467
+123,Sereno,Notte,0.0467
+124,Sereno,Notte,0.0267
+125,Sereno,Notte,0.18
+126,Sereno,Notte,0.18
+127,Sereno,Notte,0.18
+128,Sereno,Notte,0.0267
+129,Sereno,Notte,0.0267
+130,Sereno,Notte,0.18
+131,Sereno,Notte,0.18
+132,Sereno,Notte,0.0267
+133,Sereno,Notte,0.0733
+134,Sereno,Notte,0.0733
+135,Sereno,Notte,0.0267
+136,Sereno,Notte,0.0733
+137,Sereno,Notte,0.0733
+138,Sereno,Notte,0.0733
+139,Sereno,Notte,0.0533
+140,Sereno,Notte,0.0533
+141,Sereno,Notte,0.0533
+142,Sereno,Notte,0.0267
+143,Sereno,Notte,0.0267
+144,Sereno,Notte,0.0267
+145,Sereno,Notte,0.0933
+146,Sereno,Notte,0.08
+147,Sereno,Notte,0.08
+148,Sereno,Notte,0.0733
+149,Sereno,Notte,0.0733
+150,Sereno,Notte,0.0733
+151,Sereno,Notte,0.0467
+152,Sereno,Notte,0.0467
+153,Sereno,Notte,0.0467
+154,Sereno,Notte,0.0467
+155,Sereno,Notte,0.0467
+156,Sereno,Notte,0.0467
+157,Sereno,Notte,0.0467
+158,Sereno,Notte,0.0467
+159,Sereno,Notte,0.0467
+160,Sereno,Notte,0.0467
+161,Sereno,Notte,0.0467
+162,Sereno,Notte,0.0467
+163,Sereno,Notte,0.0467
+164,Sereno,Notte,0.0467
+165,Sereno,Notte,0.0467
+166,Sereno,Notte,0.0467
+167,Sereno,Notte,0.0467
+168,Sereno,Notte,0.0467
+169,Sereno,Notte,0.0467
+170,Sereno,Notte,0.0467
+171,Sereno,Notte,0.1333
+172,Sereno,Notte,0.1333
+173,Sereno,Notte,0.1333
+174,Sereno,Notte,0.1333
+175,Sereno,Notte,0.1333
+176,Sereno,Notte,0.1333
+177,Sereno,Notte,0.0667
+178,Sereno,Notte,0.0667
+179,Sereno,Notte,0.0667
+1,Sereno,Pomeriggio,0.0067
+2,Sereno,Pomeriggio,0.0067
+3,Sereno,Pomeriggio,0.0067
+4,Sereno,Pomeriggio,0.0067
+5,Sereno,Pomeriggio,0.0067
+6,Sereno,Pomeriggio,0.0067
+7,Sereno,Pomeriggio,0.0067
+8,Sereno,Pomeriggio,0.0067
+9,Sereno,Pomeriggio,0.0067
+10,Sereno,Pomeriggio,0.0067
+11,Sereno,Pomeriggio,0.0067
+12,Sereno,Pomeriggio,0.0067
+13,Sereno,Pomeriggio,0.0067
+14,Sereno,Pomeriggio,0.0067
+15,Sereno,Pomeriggio,0.0067
+16,Sereno,Pomeriggio,0.04
+17,Sereno,Pomeriggio,0.0067
+18,Sereno,Pomeriggio,0.0267
+19,Sereno,Pomeriggio,0.0267
+20,Sereno,Pomeriggio,0.0267
+21,Sereno,Pomeriggio,0.0267
+22,Sereno,Pomeriggio,0.0267
+23,Sereno,Pomeriggio,0.0267
+24,Sereno,Pomeriggio,0.0267
+25,Sereno,Pomeriggio,0.0267
+26,Sereno,Pomeriggio,0.0067
+27,Sereno,Pomeriggio,0.0067
+28,Sereno,Pomeriggio,0.0067
+29,Sereno,Pomeriggio,0.0067
+30,Sereno,Pomeriggio,0.0067
+31,Sereno,Pomeriggio,0.0067
+32,Sereno,Pomeriggio,0.0067
+33,Sereno,Pomeriggio,0.0067
+34,Sereno,Pomeriggio,0.14
+35,Sereno,Pomeriggio,0.14
+36,Sereno,Pomeriggio,0.14
+37,Sereno,Pomeriggio,0.14
+38,Sereno,Pomeriggio,0.14
+39,Sereno,Pomeriggio,0.14
+40,Sereno,Pomeriggio,0.14
+41,Sereno,Pomeriggio,0.14
+42,Sereno,Pomeriggio,0.14
+43,Sereno,Pomeriggio,0.0067
+44,Sereno,Pomeriggio,0.0067
+45,Sereno,Pomeriggio,0.0067
+46,Sereno,Pomeriggio,0.0067
+47,Sereno,Pomeriggio,0.0067
+48,Sereno,Pomeriggio,0.14
+49,Sereno,Pomeriggio,0.0067
+50,Sereno,Pomeriggio,0.0067
+51,Sereno,Pomeriggio,0.0067
+52,Sereno,Pomeriggio,0.0067
+53,Sereno,Pomeriggio,0.0067
+54,Sereno,Pomeriggio,0.0067
+55,Sereno,Pomeriggio,0.0067
+56,Sereno,Pomeriggio,0.0067
+57,Sereno,Pomeriggio,0.0067
+58,Sereno,Pomeriggio,0.0067
+59,Sereno,Pomeriggio,0.0067
+60,Sereno,Pomeriggio,0.0067
+61,Sereno,Pomeriggio,0.0067
+62,Sereno,Pomeriggio,0.0067
+63,Sereno,Pomeriggio,0.0133
+64,Sereno,Pomeriggio,0.0133
+65,Sereno,Pomeriggio,0.0133
+66,Sereno,Pomeriggio,0.0133
+67,Sereno,Pomeriggio,0.0133
+68,Sereno,Pomeriggio,0.0133
+69,Sereno,Pomeriggio,0.0067
+70,Sereno,Pomeriggio,0.0067
+71,Sereno,Pomeriggio,0.0067
+72,Sereno,Pomeriggio,0.04
+73,Sereno,Pomeriggio,0.0067
+74,Sereno,Pomeriggio,0.0067
+75,Sereno,Pomeriggio,0.0067
+76,Sereno,Pomeriggio,0.04
+77,Sereno,Pomeriggio,0.04
+78,Sereno,Pomeriggio,0.0067
+79,Sereno,Pomeriggio,0.0067
+80,Sereno,Pomeriggio,0.0067
+81,Sereno,Pomeriggio,0.0067
+82,Sereno,Pomeriggio,0.0067
+83,Sereno,Pomeriggio,0.0067
+84,Sereno,Pomeriggio,0.0067
+85,Sereno,Pomeriggio,0.0067
+86,Sereno,Pomeriggio,0.0067
+87,Sereno,Pomeriggio,0.0067
+88,Sereno,Pomeriggio,0.0067
+89,Sereno,Pomeriggio,0.0067
+90,Sereno,Pomeriggio,0.04
+91,Sereno,Pomeriggio,0.04
+92,Sereno,Pomeriggio,0.0067
+93,Sereno,Pomeriggio,0.02
+94,Sereno,Pomeriggio,0.0067
+95,Sereno,Pomeriggio,0.0067
+96,Sereno,Pomeriggio,0.02
+97,Sereno,Pomeriggio,0.02
+98,Sereno,Pomeriggio,0.2533
+99,Sereno,Pomeriggio,0.0067
+100,Sereno,Pomeriggio,0.0067
+101,Sereno,Pomeriggio,0.0067
+102,Sereno,Pomeriggio,0.1333
+103,Sereno,Pomeriggio,0.1333
+104,Sereno,Pomeriggio,0.1333
+105,Sereno,Pomeriggio,0.1333
+106,Sereno,Pomeriggio,0.1333
+107,Sereno,Pomeriggio,0.1333
+108,Sereno,Pomeriggio,0.1333
+109,Sereno,Pomeriggio,0.1333
+110,Sereno,Pomeriggio,0.1333
+111,Sereno,Pomeriggio,0.1333
+112,Sereno,Pomeriggio,0.1333
+113,Sereno,Pomeriggio,0.1333
+114,Sereno,Pomeriggio,0.0067
+115,Sereno,Pomeriggio,0.02
+116,Sereno,Pomeriggio,0.0067
+117,Sereno,Pomeriggio,0.0067
+118,Sereno,Pomeriggio,0.0067
+119,Sereno,Pomeriggio,0.0067
+120,Sereno,Pomeriggio,0.0067
+121,Sereno,Pomeriggio,0.0067
+122,Sereno,Pomeriggio,0.02
+123,Sereno,Pomeriggio,0.02
+124,Sereno,Pomeriggio,0.0067
+125,Sereno,Pomeriggio,0.2133
+126,Sereno,Pomeriggio,0.2133
+127,Sereno,Pomeriggio,0.2133
+128,Sereno,Pomeriggio,0.0067
+129,Sereno,Pomeriggio,0.0067
+130,Sereno,Pomeriggio,0.2133
+131,Sereno,Pomeriggio,0.2133
+132,Sereno,Pomeriggio,0.0067
+133,Sereno,Pomeriggio,0.04
+134,Sereno,Pomeriggio,0.04
+135,Sereno,Pomeriggio,0.0067
+136,Sereno,Pomeriggio,0.0467
+137,Sereno,Pomeriggio,0.0467
+138,Sereno,Pomeriggio,0.0467
+139,Sereno,Pomeriggio,0.0267
+140,Sereno,Pomeriggio,0.0267
+141,Sereno,Pomeriggio,0.0267
+142,Sereno,Pomeriggio,0.0133
+143,Sereno,Pomeriggio,0.0133
+144,Sereno,Pomeriggio,0.0133
+145,Sereno,Pomeriggio,0.04
+146,Sereno,Pomeriggio,0.1
+147,Sereno,Pomeriggio,0.1
+148,Sereno,Pomeriggio,0.0467
+149,Sereno,Pomeriggio,0.0467
+150,Sereno,Pomeriggio,0.0467
+151,Sereno,Pomeriggio,0.0267
+152,Sereno,Pomeriggio,0.0267
+153,Sereno,Pomeriggio,0.0267
+154,Sereno,Pomeriggio,0.0267
+155,Sereno,Pomeriggio,0.0267
+156,Sereno,Pomeriggio,0.0267
+157,Sereno,Pomeriggio,0.0267
+158,Sereno,Pomeriggio,0.0267
+159,Sereno,Pomeriggio,0.0267
+160,Sereno,Pomeriggio,0.0267
+161,Sereno,Pomeriggio,0.0267
+162,Sereno,Pomeriggio,0.0267
+163,Sereno,Pomeriggio,0.0267
+164,Sereno,Pomeriggio,0.0267
+165,Sereno,Pomeriggio,0.0267
+166,Sereno,Pomeriggio,0.0267
+167,Sereno,Pomeriggio,0.0267
+168,Sereno,Pomeriggio,0.0267
+169,Sereno,Pomeriggio,0.0267
+170,Sereno,Pomeriggio,0.0267
+171,Sereno,Pomeriggio,0.1533
+172,Sereno,Pomeriggio,0.1533
+173,Sereno,Pomeriggio,0.1533
+174,Sereno,Pomeriggio,0.1533
+175,Sereno,Pomeriggio,0.1533
+176,Sereno,Pomeriggio,0.1533
+177,Sereno,Pomeriggio,0.04
+178,Sereno,Pomeriggio,0.04
+179,Sereno,Pomeriggio,0.04
+1,Sereno,Sera,0.02
+2,Sereno,Sera,0.02
+3,Sereno,Sera,0.02
+4,Sereno,Sera,0.02
+5,Sereno,Sera,0.02
+6,Sereno,Sera,0.02
+7,Sereno,Sera,0.02
+8,Sereno,Sera,0.02
+9,Sereno,Sera,0.02
+10,Sereno,Sera,0.02
+11,Sereno,Sera,0.02
+12,Sereno,Sera,0.02
+13,Sereno,Sera,0.02
+14,Sereno,Sera,0.02
+15,Sereno,Sera,0.02
+16,Sereno,Sera,0.0667
+17,Sereno,Sera,0.02
+18,Sereno,Sera,0.0333
+19,Sereno,Sera,0.0333
+20,Sereno,Sera,0.0333
+21,Sereno,Sera,0.0333
+22,Sereno,Sera,0.0333
+23,Sereno,Sera,0.0333
+24,Sereno,Sera,0.0333
+25,Sereno,Sera,0.0333
+26,Sereno,Sera,0.02
+27,Sereno,Sera,0.02
+28,Sereno,Sera,0.02
+29,Sereno,Sera,0.02
+30,Sereno,Sera,0.02
+31,Sereno,Sera,0.02
+32,Sereno,Sera,0.02
+33,Sereno,Sera,0.02
+34,Sereno,Sera,0.1533
+35,Sereno,Sera,0.1533
+36,Sereno,Sera,0.1533
+37,Sereno,Sera,0.1533
+38,Sereno,Sera,0.1533
+39,Sereno,Sera,0.1533
+40,Sereno,Sera,0.1533
+41,Sereno,Sera,0.1533
+42,Sereno,Sera,0.1533
+43,Sereno,Sera,0.02
+44,Sereno,Sera,0.02
+45,Sereno,Sera,0.02
+46,Sereno,Sera,0.02
+47,Sereno,Sera,0.02
+48,Sereno,Sera,0.1533
+49,Sereno,Sera,0.02
+50,Sereno,Sera,0.02
+51,Sereno,Sera,0.02
+52,Sereno,Sera,0.02
+53,Sereno,Sera,0.02
+54,Sereno,Sera,0.02
+55,Sereno,Sera,0.02
+56,Sereno,Sera,0.02
+57,Sereno,Sera,0.02
+58,Sereno,Sera,0.02
+59,Sereno,Sera,0.02
+60,Sereno,Sera,0.02
+61,Sereno,Sera,0.02
+62,Sereno,Sera,0.02
+63,Sereno,Sera,0.0467
+64,Sereno,Sera,0.0467
+65,Sereno,Sera,0.0467
+66,Sereno,Sera,0.0467
+67,Sereno,Sera,0.0467
+68,Sereno,Sera,0.0467
+69,Sereno,Sera,0.02
+70,Sereno,Sera,0.02
+71,Sereno,Sera,0.02
+72,Sereno,Sera,0.0667
+73,Sereno,Sera,0.02
+74,Sereno,Sera,0.02
+75,Sereno,Sera,0.02
+76,Sereno,Sera,0.0667
+77,Sereno,Sera,0.0667
+78,Sereno,Sera,0.02
+79,Sereno,Sera,0.02
+80,Sereno,Sera,0.02
+81,Sereno,Sera,0.02
+82,Sereno,Sera,0.02
+83,Sereno,Sera,0.02
+84,Sereno,Sera,0.02
+85,Sereno,Sera,0.02
+86,Sereno,Sera,0.02
+87,Sereno,Sera,0.02
+88,Sereno,Sera,0.02
+89,Sereno,Sera,0.02
+90,Sereno,Sera,0.0667
+91,Sereno,Sera,0.0667
+92,Sereno,Sera,0.02
+93,Sereno,Sera,0.04
+94,Sereno,Sera,0.02
+95,Sereno,Sera,0.02
+96,Sereno,Sera,0.04
+97,Sereno,Sera,0.04
+98,Sereno,Sera,0.2933
+99,Sereno,Sera,0.02
+100,Sereno,Sera,0.02
+101,Sereno,Sera,0.02
+102,Sereno,Sera,0.1
+103,Sereno,Sera,0.1
+104,Sereno,Sera,0.1
+105,Sereno,Sera,0.1
+106,Sereno,Sera,0.1
+107,Sereno,Sera,0.1
+108,Sereno,Sera,0.1
+109,Sereno,Sera,0.1
+110,Sereno,Sera,0.1
+111,Sereno,Sera,0.1
+112,Sereno,Sera,0.1
+113,Sereno,Sera,0.1
+114,Sereno,Sera,0.02
+115,Sereno,Sera,0.04
+116,Sereno,Sera,0.02
+117,Sereno,Sera,0.02
+118,Sereno,Sera,0.02
+119,Sereno,Sera,0.02
+120,Sereno,Sera,0.02
+121,Sereno,Sera,0.02
+122,Sereno,Sera,0.04
+123,Sereno,Sera,0.04
+124,Sereno,Sera,0.02
+125,Sereno,Sera,0.16
+126,Sereno,Sera,0.16
+127,Sereno,Sera,0.16
+128,Sereno,Sera,0.02
+129,Sereno,Sera,0.02
+130,Sereno,Sera,0.16
+131,Sereno,Sera,0.16
+132,Sereno,Sera,0.02
+133,Sereno,Sera,0.0667
+134,Sereno,Sera,0.0667
+135,Sereno,Sera,0.02
+136,Sereno,Sera,0.08
+137,Sereno,Sera,0.08
+138,Sereno,Sera,0.08
+139,Sereno,Sera,0.04
+140,Sereno,Sera,0.04
+141,Sereno,Sera,0.04
+142,Sereno,Sera,0.0267
+143,Sereno,Sera,0.0267
+144,Sereno,Sera,0.0267
+145,Sereno,Sera,0.0667
+146,Sereno,Sera,0.0867
+147,Sereno,Sera,0.0867
+148,Sereno,Sera,0.08
+149,Sereno,Sera,0.08
+150,Sereno,Sera,0.08
+151,Sereno,Sera,0.0333
+152,Sereno,Sera,0.0333
+153,Sereno,Sera,0.0333
+154,Sereno,Sera,0.0333
+155,Sereno,Sera,0.0333
+156,Sereno,Sera,0.0333
+157,Sereno,Sera,0.0333
+158,Sereno,Sera,0.0333
+159,Sereno,Sera,0.0333
+160,Sereno,Sera,0.0333
+161,Sereno,Sera,0.0333
+162,Sereno,Sera,0.0333
+163,Sereno,Sera,0.0333
+164,Sereno,Sera,0.0333
+165,Sereno,Sera,0.0333
+166,Sereno,Sera,0.0333
+167,Sereno,Sera,0.0333
+168,Sereno,Sera,0.0333
+169,Sereno,Sera,0.0333
+170,Sereno,Sera,0.0333
+171,Sereno,Sera,0.1133
+172,Sereno,Sera,0.1133
+173,Sereno,Sera,0.1133
+174,Sereno,Sera,0.1133
+175,Sereno,Sera,0.1133
+176,Sereno,Sera,0.1133
+177,Sereno,Sera,0.0533
+178,Sereno,Sera,0.0533
+179,Sereno,Sera,0.0533
+1,Pioggia,Mattino,0.0133
+2,Pioggia,Mattino,0.0133
+3,Pioggia,Mattino,0.0133
+4,Pioggia,Mattino,0.0133
+5,Pioggia,Mattino,0.0133
+6,Pioggia,Mattino,0.0133
+7,Pioggia,Mattino,0.0133
+8,Pioggia,Mattino,0.0133
+9,Pioggia,Mattino,0.0133
+10,Pioggia,Mattino,0.0133
+11,Pioggia,Mattino,0.0133
+12,Pioggia,Mattino,0.0133
+13,Pioggia,Mattino,0.0133
+14,Pioggia,Mattino,0.0133
+15,Pioggia,Mattino,0.0133
+16,Pioggia,Mattino,0.0133
+17,Pioggia,Mattino,0.0133
+18,Pioggia,Mattino,0.0133
+19,Pioggia,Mattino,0.0133
+20,Pioggia,Mattino,0.0133
+21,Pioggia,Mattino,0.0133
+22,Pioggia,Mattino,0.0133
+23,Pioggia,Mattino,0.0133
+24,Pioggia,Mattino,0.0133
+25,Pioggia,Mattino,0.0133
+26,Pioggia,Mattino,0.0133
+27,Pioggia,Mattino,0.0133
+28,Pioggia,Mattino,0.0133
+29,Pioggia,Mattino,0.0133
+30,Pioggia,Mattino,0.0133
+31,Pioggia,Mattino,0.0133
+32,Pioggia,Mattino,0.0133
+33,Pioggia,Mattino,0.0133
+34,Pioggia,Mattino,0.1667
+35,Pioggia,Mattino,0.1667
+36,Pioggia,Mattino,0.1667
+37,Pioggia,Mattino,0.1667
+38,Pioggia,Mattino,0.1667
+39,Pioggia,Mattino,0.1667
+40,Pioggia,Mattino,0.1667
+41,Pioggia,Mattino,0.1667
+42,Pioggia,Mattino,0.1667
+43,Pioggia,Mattino,0.0133
+44,Pioggia,Mattino,0.0133
+45,Pioggia,Mattino,0.0133
+46,Pioggia,Mattino,0.0133
+47,Pioggia,Mattino,0.0133
+48,Pioggia,Mattino,0.1667
+49,Pioggia,Mattino,0.0133
+50,Pioggia,Mattino,0.0133
+51,Pioggia,Mattino,0.0133
+52,Pioggia,Mattino,0.0133
+53,Pioggia,Mattino,0.0133
+54,Pioggia,Mattino,0.0133
+55,Pioggia,Mattino,0.0133
+56,Pioggia,Mattino,0.0133
+57,Pioggia,Mattino,0.0133
+58,Pioggia,Mattino,0.0133
+59,Pioggia,Mattino,0.0133
+60,Pioggia,Mattino,0.0133
+61,Pioggia,Mattino,0.0133
+62,Pioggia,Mattino,0.0133
+63,Pioggia,Mattino,0.0267
+64,Pioggia,Mattino,0.0267
+65,Pioggia,Mattino,0.0267
+66,Pioggia,Mattino,0.0267
+67,Pioggia,Mattino,0.0267
+68,Pioggia,Mattino,0.0267
+69,Pioggia,Mattino,0.0133
+70,Pioggia,Mattino,0.0133
+71,Pioggia,Mattino,0.0133
+72,Pioggia,Mattino,0.0133
+73,Pioggia,Mattino,0.0133
+74,Pioggia,Mattino,0.0133
+75,Pioggia,Mattino,0.0133
+76,Pioggia,Mattino,0.0133
+77,Pioggia,Mattino,0.0133
+78,Pioggia,Mattino,0.0133
+79,Pioggia,Mattino,0.0133
+80,Pioggia,Mattino,0.0133
+81,Pioggia,Mattino,0.0133
+82,Pioggia,Mattino,0.0133
+83,Pioggia,Mattino,0.0133
+84,Pioggia,Mattino,0.0133
+85,Pioggia,Mattino,0.0133
+86,Pioggia,Mattino,0.0133
+87,Pioggia,Mattino,0.0133
+88,Pioggia,Mattino,0.0133
+89,Pioggia,Mattino,0.0133
+90,Pioggia,Mattino,0.0133
+91,Pioggia,Mattino,0.0133
+92,Pioggia,Mattino,0.0133
+93,Pioggia,Mattino,0.0333
+94,Pioggia,Mattino,0.0133
+95,Pioggia,Mattino,0.0133
+96,Pioggia,Mattino,0.0333
+97,Pioggia,Mattino,0.0333
+98,Pioggia,Mattino,0.22
+99,Pioggia,Mattino,0.0133
+100,Pioggia,Mattino,0.0133
+101,Pioggia,Mattino,0.0133
+102,Pioggia,Mattino,0.0333
+103,Pioggia,Mattino,0.0333
+104,Pioggia,Mattino,0.0333
+105,Pioggia,Mattino,0.0333
+106,Pioggia,Mattino,0.0333
+107,Pioggia,Mattino,0.0333
+108,Pioggia,Mattino,0.0333
+109,Pioggia,Mattino,0.0333
+110,Pioggia,Mattino,0.0333
+111,Pioggia,Mattino,0.0333
+112,Pioggia,Mattino,0.0333
+113,Pioggia,Mattino,0.0333
+114,Pioggia,Mattino,0.0133
+115,Pioggia,Mattino,0.0333
+116,Pioggia,Mattino,0.0133
+117,Pioggia,Mattino,0.0133
+118,Pioggia,Mattino,0.0133
+119,Pioggia,Mattino,0.0133
+120,Pioggia,Mattino,0.0133
+121,Pioggia,Mattino,0.0133
+122,Pioggia,Mattino,0.0333
+123,Pioggia,Mattino,0.0333
+124,Pioggia,Mattino,0.0133
+125,Pioggia,Mattino,0.2933
+126,Pioggia,Mattino,0.2933
+127,Pioggia,Mattino,0.2933
+128,Pioggia,Mattino,0.0133
+129,Pioggia,Mattino,0.0133
+130,Pioggia,Mattino,0.2933
+131,Pioggia,Mattino,0.2933
+132,Pioggia,Mattino,0.0133
+133,Pioggia,Mattino,0.0133
+134,Pioggia,Mattino,0.0133
+135,Pioggia,Mattino,0.0133
+136,Pioggia,Mattino,0.1133
+137,Pioggia,Mattino,0.1133
+138,Pioggia,Mattino,0.1133
+139,Pioggia,Mattino,0.04
+140,Pioggia,Mattino,0.04
+141,Pioggia,Mattino,0.04
+142,Pioggia,Mattino,0.0133
+143,Pioggia,Mattino,0.0133
+144,Pioggia,Mattino,0.0133
+145,Pioggia,Mattino,0.0133
+146,Pioggia,Mattino,0.1467
+147,Pioggia,Mattino,0.1467
+148,Pioggia,Mattino,0.1133
+149,Pioggia,Mattino,0.1133
+150,Pioggia,Mattino,0.1133
+151,Pioggia,Mattino,0.0133
+152,Pioggia,Mattino,0.0133
+153,Pioggia,Mattino,0.0133
+154,Pioggia,Mattino,0.0133
+155,Pioggia,Mattino,0.0133
+156,Pioggia,Mattino,0.0133
+157,Pioggia,Mattino,0.0133
+158,Pioggia,Mattino,0.0133
+159,Pioggia,Mattino,0.0133
+160,Pioggia,Mattino,0.0133
+161,Pioggia,Mattino,0.0133
+162,Pioggia,Mattino,0.0133
+163,Pioggia,Mattino,0.0133
+164,Pioggia,Mattino,0.0133
+165,Pioggia,Mattino,0.0133
+166,Pioggia,Mattino,0.0133
+167,Pioggia,Mattino,0.0133
+168,Pioggia,Mattino,0.0133
+169,Pioggia,Mattino,0.0133
+170,Pioggia,Mattino,0.0133
+171,Pioggia,Mattino,0.0333
+172,Pioggia,Mattino,0.0333
+173,Pioggia,Mattino,0.0333
+174,Pioggia,Mattino,0.0333
+175,Pioggia,Mattino,0.0333
+176,Pioggia,Mattino,0.0333
+177,Pioggia,Mattino,0.0333
+178,Pioggia,Mattino,0.0333
+179,Pioggia,Mattino,0.0333
+1,Pioggia,Notte,0.0267
+2,Pioggia,Notte,0.0267
+3,Pioggia,Notte,0.0267
+4,Pioggia,Notte,0.0267
+5,Pioggia,Notte,0.0267
+6,Pioggia,Notte,0.0267
+7,Pioggia,Notte,0.0267
+8,Pioggia,Notte,0.0267
+9,Pioggia,Notte,0.0267
+10,Pioggia,Notte,0.0267
+11,Pioggia,Notte,0.0267
+12,Pioggia,Notte,0.0267
+13,Pioggia,Notte,0.0267
+14,Pioggia,Notte,0.0267
+15,Pioggia,Notte,0.0267
+16,Pioggia,Notte,0.0267
+17,Pioggia,Notte,0.0267
+18,Pioggia,Notte,0.0267
+19,Pioggia,Notte,0.0267
+20,Pioggia,Notte,0.0267
+21,Pioggia,Notte,0.0267
+22,Pioggia,Notte,0.0267
+23,Pioggia,Notte,0.0267
+24,Pioggia,Notte,0.0267
+25,Pioggia,Notte,0.0267
+26,Pioggia,Notte,0.0267
+27,Pioggia,Notte,0.0267
+28,Pioggia,Notte,0.0267
+29,Pioggia,Notte,0.0267
+30,Pioggia,Notte,0.0267
+31,Pioggia,Notte,0.0267
+32,Pioggia,Notte,0.0267
+33,Pioggia,Notte,0.0267
+34,Pioggia,Notte,0.1933
+35,Pioggia,Notte,0.1933
+36,Pioggia,Notte,0.1933
+37,Pioggia,Notte,0.1933
+38,Pioggia,Notte,0.1933
+39,Pioggia,Notte,0.1933
+40,Pioggia,Notte,0.1933
+41,Pioggia,Notte,0.1933
+42,Pioggia,Notte,0.1933
+43,Pioggia,Notte,0.0267
+44,Pioggia,Notte,0.0267
+45,Pioggia,Notte,0.0267
+46,Pioggia,Notte,0.0267
+47,Pioggia,Notte,0.0267
+48,Pioggia,Notte,0.1933
+49,Pioggia,Notte,0.0267
+50,Pioggia,Notte,0.0267
+51,Pioggia,Notte,0.0267
+52,Pioggia,Notte,0.0267
+53,Pioggia,Notte,0.0267
+54,Pioggia,Notte,0.0267
+55,Pioggia,Notte,0.0267
+56,Pioggia,Notte,0.0267
+57,Pioggia,Notte,0.0267
+58,Pioggia,Notte,0.0267
+59,Pioggia,Notte,0.0267
+60,Pioggia,Notte,0.0267
+61,Pioggia,Notte,0.0267
+62,Pioggia,Notte,0.0267
+63,Pioggia,Notte,0.0467
+64,Pioggia,Notte,0.0467
+65,Pioggia,Notte,0.0467
+66,Pioggia,Notte,0.0467
+67,Pioggia,Notte,0.0467
+68,Pioggia,Notte,0.0467
+69,Pioggia,Notte,0.0267
+70,Pioggia,Notte,0.0267
+71,Pioggia,Notte,0.0267
+72,Pioggia,Notte,0.0267
+73,Pioggia,Notte,0.0267
+74,Pioggia,Notte,0.0267
+75,Pioggia,Notte,0.0267
+76,Pioggia,Notte,0.0267
+77,Pioggia,Notte,0.0267
+78,Pioggia,Notte,0.0267
+79,Pioggia,Notte,0.0267
+80,Pioggia,Notte,0.0267
+81,Pioggia,Notte,0.0267
+82,Pioggia,Notte,0.0267
+83,Pioggia,Notte,0.0267
+84,Pioggia,Notte,0.0267
+85,Pioggia,Notte,0.0267
+86,Pioggia,Notte,0.0267
+87,Pioggia,Notte,0.0267
+88,Pioggia,Notte,0.0267
+89,Pioggia,Notte,0.0267
+90,Pioggia,Notte,0.0267
+91,Pioggia,Notte,0.0267
+92,Pioggia,Notte,0.0267
+93,Pioggia,Notte,0.0533
+94,Pioggia,Notte,0.0267
+95,Pioggia,Notte,0.0267
+96,Pioggia,Notte,0.0533
+97,Pioggia,Notte,0.0533
+98,Pioggia,Notte,0.2
+99,Pioggia,Notte,0.0267
+100,Pioggia,Notte,0.0267
+101,Pioggia,Notte,0.0267
+102,Pioggia,Notte,0.0467
+103,Pioggia,Notte,0.0467
+104,Pioggia,Notte,0.0467
+105,Pioggia,Notte,0.0467
+106,Pioggia,Notte,0.0467
+107,Pioggia,Notte,0.0467
+108,Pioggia,Notte,0.0467
+109,Pioggia,Notte,0.0467
+110,Pioggia,Notte,0.0467
+111,Pioggia,Notte,0.0467
+112,Pioggia,Notte,0.0467
+113,Pioggia,Notte,0.0467
+114,Pioggia,Notte,0.0267
+115,Pioggia,Notte,0.0533
+116,Pioggia,Notte,0.0267
+117,Pioggia,Notte,0.0267
+118,Pioggia,Notte,0.0267
+119,Pioggia,Notte,0.0267
+120,Pioggia,Notte,0.0267
+121,Pioggia,Notte,0.0267
+122,Pioggia,Notte,0.0533
+123,Pioggia,Notte,0.0533
+124,Pioggia,Notte,0.0267
+125,Pioggia,Notte,0.2667
+126,Pioggia,Notte,0.2667
+127,Pioggia,Notte,0.2667
+128,Pioggia,Notte,0.0267
+129,Pioggia,Notte,0.0267
+130,Pioggia,Notte,0.2667
+131,Pioggia,Notte,0.2667
+132,Pioggia,Notte,0.0267
+133,Pioggia,Notte,0.0267
+134,Pioggia,Notte,0.0267
+135,Pioggia,Notte,0.0267
+136,Pioggia,Notte,0.0733
+137,Pioggia,Notte,0.0733
+138,Pioggia,Notte,0.0733
+139,Pioggia,Notte,0.04
+140,Pioggia,Notte,0.04
+141,Pioggia,Notte,0.04
+142,Pioggia,Notte,0.0267
+143,Pioggia,Notte,0.0267
+144,Pioggia,Notte,0.0267
+145,Pioggia,Notte,0.0267
+146,Pioggia,Notte,0.1333
+147,Pioggia,Notte,0.1333
+148,Pioggia,Notte,0.0733
+149,Pioggia,Notte,0.0733
+150,Pioggia,Notte,0.0733
+151,Pioggia,Notte,0.0267
+152,Pioggia,Notte,0.0267
+153,Pioggia,Notte,0.0267
+154,Pioggia,Notte,0.0267
+155,Pioggia,Notte,0.0267
+156,Pioggia,Notte,0.0267
+157,Pioggia,Notte,0.0267
+158,Pioggia,Notte,0.0267
+159,Pioggia,Notte,0.0267
+160,Pioggia,Notte,0.0267
+161,Pioggia,Notte,0.0267
+162,Pioggia,Notte,0.0267
+163,Pioggia,Notte,0.0267
+164,Pioggia,Notte,0.0267
+165,Pioggia,Notte,0.0267
+166,Pioggia,Notte,0.0267
+167,Pioggia,Notte,0.0267
+168,Pioggia,Notte,0.0267
+169,Pioggia,Notte,0.0267
+170,Pioggia,Notte,0.0267
+171,Pioggia,Notte,0.0467
+172,Pioggia,Notte,0.0467
+173,Pioggia,Notte,0.0467
+174,Pioggia,Notte,0.0467
+175,Pioggia,Notte,0.0467
+176,Pioggia,Notte,0.0467
+177,Pioggia,Notte,0.0533
+178,Pioggia,Notte,0.0533
+179,Pioggia,Notte,0.0533
+1,Pioggia,Pomeriggio,0.0067
+2,Pioggia,Pomeriggio,0.0067
+3,Pioggia,Pomeriggio,0.0067
+4,Pioggia,Pomeriggio,0.0067
+5,Pioggia,Pomeriggio,0.0067
+6,Pioggia,Pomeriggio,0.0067
+7,Pioggia,Pomeriggio,0.0067
+8,Pioggia,Pomeriggio,0.0067
+9,Pioggia,Pomeriggio,0.0067
+10,Pioggia,Pomeriggio,0.0067
+11,Pioggia,Pomeriggio,0.0067
+12,Pioggia,Pomeriggio,0.0067
+13,Pioggia,Pomeriggio,0.0067
+14,Pioggia,Pomeriggio,0.0067
+15,Pioggia,Pomeriggio,0.0067
+16,Pioggia,Pomeriggio,0.0067
+17,Pioggia,Pomeriggio,0.0067
+18,Pioggia,Pomeriggio,0.0067
+19,Pioggia,Pomeriggio,0.0067
+20,Pioggia,Pomeriggio,0.0067
+21,Pioggia,Pomeriggio,0.0067
+22,Pioggia,Pomeriggio,0.0067
+23,Pioggia,Pomeriggio,0.0067
+24,Pioggia,Pomeriggio,0.0067
+25,Pioggia,Pomeriggio,0.0067
+26,Pioggia,Pomeriggio,0.0067
+27,Pioggia,Pomeriggio,0.0067
+28,Pioggia,Pomeriggio,0.0067
+29,Pioggia,Pomeriggio,0.0067
+30,Pioggia,Pomeriggio,0.0067
+31,Pioggia,Pomeriggio,0.0067
+32,Pioggia,Pomeriggio,0.0067
+33,Pioggia,Pomeriggio,0.0067
+34,Pioggia,Pomeriggio,0.16
+35,Pioggia,Pomeriggio,0.16
+36,Pioggia,Pomeriggio,0.16
+37,Pioggia,Pomeriggio,0.16
+38,Pioggia,Pomeriggio,0.16
+39,Pioggia,Pomeriggio,0.16
+40,Pioggia,Pomeriggio,0.16
+41,Pioggia,Pomeriggio,0.16
+42,Pioggia,Pomeriggio,0.16
+43,Pioggia,Pomeriggio,0.0067
+44,Pioggia,Pomeriggio,0.0067
+45,Pioggia,Pomeriggio,0.0067
+46,Pioggia,Pomeriggio,0.0067
+47,Pioggia,Pomeriggio,0.0067
+48,Pioggia,Pomeriggio,0.16
+49,Pioggia,Pomeriggio,0.0067
+50,Pioggia,Pomeriggio,0.0067
+51,Pioggia,Pomeriggio,0.0067
+52,Pioggia,Pomeriggio,0.0067
+53,Pioggia,Pomeriggio,0.0067
+54,Pioggia,Pomeriggio,0.0067
+55,Pioggia,Pomeriggio,0.0067
+56,Pioggia,Pomeriggio,0.0067
+57,Pioggia,Pomeriggio,0.0067
+58,Pioggia,Pomeriggio,0.0067
+59,Pioggia,Pomeriggio,0.0067
+60,Pioggia,Pomeriggio,0.0067
+61,Pioggia,Pomeriggio,0.0067
+62,Pioggia,Pomeriggio,0.0067
+63,Pioggia,Pomeriggio,0.04
+64,Pioggia,Pomeriggio,0.04
+65,Pioggia,Pomeriggio,0.04
+66,Pioggia,Pomeriggio,0.04
+67,Pioggia,Pomeriggio,0.04
+68,Pioggia,Pomeriggio,0.04
+69,Pioggia,Pomeriggio,0.0067
+70,Pioggia,Pomeriggio,0.0067
+71,Pioggia,Pomeriggio,0.0067
+72,Pioggia,Pomeriggio,0.0067
+73,Pioggia,Pomeriggio,0.0067
+74,Pioggia,Pomeriggio,0.0067
+75,Pioggia,Pomeriggio,0.0067
+76,Pioggia,Pomeriggio,0.0067
+77,Pioggia,Pomeriggio,0.0067
+78,Pioggia,Pomeriggio,0.0067
+79,Pioggia,Pomeriggio,0.0067
+80,Pioggia,Pomeriggio,0.0067
+81,Pioggia,Pomeriggio,0.0067
+82,Pioggia,Pomeriggio,0.0067
+83,Pioggia,Pomeriggio,0.0067
+84,Pioggia,Pomeriggio,0.0067
+85,Pioggia,Pomeriggio,0.0067
+86,Pioggia,Pomeriggio,0.0067
+87,Pioggia,Pomeriggio,0.0067
+88,Pioggia,Pomeriggio,0.0067
+89,Pioggia,Pomeriggio,0.0067
+90,Pioggia,Pomeriggio,0.0067
+91,Pioggia,Pomeriggio,0.0067
+92,Pioggia,Pomeriggio,0.0067
+93,Pioggia,Pomeriggio,0.0267
+94,Pioggia,Pomeriggio,0.0067
+95,Pioggia,Pomeriggio,0.0067
+96,Pioggia,Pomeriggio,0.0267
+97,Pioggia,Pomeriggio,0.0267
+98,Pioggia,Pomeriggio,0.2533
+99,Pioggia,Pomeriggio,0.0067
+100,Pioggia,Pomeriggio,0.0067
+101,Pioggia,Pomeriggio,0.0067
+102,Pioggia,Pomeriggio,0.0133
+103,Pioggia,Pomeriggio,0.0133
+104,Pioggia,Pomeriggio,0.0133
+105,Pioggia,Pomeriggio,0.0133
+106,Pioggia,Pomeriggio,0.0133
+107,Pioggia,Pomeriggio,0.0133
+108,Pioggia,Pomeriggio,0.0133
+109,Pioggia,Pomeriggio,0.0133
+110,Pioggia,Pomeriggio,0.0133
+111,Pioggia,Pomeriggio,0.0133
+112,Pioggia,Pomeriggio,0.0133
+113,Pioggia,Pomeriggio,0.0133
+114,Pioggia,Pomeriggio,0.0067
+115,Pioggia,Pomeriggio,0.0267
+116,Pioggia,Pomeriggio,0.0067
+117,Pioggia,Pomeriggio,0.0067
+118,Pioggia,Pomeriggio,0.0067
+119,Pioggia,Pomeriggio,0.0067
+120,Pioggia,Pomeriggio,0.0067
+121,Pioggia,Pomeriggio,0.0067
+122,Pioggia,Pomeriggio,0.0267
+123,Pioggia,Pomeriggio,0.0267
+124,Pioggia,Pomeriggio,0.0067
+125,Pioggia,Pomeriggio,0.2667
+126,Pioggia,Pomeriggio,0.2667
+127,Pioggia,Pomeriggio,0.2667
+128,Pioggia,Pomeriggio,0.0067
+129,Pioggia,Pomeriggio,0.0067
+130,Pioggia,Pomeriggio,0.2667
+131,Pioggia,Pomeriggio,0.2667
+132,Pioggia,Pomeriggio,0.0067
+133,Pioggia,Pomeriggio,0.0067
+134,Pioggia,Pomeriggio,0.0067
+135,Pioggia,Pomeriggio,0.0067
+136,Pioggia,Pomeriggio,0.08
+137,Pioggia,Pomeriggio,0.08
+138,Pioggia,Pomeriggio,0.08
+139,Pioggia,Pomeriggio,0.0467
+140,Pioggia,Pomeriggio,0.0467
+141,Pioggia,Pomeriggio,0.0467
+142,Pioggia,Pomeriggio,0.0067
+143,Pioggia,Pomeriggio,0.0067
+144,Pioggia,Pomeriggio,0.0067
+145,Pioggia,Pomeriggio,0.0067
+146,Pioggia,Pomeriggio,0.1
+147,Pioggia,Pomeriggio,0.1
+148,Pioggia,Pomeriggio,0.08
+149,Pioggia,Pomeriggio,0.08
+150,Pioggia,Pomeriggio,0.08
+151,Pioggia,Pomeriggio,0.0067
+152,Pioggia,Pomeriggio,0.0067
+153,Pioggia,Pomeriggio,0.0067
+154,Pioggia,Pomeriggio,0.0067
+155,Pioggia,Pomeriggio,0.0067
+156,Pioggia,Pomeriggio,0.0067
+157,Pioggia,Pomeriggio,0.0067
+158,Pioggia,Pomeriggio,0.0067
+159,Pioggia,Pomeriggio,0.0067
+160,Pioggia,Pomeriggio,0.0067
+161,Pioggia,Pomeriggio,0.0067
+162,Pioggia,Pomeriggio,0.0067
+163,Pioggia,Pomeriggio,0.0067
+164,Pioggia,Pomeriggio,0.0067
+165,Pioggia,Pomeriggio,0.0067
+166,Pioggia,Pomeriggio,0.0067
+167,Pioggia,Pomeriggio,0.0067
+168,Pioggia,Pomeriggio,0.0067
+169,Pioggia,Pomeriggio,0.0067
+170,Pioggia,Pomeriggio,0.0067
+171,Pioggia,Pomeriggio,0.0133
+172,Pioggia,Pomeriggio,0.0133
+173,Pioggia,Pomeriggio,0.0133
+174,Pioggia,Pomeriggio,0.0133
+175,Pioggia,Pomeriggio,0.0133
+176,Pioggia,Pomeriggio,0.0133
+177,Pioggia,Pomeriggio,0.0267
+178,Pioggia,Pomeriggio,0.0267
+179,Pioggia,Pomeriggio,0.0267
+1,Pioggia,Sera,0.0
+2,Pioggia,Sera,0.0
+3,Pioggia,Sera,0.0
+4,Pioggia,Sera,0.0
+5,Pioggia,Sera,0.0
+6,Pioggia,Sera,0.0
+7,Pioggia,Sera,0.0
+8,Pioggia,Sera,0.0
+9,Pioggia,Sera,0.0
+10,Pioggia,Sera,0.0
+11,Pioggia,Sera,0.0
+12,Pioggia,Sera,0.0
+13,Pioggia,Sera,0.0
+14,Pioggia,Sera,0.0
+15,Pioggia,Sera,0.0
+16,Pioggia,Sera,0.0
+17,Pioggia,Sera,0.0
+18,Pioggia,Sera,0.0
+19,Pioggia,Sera,0.0
+20,Pioggia,Sera,0.0
+21,Pioggia,Sera,0.0
+22,Pioggia,Sera,0.0
+23,Pioggia,Sera,0.0
+24,Pioggia,Sera,0.0
+25,Pioggia,Sera,0.0
+26,Pioggia,Sera,0.0
+27,Pioggia,Sera,0.0
+28,Pioggia,Sera,0.0
+29,Pioggia,Sera,0.0
+30,Pioggia,Sera,0.0
+31,Pioggia,Sera,0.0
+32,Pioggia,Sera,0.0
+33,Pioggia,Sera,0.0
+34,Pioggia,Sera,0.1
+35,Pioggia,Sera,0.1
+36,Pioggia,Sera,0.1
+37,Pioggia,Sera,0.1
+38,Pioggia,Sera,0.1
+39,Pioggia,Sera,0.1
+40,Pioggia,Sera,0.1
+41,Pioggia,Sera,0.1
+42,Pioggia,Sera,0.1
+43,Pioggia,Sera,0.0
+44,Pioggia,Sera,0.0
+45,Pioggia,Sera,0.0
+46,Pioggia,Sera,0.0
+47,Pioggia,Sera,0.0
+48,Pioggia,Sera,0.1
+49,Pioggia,Sera,0.0
+50,Pioggia,Sera,0.0
+51,Pioggia,Sera,0.0
+52,Pioggia,Sera,0.0
+53,Pioggia,Sera,0.0
+54,Pioggia,Sera,0.0
+55,Pioggia,Sera,0.0
+56,Pioggia,Sera,0.0
+57,Pioggia,Sera,0.0
+58,Pioggia,Sera,0.0
+59,Pioggia,Sera,0.0
+60,Pioggia,Sera,0.0
+61,Pioggia,Sera,0.0
+62,Pioggia,Sera,0.0
+63,Pioggia,Sera,0.0133
+64,Pioggia,Sera,0.0133
+65,Pioggia,Sera,0.0133
+66,Pioggia,Sera,0.0133
+67,Pioggia,Sera,0.0133
+68,Pioggia,Sera,0.0133
+69,Pioggia,Sera,0.0
+70,Pioggia,Sera,0.0
+71,Pioggia,Sera,0.0
+72,Pioggia,Sera,0.0
+73,Pioggia,Sera,0.0
+74,Pioggia,Sera,0.0
+75,Pioggia,Sera,0.0
+76,Pioggia,Sera,0.0
+77,Pioggia,Sera,0.0
+78,Pioggia,Sera,0.0
+79,Pioggia,Sera,0.0
+80,Pioggia,Sera,0.0
+81,Pioggia,Sera,0.0
+82,Pioggia,Sera,0.0
+83,Pioggia,Sera,0.0
+84,Pioggia,Sera,0.0
+85,Pioggia,Sera,0.0
+86,Pioggia,Sera,0.0
+87,Pioggia,Sera,0.0
+88,Pioggia,Sera,0.0
+89,Pioggia,Sera,0.0
+90,Pioggia,Sera,0.0
+91,Pioggia,Sera,0.0
+92,Pioggia,Sera,0.0
+93,Pioggia,Sera,0.0333
+94,Pioggia,Sera,0.0
+95,Pioggia,Sera,0.0
+96,Pioggia,Sera,0.0333
+97,Pioggia,Sera,0.0333
+98,Pioggia,Sera,0.24
+99,Pioggia,Sera,0.0
+100,Pioggia,Sera,0.0
+101,Pioggia,Sera,0.0
+102,Pioggia,Sera,0.0267
+103,Pioggia,Sera,0.0267
+104,Pioggia,Sera,0.0267
+105,Pioggia,Sera,0.0267
+106,Pioggia,Sera,0.0267
+107,Pioggia,Sera,0.0267
+108,Pioggia,Sera,0.0267
+109,Pioggia,Sera,0.0267
+110,Pioggia,Sera,0.0267
+111,Pioggia,Sera,0.0267
+112,Pioggia,Sera,0.0267
+113,Pioggia,Sera,0.0267
+114,Pioggia,Sera,0.0
+115,Pioggia,Sera,0.0333
+116,Pioggia,Sera,0.0
+117,Pioggia,Sera,0.0
+118,Pioggia,Sera,0.0
+119,Pioggia,Sera,0.0
+120,Pioggia,Sera,0.0
+121,Pioggia,Sera,0.0
+122,Pioggia,Sera,0.0333
+123,Pioggia,Sera,0.0333
+124,Pioggia,Sera,0.0
+125,Pioggia,Sera,0.2533
+126,Pioggia,Sera,0.2533
+127,Pioggia,Sera,0.2533
+128,Pioggia,Sera,0.0
+129,Pioggia,Sera,0.0
+130,Pioggia,Sera,0.2533
+131,Pioggia,Sera,0.2533
+132,Pioggia,Sera,0.0
+133,Pioggia,Sera,0.0
+134,Pioggia,Sera,0.0
+135,Pioggia,Sera,0.0
+136,Pioggia,Sera,0.0733
+137,Pioggia,Sera,0.0733
+138,Pioggia,Sera,0.0733
+139,Pioggia,Sera,0.0133
+140,Pioggia,Sera,0.0133
+141,Pioggia,Sera,0.0133
+142,Pioggia,Sera,0.0267
+143,Pioggia,Sera,0.0267
+144,Pioggia,Sera,0.0267
+145,Pioggia,Sera,0.0
+146,Pioggia,Sera,0.0867
+147,Pioggia,Sera,0.0867
+148,Pioggia,Sera,0.0733
+149,Pioggia,Sera,0.0733
+150,Pioggia,Sera,0.0733
+151,Pioggia,Sera,0.0
+152,Pioggia,Sera,0.0
+153,Pioggia,Sera,0.0
+154,Pioggia,Sera,0.0
+155,Pioggia,Sera,0.0
+156,Pioggia,Sera,0.0
+157,Pioggia,Sera,0.0
+158,Pioggia,Sera,0.0
+159,Pioggia,Sera,0.0
+160,Pioggia,Sera,0.0
+161,Pioggia,Sera,0.0
+162,Pioggia,Sera,0.0
+163,Pioggia,Sera,0.0
+164,Pioggia,Sera,0.0
+165,Pioggia,Sera,0.0
+166,Pioggia,Sera,0.0
+167,Pioggia,Sera,0.0
+168,Pioggia,Sera,0.0
+169,Pioggia,Sera,0.0
+170,Pioggia,Sera,0.0
+171,Pioggia,Sera,0.0267
+172,Pioggia,Sera,0.0267
+173,Pioggia,Sera,0.0267
+174,Pioggia,Sera,0.0267
+175,Pioggia,Sera,0.0267
+176,Pioggia,Sera,0.0267
+177,Pioggia,Sera,0.0333
+178,Pioggia,Sera,0.0333
+179,Pioggia,Sera,0.0333
+1,Nebbia,Mattino,0.0133
+2,Nebbia,Mattino,0.0133
+3,Nebbia,Mattino,0.0133
+4,Nebbia,Mattino,0.0133
+5,Nebbia,Mattino,0.0133
+6,Nebbia,Mattino,0.0133
+7,Nebbia,Mattino,0.0133
+8,Nebbia,Mattino,0.0133
+9,Nebbia,Mattino,0.0133
+10,Nebbia,Mattino,0.0133
+11,Nebbia,Mattino,0.0133
+12,Nebbia,Mattino,0.0133
+13,Nebbia,Mattino,0.0133
+14,Nebbia,Mattino,0.0133
+15,Nebbia,Mattino,0.0133
+16,Nebbia,Mattino,0.06
+17,Nebbia,Mattino,0.0133
+18,Nebbia,Mattino,0.02
+19,Nebbia,Mattino,0.02
+20,Nebbia,Mattino,0.02
+21,Nebbia,Mattino,0.02
+22,Nebbia,Mattino,0.02
+23,Nebbia,Mattino,0.02
+24,Nebbia,Mattino,0.02
+25,Nebbia,Mattino,0.02
+26,Nebbia,Mattino,0.0133
+27,Nebbia,Mattino,0.0133
+28,Nebbia,Mattino,0.0133
+29,Nebbia,Mattino,0.0133
+30,Nebbia,Mattino,0.0133
+31,Nebbia,Mattino,0.0133
+32,Nebbia,Mattino,0.0133
+33,Nebbia,Mattino,0.0133
+34,Nebbia,Mattino,0.12
+35,Nebbia,Mattino,0.12
+36,Nebbia,Mattino,0.12
+37,Nebbia,Mattino,0.12
+38,Nebbia,Mattino,0.12
+39,Nebbia,Mattino,0.12
+40,Nebbia,Mattino,0.12
+41,Nebbia,Mattino,0.12
+42,Nebbia,Mattino,0.12
+43,Nebbia,Mattino,0.0133
+44,Nebbia,Mattino,0.0133
+45,Nebbia,Mattino,0.0133
+46,Nebbia,Mattino,0.0133
+47,Nebbia,Mattino,0.0133
+48,Nebbia,Mattino,0.12
+49,Nebbia,Mattino,0.0133
+50,Nebbia,Mattino,0.0133
+51,Nebbia,Mattino,0.0133
+52,Nebbia,Mattino,0.0133
+53,Nebbia,Mattino,0.0133
+54,Nebbia,Mattino,0.0133
+55,Nebbia,Mattino,0.0133
+56,Nebbia,Mattino,0.0133
+57,Nebbia,Mattino,0.0133
+58,Nebbia,Mattino,0.0133
+59,Nebbia,Mattino,0.0133
+60,Nebbia,Mattino,0.0133
+61,Nebbia,Mattino,0.0133
+62,Nebbia,Mattino,0.0133
+63,Nebbia,Mattino,0.02
+64,Nebbia,Mattino,0.02
+65,Nebbia,Mattino,0.02
+66,Nebbia,Mattino,0.02
+67,Nebbia,Mattino,0.02
+68,Nebbia,Mattino,0.02
+69,Nebbia,Mattino,0.0133
+70,Nebbia,Mattino,0.0133
+71,Nebbia,Mattino,0.0133
+72,Nebbia,Mattino,0.06
+73,Nebbia,Mattino,0.0133
+74,Nebbia,Mattino,0.0133
+75,Nebbia,Mattino,0.0133
+76,Nebbia,Mattino,0.0533
+77,Nebbia,Mattino,0.0533
+78,Nebbia,Mattino,0.0133
+79,Nebbia,Mattino,0.0133
+80,Nebbia,Mattino,0.0133
+81,Nebbia,Mattino,0.0133
+82,Nebbia,Mattino,0.0133
+83,Nebbia,Mattino,0.0133
+84,Nebbia,Mattino,0.0133
+85,Nebbia,Mattino,0.0133
+86,Nebbia,Mattino,0.0133
+87,Nebbia,Mattino,0.0133
+88,Nebbia,Mattino,0.0133
+89,Nebbia,Mattino,0.0133
+90,Nebbia,Mattino,0.0533
+91,Nebbia,Mattino,0.0533
+92,Nebbia,Mattino,0.0133
+93,Nebbia,Mattino,0.0267
+94,Nebbia,Mattino,0.0133
+95,Nebbia,Mattino,0.0133
+96,Nebbia,Mattino,0.0267
+97,Nebbia,Mattino,0.0267
+98,Nebbia,Mattino,0.3067
+99,Nebbia,Mattino,0.0133
+100,Nebbia,Mattino,0.0133
+101,Nebbia,Mattino,0.0133
+102,Nebbia,Mattino,0.1733
+103,Nebbia,Mattino,0.1733
+104,Nebbia,Mattino,0.1733
+105,Nebbia,Mattino,0.1733
+106,Nebbia,Mattino,0.1733
+107,Nebbia,Mattino,0.1733
+108,Nebbia,Mattino,0.1733
+109,Nebbia,Mattino,0.1733
+110,Nebbia,Mattino,0.1733
+111,Nebbia,Mattino,0.1733
+112,Nebbia,Mattino,0.1733
+113,Nebbia,Mattino,0.1733
+114,Nebbia,Mattino,0.0133
+115,Nebbia,Mattino,0.0267
+116,Nebbia,Mattino,0.0133
+117,Nebbia,Mattino,0.0133
+118,Nebbia,Mattino,0.0133
+119,Nebbia,Mattino,0.0133
+120,Nebbia,Mattino,0.0133
+121,Nebbia,Mattino,0.0133
+122,Nebbia,Mattino,0.0267
+123,Nebbia,Mattino,0.0267
+124,Nebbia,Mattino,0.0133
+125,Nebbia,Mattino,0.1933
+126,Nebbia,Mattino,0.1933
+127,Nebbia,Mattino,0.1933
+128,Nebbia,Mattino,0.0133
+129,Nebbia,Mattino,0.0133
+130,Nebbia,Mattino,0.1933
+131,Nebbia,Mattino,0.1933
+132,Nebbia,Mattino,0.0133
+133,Nebbia,Mattino,0.0533
+134,Nebbia,Mattino,0.0533
+135,Nebbia,Mattino,0.0133
+136,Nebbia,Mattino,0.0533
+137,Nebbia,Mattino,0.0533
+138,Nebbia,Mattino,0.0533
+139,Nebbia,Mattino,0.0267
+140,Nebbia,Mattino,0.0267
+141,Nebbia,Mattino,0.0267
+142,Nebbia,Mattino,0.0267
+143,Nebbia,Mattino,0.0267
+144,Nebbia,Mattino,0.0267
+145,Nebbia,Mattino,0.06
+146,Nebbia,Mattino,0.08
+147,Nebbia,Mattino,0.08
+148,Nebbia,Mattino,0.0533
+149,Nebbia,Mattino,0.0533
+150,Nebbia,Mattino,0.0533
+151,Nebbia,Mattino,0.02
+152,Nebbia,Mattino,0.02
+153,Nebbia,Mattino,0.02
+154,Nebbia,Mattino,0.02
+155,Nebbia,Mattino,0.02
+156,Nebbia,Mattino,0.02
+157,Nebbia,Mattino,0.02
+158,Nebbia,Mattino,0.02
+159,Nebbia,Mattino,0.02
+160,Nebbia,Mattino,0.02
+161,Nebbia,Mattino,0.02
+162,Nebbia,Mattino,0.02
+163,Nebbia,Mattino,0.02
+164,Nebbia,Mattino,0.02
+165,Nebbia,Mattino,0.02
+166,Nebbia,Mattino,0.02
+167,Nebbia,Mattino,0.02
+168,Nebbia,Mattino,0.02
+169,Nebbia,Mattino,0.02
+170,Nebbia,Mattino,0.02
+171,Nebbia,Mattino,0.18
+172,Nebbia,Mattino,0.18
+173,Nebbia,Mattino,0.18
+174,Nebbia,Mattino,0.18
+175,Nebbia,Mattino,0.18
+176,Nebbia,Mattino,0.18
+177,Nebbia,Mattino,0.0333
+178,Nebbia,Mattino,0.0333
+179,Nebbia,Mattino,0.0333
+1,Nebbia,Notte,0.02
+2,Nebbia,Notte,0.02
+3,Nebbia,Notte,0.02
+4,Nebbia,Notte,0.02
+5,Nebbia,Notte,0.02
+6,Nebbia,Notte,0.02
+7,Nebbia,Notte,0.02
+8,Nebbia,Notte,0.02
+9,Nebbia,Notte,0.02
+10,Nebbia,Notte,0.02
+11,Nebbia,Notte,0.02
+12,Nebbia,Notte,0.02
+13,Nebbia,Notte,0.02
+14,Nebbia,Notte,0.02
+15,Nebbia,Notte,0.02
+16,Nebbia,Notte,0.1
+17,Nebbia,Notte,0.02
+18,Nebbia,Notte,0.0667
+19,Nebbia,Notte,0.0667
+20,Nebbia,Notte,0.0667
+21,Nebbia,Notte,0.0667
+22,Nebbia,Notte,0.0667
+23,Nebbia,Notte,0.0667
+24,Nebbia,Notte,0.0667
+25,Nebbia,Notte,0.0667
+26,Nebbia,Notte,0.02
+27,Nebbia,Notte,0.02
+28,Nebbia,Notte,0.02
+29,Nebbia,Notte,0.02
+30,Nebbia,Notte,0.02
+31,Nebbia,Notte,0.02
+32,Nebbia,Notte,0.02
+33,Nebbia,Notte,0.02
+34,Nebbia,Notte,0.1133
+35,Nebbia,Notte,0.1133
+36,Nebbia,Notte,0.1133
+37,Nebbia,Notte,0.1133
+38,Nebbia,Notte,0.1133
+39,Nebbia,Notte,0.1133
+40,Nebbia,Notte,0.1133
+41,Nebbia,Notte,0.1133
+42,Nebbia,Notte,0.1133
+43,Nebbia,Notte,0.02
+44,Nebbia,Notte,0.02
+45,Nebbia,Notte,0.02
+46,Nebbia,Notte,0.02
+47,Nebbia,Notte,0.02
+48,Nebbia,Notte,0.1133
+49,Nebbia,Notte,0.02
+50,Nebbia,Notte,0.02
+51,Nebbia,Notte,0.02
+52,Nebbia,Notte,0.02
+53,Nebbia,Notte,0.02
+54,Nebbia,Notte,0.02
+55,Nebbia,Notte,0.02
+56,Nebbia,Notte,0.02
+57,Nebbia,Notte,0.02
+58,Nebbia,Notte,0.02
+59,Nebbia,Notte,0.02
+60,Nebbia,Notte,0.02
+61,Nebbia,Notte,0.02
+62,Nebbia,Notte,0.02
+63,Nebbia,Notte,0.0267
+64,Nebbia,Notte,0.0267
+65,Nebbia,Notte,0.0267
+66,Nebbia,Notte,0.0267
+67,Nebbia,Notte,0.0267
+68,Nebbia,Notte,0.0267
+69,Nebbia,Notte,0.02
+70,Nebbia,Notte,0.02
+71,Nebbia,Notte,0.02
+72,Nebbia,Notte,0.1
+73,Nebbia,Notte,0.02
+74,Nebbia,Notte,0.02
+75,Nebbia,Notte,0.02
+76,Nebbia,Notte,0.0667
+77,Nebbia,Notte,0.0667
+78,Nebbia,Notte,0.02
+79,Nebbia,Notte,0.02
+80,Nebbia,Notte,0.02
+81,Nebbia,Notte,0.02
+82,Nebbia,Notte,0.02
+83,Nebbia,Notte,0.02
+84,Nebbia,Notte,0.02
+85,Nebbia,Notte,0.02
+86,Nebbia,Notte,0.02
+87,Nebbia,Notte,0.02
+88,Nebbia,Notte,0.02
+89,Nebbia,Notte,0.02
+90,Nebbia,Notte,0.0667
+91,Nebbia,Notte,0.0667
+92,Nebbia,Notte,0.02
+93,Nebbia,Notte,0.0267
+94,Nebbia,Notte,0.02
+95,Nebbia,Notte,0.02
+96,Nebbia,Notte,0.0267
+97,Nebbia,Notte,0.0267
+98,Nebbia,Notte,0.26
+99,Nebbia,Notte,0.02
+100,Nebbia,Notte,0.02
+101,Nebbia,Notte,0.02
+102,Nebbia,Notte,0.2533
+103,Nebbia,Notte,0.2533
+104,Nebbia,Notte,0.2533
+105,Nebbia,Notte,0.2533
+106,Nebbia,Notte,0.2533
+107,Nebbia,Notte,0.2533
+108,Nebbia,Notte,0.2533
+109,Nebbia,Notte,0.2533
+110,Nebbia,Notte,0.2533
+111,Nebbia,Notte,0.2533
+112,Nebbia,Notte,0.2533
+113,Nebbia,Notte,0.2533
+114,Nebbia,Notte,0.02
+115,Nebbia,Notte,0.0267
+116,Nebbia,Notte,0.02
+117,Nebbia,Notte,0.02
+118,Nebbia,Notte,0.02
+119,Nebbia,Notte,0.02
+120,Nebbia,Notte,0.02
+121,Nebbia,Notte,0.02
+122,Nebbia,Notte,0.0267
+123,Nebbia,Notte,0.0267
+124,Nebbia,Notte,0.02
+125,Nebbia,Notte,0.1533
+126,Nebbia,Notte,0.1533
+127,Nebbia,Notte,0.1533
+128,Nebbia,Notte,0.02
+129,Nebbia,Notte,0.02
+130,Nebbia,Notte,0.1533
+131,Nebbia,Notte,0.1533
+132,Nebbia,Notte,0.02
+133,Nebbia,Notte,0.0667
+134,Nebbia,Notte,0.0667
+135,Nebbia,Notte,0.02
+136,Nebbia,Notte,0.06
+137,Nebbia,Notte,0.06
+138,Nebbia,Notte,0.06
+139,Nebbia,Notte,0.0267
+140,Nebbia,Notte,0.0267
+141,Nebbia,Notte,0.0267
+142,Nebbia,Notte,0.02
+143,Nebbia,Notte,0.02
+144,Nebbia,Notte,0.02
+145,Nebbia,Notte,0.1
+146,Nebbia,Notte,0.0933
+147,Nebbia,Notte,0.0933
+148,Nebbia,Notte,0.06
+149,Nebbia,Notte,0.06
+150,Nebbia,Notte,0.06
+151,Nebbia,Notte,0.0667
+152,Nebbia,Notte,0.0667
+153,Nebbia,Notte,0.0667
+154,Nebbia,Notte,0.0667
+155,Nebbia,Notte,0.0667
+156,Nebbia,Notte,0.0667
+157,Nebbia,Notte,0.0667
+158,Nebbia,Notte,0.0667
+159,Nebbia,Notte,0.0667
+160,Nebbia,Notte,0.0667
+161,Nebbia,Notte,0.0667
+162,Nebbia,Notte,0.0667
+163,Nebbia,Notte,0.0667
+164,Nebbia,Notte,0.0667
+165,Nebbia,Notte,0.0667
+166,Nebbia,Notte,0.0667
+167,Nebbia,Notte,0.0667
+168,Nebbia,Notte,0.0667
+169,Nebbia,Notte,0.0667
+170,Nebbia,Notte,0.0667
+171,Nebbia,Notte,0.3
+172,Nebbia,Notte,0.3
+173,Nebbia,Notte,0.3
+174,Nebbia,Notte,0.3
+175,Nebbia,Notte,0.3
+176,Nebbia,Notte,0.3
+177,Nebbia,Notte,0.0733
+178,Nebbia,Notte,0.0733
+179,Nebbia,Notte,0.0733
+1,Nebbia,Pomeriggio,0.02
+2,Nebbia,Pomeriggio,0.02
+3,Nebbia,Pomeriggio,0.02
+4,Nebbia,Pomeriggio,0.02
+5,Nebbia,Pomeriggio,0.02
+6,Nebbia,Pomeriggio,0.02
+7,Nebbia,Pomeriggio,0.02
+8,Nebbia,Pomeriggio,0.02
+9,Nebbia,Pomeriggio,0.02
+10,Nebbia,Pomeriggio,0.02
+11,Nebbia,Pomeriggio,0.02
+12,Nebbia,Pomeriggio,0.02
+13,Nebbia,Pomeriggio,0.02
+14,Nebbia,Pomeriggio,0.02
+15,Nebbia,Pomeriggio,0.02
+16,Nebbia,Pomeriggio,0.0667
+17,Nebbia,Pomeriggio,0.02
+18,Nebbia,Pomeriggio,0.0667
+19,Nebbia,Pomeriggio,0.0667
+20,Nebbia,Pomeriggio,0.0667
+21,Nebbia,Pomeriggio,0.0667
+22,Nebbia,Pomeriggio,0.0667
+23,Nebbia,Pomeriggio,0.0667
+24,Nebbia,Pomeriggio,0.0667
+25,Nebbia,Pomeriggio,0.0667
+26,Nebbia,Pomeriggio,0.02
+27,Nebbia,Pomeriggio,0.02
+28,Nebbia,Pomeriggio,0.02
+29,Nebbia,Pomeriggio,0.02
+30,Nebbia,Pomeriggio,0.02
+31,Nebbia,Pomeriggio,0.02
+32,Nebbia,Pomeriggio,0.02
+33,Nebbia,Pomeriggio,0.02
+34,Nebbia,Pomeriggio,0.08
+35,Nebbia,Pomeriggio,0.08
+36,Nebbia,Pomeriggio,0.08
+37,Nebbia,Pomeriggio,0.08
+38,Nebbia,Pomeriggio,0.08
+39,Nebbia,Pomeriggio,0.08
+40,Nebbia,Pomeriggio,0.08
+41,Nebbia,Pomeriggio,0.08
+42,Nebbia,Pomeriggio,0.08
+43,Nebbia,Pomeriggio,0.02
+44,Nebbia,Pomeriggio,0.02
+45,Nebbia,Pomeriggio,0.02
+46,Nebbia,Pomeriggio,0.02
+47,Nebbia,Pomeriggio,0.02
+48,Nebbia,Pomeriggio,0.08
+49,Nebbia,Pomeriggio,0.02
+50,Nebbia,Pomeriggio,0.02
+51,Nebbia,Pomeriggio,0.02
+52,Nebbia,Pomeriggio,0.02
+53,Nebbia,Pomeriggio,0.02
+54,Nebbia,Pomeriggio,0.02
+55,Nebbia,Pomeriggio,0.02
+56,Nebbia,Pomeriggio,0.02
+57,Nebbia,Pomeriggio,0.02
+58,Nebbia,Pomeriggio,0.02
+59,Nebbia,Pomeriggio,0.02
+60,Nebbia,Pomeriggio,0.02
+61,Nebbia,Pomeriggio,0.02
+62,Nebbia,Pomeriggio,0.02
+63,Nebbia,Pomeriggio,0.0533
+64,Nebbia,Pomeriggio,0.0533
+65,Nebbia,Pomeriggio,0.0533
+66,Nebbia,Pomeriggio,0.0533
+67,Nebbia,Pomeriggio,0.0533
+68,Nebbia,Pomeriggio,0.0533
+69,Nebbia,Pomeriggio,0.02
+70,Nebbia,Pomeriggio,0.02
+71,Nebbia,Pomeriggio,0.02
+72,Nebbia,Pomeriggio,0.0667
+73,Nebbia,Pomeriggio,0.02
+74,Nebbia,Pomeriggio,0.02
+75,Nebbia,Pomeriggio,0.02
+76,Nebbia,Pomeriggio,0.0467
+77,Nebbia,Pomeriggio,0.0467
+78,Nebbia,Pomeriggio,0.02
+79,Nebbia,Pomeriggio,0.02
+80,Nebbia,Pomeriggio,0.02
+81,Nebbia,Pomeriggio,0.02
+82,Nebbia,Pomeriggio,0.02
+83,Nebbia,Pomeriggio,0.02
+84,Nebbia,Pomeriggio,0.02
+85,Nebbia,Pomeriggio,0.02
+86,Nebbia,Pomeriggio,0.02
+87,Nebbia,Pomeriggio,0.02
+88,Nebbia,Pomeriggio,0.02
+89,Nebbia,Pomeriggio,0.02
+90,Nebbia,Pomeriggio,0.0467
+91,Nebbia,Pomeriggio,0.0467
+92,Nebbia,Pomeriggio,0.02
+93,Nebbia,Pomeriggio,0.0267
+94,Nebbia,Pomeriggio,0.02
+95,Nebbia,Pomeriggio,0.02
+96,Nebbia,Pomeriggio,0.0267
+97,Nebbia,Pomeriggio,0.0267
+98,Nebbia,Pomeriggio,0.3533
+99,Nebbia,Pomeriggio,0.02
+100,Nebbia,Pomeriggio,0.02
+101,Nebbia,Pomeriggio,0.02
+102,Nebbia,Pomeriggio,0.1667
+103,Nebbia,Pomeriggio,0.1667
+104,Nebbia,Pomeriggio,0.1667
+105,Nebbia,Pomeriggio,0.1667
+106,Nebbia,Pomeriggio,0.1667
+107,Nebbia,Pomeriggio,0.1667
+108,Nebbia,Pomeriggio,0.1667
+109,Nebbia,Pomeriggio,0.1667
+110,Nebbia,Pomeriggio,0.1667
+111,Nebbia,Pomeriggio,0.1667
+112,Nebbia,Pomeriggio,0.1667
+113,Nebbia,Pomeriggio,0.1667
+114,Nebbia,Pomeriggio,0.02
+115,Nebbia,Pomeriggio,0.0267
+116,Nebbia,Pomeriggio,0.02
+117,Nebbia,Pomeriggio,0.02
+118,Nebbia,Pomeriggio,0.02
+119,Nebbia,Pomeriggio,0.02
+120,Nebbia,Pomeriggio,0.02
+121,Nebbia,Pomeriggio,0.02
+122,Nebbia,Pomeriggio,0.0267
+123,Nebbia,Pomeriggio,0.0267
+124,Nebbia,Pomeriggio,0.02
+125,Nebbia,Pomeriggio,0.2267
+126,Nebbia,Pomeriggio,0.2267
+127,Nebbia,Pomeriggio,0.2267
+128,Nebbia,Pomeriggio,0.02
+129,Nebbia,Pomeriggio,0.02
+130,Nebbia,Pomeriggio,0.2267
+131,Nebbia,Pomeriggio,0.2267
+132,Nebbia,Pomeriggio,0.02
+133,Nebbia,Pomeriggio,0.0467
+134,Nebbia,Pomeriggio,0.0467
+135,Nebbia,Pomeriggio,0.02
+136,Nebbia,Pomeriggio,0.0733
+137,Nebbia,Pomeriggio,0.0733
+138,Nebbia,Pomeriggio,0.0733
+139,Nebbia,Pomeriggio,0.04
+140,Nebbia,Pomeriggio,0.04
+141,Nebbia,Pomeriggio,0.04
+142,Nebbia,Pomeriggio,0.02
+143,Nebbia,Pomeriggio,0.02
+144,Nebbia,Pomeriggio,0.02
+145,Nebbia,Pomeriggio,0.0667
+146,Nebbia,Pomeriggio,0.1333
+147,Nebbia,Pomeriggio,0.1333
+148,Nebbia,Pomeriggio,0.0733
+149,Nebbia,Pomeriggio,0.0733
+150,Nebbia,Pomeriggio,0.0733
+151,Nebbia,Pomeriggio,0.0667
+152,Nebbia,Pomeriggio,0.0667
+153,Nebbia,Pomeriggio,0.0667
+154,Nebbia,Pomeriggio,0.0667
+155,Nebbia,Pomeriggio,0.0667
+156,Nebbia,Pomeriggio,0.0667
+157,Nebbia,Pomeriggio,0.0667
+158,Nebbia,Pomeriggio,0.0667
+159,Nebbia,Pomeriggio,0.0667
+160,Nebbia,Pomeriggio,0.0667
+161,Nebbia,Pomeriggio,0.0667
+162,Nebbia,Pomeriggio,0.0667
+163,Nebbia,Pomeriggio,0.0667
+164,Nebbia,Pomeriggio,0.0667
+165,Nebbia,Pomeriggio,0.0667
+166,Nebbia,Pomeriggio,0.0667
+167,Nebbia,Pomeriggio,0.0667
+168,Nebbia,Pomeriggio,0.0667
+169,Nebbia,Pomeriggio,0.0667
+170,Nebbia,Pomeriggio,0.0667
+171,Nebbia,Pomeriggio,0.2133
+172,Nebbia,Pomeriggio,0.2133
+173,Nebbia,Pomeriggio,0.2133
+174,Nebbia,Pomeriggio,0.2133
+175,Nebbia,Pomeriggio,0.2133
+176,Nebbia,Pomeriggio,0.2133
+177,Nebbia,Pomeriggio,0.0733
+178,Nebbia,Pomeriggio,0.0733
+179,Nebbia,Pomeriggio,0.0733
+1,Nebbia,Sera,0.0533
+2,Nebbia,Sera,0.0533
+3,Nebbia,Sera,0.0533
+4,Nebbia,Sera,0.0533
+5,Nebbia,Sera,0.0533
+6,Nebbia,Sera,0.0533
+7,Nebbia,Sera,0.0533
+8,Nebbia,Sera,0.0533
+9,Nebbia,Sera,0.0533
+10,Nebbia,Sera,0.0533
+11,Nebbia,Sera,0.0533
+12,Nebbia,Sera,0.0533
+13,Nebbia,Sera,0.0533
+14,Nebbia,Sera,0.0533
+15,Nebbia,Sera,0.0533
+16,Nebbia,Sera,0.12
+17,Nebbia,Sera,0.0533
+18,Nebbia,Sera,0.0867
+19,Nebbia,Sera,0.0867
+20,Nebbia,Sera,0.0867
+21,Nebbia,Sera,0.0867
+22,Nebbia,Sera,0.0867
+23,Nebbia,Sera,0.0867
+24,Nebbia,Sera,0.0867
+25,Nebbia,Sera,0.0867
+26,Nebbia,Sera,0.0533
+27,Nebbia,Sera,0.0533
+28,Nebbia,Sera,0.0533
+29,Nebbia,Sera,0.0533
+30,Nebbia,Sera,0.0533
+31,Nebbia,Sera,0.0533
+32,Nebbia,Sera,0.0533
+33,Nebbia,Sera,0.0533
+34,Nebbia,Sera,0.12
+35,Nebbia,Sera,0.12
+36,Nebbia,Sera,0.12
+37,Nebbia,Sera,0.12
+38,Nebbia,Sera,0.12
+39,Nebbia,Sera,0.12
+40,Nebbia,Sera,0.12
+41,Nebbia,Sera,0.12
+42,Nebbia,Sera,0.12
+43,Nebbia,Sera,0.0533
+44,Nebbia,Sera,0.0533
+45,Nebbia,Sera,0.0533
+46,Nebbia,Sera,0.0533
+47,Nebbia,Sera,0.0533
+48,Nebbia,Sera,0.12
+49,Nebbia,Sera,0.0533
+50,Nebbia,Sera,0.0533
+51,Nebbia,Sera,0.0533
+52,Nebbia,Sera,0.0533
+53,Nebbia,Sera,0.0533
+54,Nebbia,Sera,0.0533
+55,Nebbia,Sera,0.0533
+56,Nebbia,Sera,0.0533
+57,Nebbia,Sera,0.0533
+58,Nebbia,Sera,0.0533
+59,Nebbia,Sera,0.0533
+60,Nebbia,Sera,0.0533
+61,Nebbia,Sera,0.0533
+62,Nebbia,Sera,0.0533
+63,Nebbia,Sera,0.0667
+64,Nebbia,Sera,0.0667
+65,Nebbia,Sera,0.0667
+66,Nebbia,Sera,0.0667
+67,Nebbia,Sera,0.0667
+68,Nebbia,Sera,0.0667
+69,Nebbia,Sera,0.0533
+70,Nebbia,Sera,0.0533
+71,Nebbia,Sera,0.0533
+72,Nebbia,Sera,0.12
+73,Nebbia,Sera,0.0533
+74,Nebbia,Sera,0.0533
+75,Nebbia,Sera,0.0533
+76,Nebbia,Sera,0.1133
+77,Nebbia,Sera,0.1133
+78,Nebbia,Sera,0.0533
+79,Nebbia,Sera,0.0533
+80,Nebbia,Sera,0.0533
+81,Nebbia,Sera,0.0533
+82,Nebbia,Sera,0.0533
+83,Nebbia,Sera,0.0533
+84,Nebbia,Sera,0.0533
+85,Nebbia,Sera,0.0533
+86,Nebbia,Sera,0.0533
+87,Nebbia,Sera,0.0533
+88,Nebbia,Sera,0.0533
+89,Nebbia,Sera,0.0533
+90,Nebbia,Sera,0.1133
+91,Nebbia,Sera,0.1133
+92,Nebbia,Sera,0.0533
+93,Nebbia,Sera,0.06
+94,Nebbia,Sera,0.0533
+95,Nebbia,Sera,0.0533
+96,Nebbia,Sera,0.06
+97,Nebbia,Sera,0.06
+98,Nebbia,Sera,0.36
+99,Nebbia,Sera,0.0533
+100,Nebbia,Sera,0.0533
+101,Nebbia,Sera,0.0533
+102,Nebbia,Sera,0.26
+103,Nebbia,Sera,0.26
+104,Nebbia,Sera,0.26
+105,Nebbia,Sera,0.26
+106,Nebbia,Sera,0.26
+107,Nebbia,Sera,0.26
+108,Nebbia,Sera,0.26
+109,Nebbia,Sera,0.26
+110,Nebbia,Sera,0.26
+111,Nebbia,Sera,0.26
+112,Nebbia,Sera,0.26
+113,Nebbia,Sera,0.26
+114,Nebbia,Sera,0.0533
+115,Nebbia,Sera,0.06
+116,Nebbia,Sera,0.0533
+117,Nebbia,Sera,0.0533
+118,Nebbia,Sera,0.0533
+119,Nebbia,Sera,0.0533
+120,Nebbia,Sera,0.0533
+121,Nebbia,Sera,0.0533
+122,Nebbia,Sera,0.06
+123,Nebbia,Sera,0.06
+124,Nebbia,Sera,0.0533
+125,Nebbia,Sera,0.1933
+126,Nebbia,Sera,0.1933
+127,Nebbia,Sera,0.1933
+128,Nebbia,Sera,0.0533
+129,Nebbia,Sera,0.0533
+130,Nebbia,Sera,0.1933
+131,Nebbia,Sera,0.1933
+132,Nebbia,Sera,0.0533
+133,Nebbia,Sera,0.1133
+134,Nebbia,Sera,0.1133
+135,Nebbia,Sera,0.0533
+136,Nebbia,Sera,0.0733
+137,Nebbia,Sera,0.0733
+138,Nebbia,Sera,0.0733
+139,Nebbia,Sera,0.06
+140,Nebbia,Sera,0.06
+141,Nebbia,Sera,0.06
+142,Nebbia,Sera,0.06
+143,Nebbia,Sera,0.06
+144,Nebbia,Sera,0.06
+145,Nebbia,Sera,0.12
+146,Nebbia,Sera,0.1267
+147,Nebbia,Sera,0.1267
+148,Nebbia,Sera,0.0733
+149,Nebbia,Sera,0.0733
+150,Nebbia,Sera,0.0733
+151,Nebbia,Sera,0.0867
+152,Nebbia,Sera,0.0867
+153,Nebbia,Sera,0.0867
+154,Nebbia,Sera,0.0867
+155,Nebbia,Sera,0.0867
+156,Nebbia,Sera,0.0867
+157,Nebbia,Sera,0.0867
+158,Nebbia,Sera,0.0867
+159,Nebbia,Sera,0.0867
+160,Nebbia,Sera,0.0867
+161,Nebbia,Sera,0.0867
+162,Nebbia,Sera,0.0867
+163,Nebbia,Sera,0.0867
+164,Nebbia,Sera,0.0867
+165,Nebbia,Sera,0.0867
+166,Nebbia,Sera,0.0867
+167,Nebbia,Sera,0.0867
+168,Nebbia,Sera,0.0867
+169,Nebbia,Sera,0.0867
+170,Nebbia,Sera,0.0867
+171,Nebbia,Sera,0.2933
+172,Nebbia,Sera,0.2933
+173,Nebbia,Sera,0.2933
+174,Nebbia,Sera,0.2933
+175,Nebbia,Sera,0.2933
+176,Nebbia,Sera,0.2933
+177,Nebbia,Sera,0.0933
+178,Nebbia,Sera,0.0933
+179,Nebbia,Sera,0.0933
+1,Neve,Mattino,0.0
+2,Neve,Mattino,0.0
+3,Neve,Mattino,0.0
+4,Neve,Mattino,0.0
+5,Neve,Mattino,0.0
+6,Neve,Mattino,0.0
+7,Neve,Mattino,0.0
+8,Neve,Mattino,0.0
+9,Neve,Mattino,0.0
+10,Neve,Mattino,0.0
+11,Neve,Mattino,0.0
+12,Neve,Mattino,0.0
+13,Neve,Mattino,0.0
+14,Neve,Mattino,0.0
+15,Neve,Mattino,0.0
+16,Neve,Mattino,0.0
+17,Neve,Mattino,0.0
+18,Neve,Mattino,0.0
+19,Neve,Mattino,0.0
+20,Neve,Mattino,0.0
+21,Neve,Mattino,0.0
+22,Neve,Mattino,0.0
+23,Neve,Mattino,0.0
+24,Neve,Mattino,0.0
+25,Neve,Mattino,0.0
+26,Neve,Mattino,0.0
+27,Neve,Mattino,0.0
+28,Neve,Mattino,0.0
+29,Neve,Mattino,0.0
+30,Neve,Mattino,0.0
+31,Neve,Mattino,0.0
+32,Neve,Mattino,0.0
+33,Neve,Mattino,0.0
+34,Neve,Mattino,0.2133
+35,Neve,Mattino,0.2133
+36,Neve,Mattino,0.2133
+37,Neve,Mattino,0.2133
+38,Neve,Mattino,0.2133
+39,Neve,Mattino,0.2133
+40,Neve,Mattino,0.2133
+41,Neve,Mattino,0.2133
+42,Neve,Mattino,0.2133
+43,Neve,Mattino,0.0
+44,Neve,Mattino,0.0
+45,Neve,Mattino,0.0
+46,Neve,Mattino,0.0
+47,Neve,Mattino,0.0
+48,Neve,Mattino,0.2133
+49,Neve,Mattino,0.0
+50,Neve,Mattino,0.0
+51,Neve,Mattino,0.0
+52,Neve,Mattino,0.0
+53,Neve,Mattino,0.0
+54,Neve,Mattino,0.0
+55,Neve,Mattino,0.0
+56,Neve,Mattino,0.0
+57,Neve,Mattino,0.0
+58,Neve,Mattino,0.0
+59,Neve,Mattino,0.0
+60,Neve,Mattino,0.0
+61,Neve,Mattino,0.0
+62,Neve,Mattino,0.0
+63,Neve,Mattino,0.02
+64,Neve,Mattino,0.02
+65,Neve,Mattino,0.02
+66,Neve,Mattino,0.02
+67,Neve,Mattino,0.02
+68,Neve,Mattino,0.02
+69,Neve,Mattino,0.0
+70,Neve,Mattino,0.0
+71,Neve,Mattino,0.0
+72,Neve,Mattino,0.0
+73,Neve,Mattino,0.0
+74,Neve,Mattino,0.0
+75,Neve,Mattino,0.0
+76,Neve,Mattino,0.0
+77,Neve,Mattino,0.0
+78,Neve,Mattino,0.0
+79,Neve,Mattino,0.0
+80,Neve,Mattino,0.0
+81,Neve,Mattino,0.0
+82,Neve,Mattino,0.0
+83,Neve,Mattino,0.0
+84,Neve,Mattino,0.0
+85,Neve,Mattino,0.0
+86,Neve,Mattino,0.0
+87,Neve,Mattino,0.0
+88,Neve,Mattino,0.0
+89,Neve,Mattino,0.0
+90,Neve,Mattino,0.0
+91,Neve,Mattino,0.0
+92,Neve,Mattino,0.0
+93,Neve,Mattino,0.0267
+94,Neve,Mattino,0.0
+95,Neve,Mattino,0.0
+96,Neve,Mattino,0.0267
+97,Neve,Mattino,0.0267
+98,Neve,Mattino,0.2533
+99,Neve,Mattino,0.0
+100,Neve,Mattino,0.0
+101,Neve,Mattino,0.0
+102,Neve,Mattino,0.0
+103,Neve,Mattino,0.0
+104,Neve,Mattino,0.0
+105,Neve,Mattino,0.0
+106,Neve,Mattino,0.0
+107,Neve,Mattino,0.0
+108,Neve,Mattino,0.0
+109,Neve,Mattino,0.0
+110,Neve,Mattino,0.0
+111,Neve,Mattino,0.0
+112,Neve,Mattino,0.0
+113,Neve,Mattino,0.0
+114,Neve,Mattino,0.0
+115,Neve,Mattino,0.0267
+116,Neve,Mattino,0.0
+117,Neve,Mattino,0.0
+118,Neve,Mattino,0.0
+119,Neve,Mattino,0.0
+120,Neve,Mattino,0.0
+121,Neve,Mattino,0.0
+122,Neve,Mattino,0.0267
+123,Neve,Mattino,0.0267
+124,Neve,Mattino,0.0
+125,Neve,Mattino,0.2467
+126,Neve,Mattino,0.2467
+127,Neve,Mattino,0.2467
+128,Neve,Mattino,0.0
+129,Neve,Mattino,0.0
+130,Neve,Mattino,0.2467
+131,Neve,Mattino,0.2467
+132,Neve,Mattino,0.0
+133,Neve,Mattino,0.0
+134,Neve,Mattino,0.0
+135,Neve,Mattino,0.0
+136,Neve,Mattino,0.0667
+137,Neve,Mattino,0.0667
+138,Neve,Mattino,0.0667
+139,Neve,Mattino,0.0333
+140,Neve,Mattino,0.0333
+141,Neve,Mattino,0.0333
+142,Neve,Mattino,0.02
+143,Neve,Mattino,0.02
+144,Neve,Mattino,0.02
+145,Neve,Mattino,0.0
+146,Neve,Mattino,0.08
+147,Neve,Mattino,0.08
+148,Neve,Mattino,0.0667
+149,Neve,Mattino,0.0667
+150,Neve,Mattino,0.0667
+151,Neve,Mattino,0.0
+152,Neve,Mattino,0.0
+153,Neve,Mattino,0.0
+154,Neve,Mattino,0.0
+155,Neve,Mattino,0.0
+156,Neve,Mattino,0.0
+157,Neve,Mattino,0.0
+158,Neve,Mattino,0.0
+159,Neve,Mattino,0.0
+160,Neve,Mattino,0.0
+161,Neve,Mattino,0.0
+162,Neve,Mattino,0.0
+163,Neve,Mattino,0.0
+164,Neve,Mattino,0.0
+165,Neve,Mattino,0.0
+166,Neve,Mattino,0.0
+167,Neve,Mattino,0.0
+168,Neve,Mattino,0.0
+169,Neve,Mattino,0.0
+170,Neve,Mattino,0.0
+171,Neve,Mattino,0.0
+172,Neve,Mattino,0.0
+173,Neve,Mattino,0.0
+174,Neve,Mattino,0.0
+175,Neve,Mattino,0.0
+176,Neve,Mattino,0.0
+177,Neve,Mattino,0.0267
+178,Neve,Mattino,0.0267
+179,Neve,Mattino,0.0267
+1,Neve,Notte,0.0067
+2,Neve,Notte,0.0067
+3,Neve,Notte,0.0067
+4,Neve,Notte,0.0067
+5,Neve,Notte,0.0067
+6,Neve,Notte,0.0067
+7,Neve,Notte,0.0067
+8,Neve,Notte,0.0067
+9,Neve,Notte,0.0067
+10,Neve,Notte,0.0067
+11,Neve,Notte,0.0067
+12,Neve,Notte,0.0067
+13,Neve,Notte,0.0067
+14,Neve,Notte,0.0067
+15,Neve,Notte,0.0067
+16,Neve,Notte,0.0067
+17,Neve,Notte,0.0067
+18,Neve,Notte,0.0067
+19,Neve,Notte,0.0067
+20,Neve,Notte,0.0067
+21,Neve,Notte,0.0067
+22,Neve,Notte,0.0067
+23,Neve,Notte,0.0067
+24,Neve,Notte,0.0067
+25,Neve,Notte,0.0067
+26,Neve,Notte,0.0067
+27,Neve,Notte,0.0067
+28,Neve,Notte,0.0067
+29,Neve,Notte,0.0067
+30,Neve,Notte,0.0067
+31,Neve,Notte,0.0067
+32,Neve,Notte,0.0067
+33,Neve,Notte,0.0067
+34,Neve,Notte,0.2067
+35,Neve,Notte,0.2067
+36,Neve,Notte,0.2067
+37,Neve,Notte,0.2067
+38,Neve,Notte,0.2067
+39,Neve,Notte,0.2067
+40,Neve,Notte,0.2067
+41,Neve,Notte,0.2067
+42,Neve,Notte,0.2067
+43,Neve,Notte,0.0067
+44,Neve,Notte,0.0067
+45,Neve,Notte,0.0067
+46,Neve,Notte,0.0067
+47,Neve,Notte,0.0067
+48,Neve,Notte,0.2067
+49,Neve,Notte,0.0067
+50,Neve,Notte,0.0067
+51,Neve,Notte,0.0067
+52,Neve,Notte,0.0067
+53,Neve,Notte,0.0067
+54,Neve,Notte,0.0067
+55,Neve,Notte,0.0067
+56,Neve,Notte,0.0067
+57,Neve,Notte,0.0067
+58,Neve,Notte,0.0067
+59,Neve,Notte,0.0067
+60,Neve,Notte,0.0067
+61,Neve,Notte,0.0067
+62,Neve,Notte,0.0067
+63,Neve,Notte,0.04
+64,Neve,Notte,0.04
+65,Neve,Notte,0.04
+66,Neve,Notte,0.04
+67,Neve,Notte,0.04
+68,Neve,Notte,0.04
+69,Neve,Notte,0.0067
+70,Neve,Notte,0.0067
+71,Neve,Notte,0.0067
+72,Neve,Notte,0.0067
+73,Neve,Notte,0.0067
+74,Neve,Notte,0.0067
+75,Neve,Notte,0.0067
+76,Neve,Notte,0.0067
+77,Neve,Notte,0.0067
+78,Neve,Notte,0.0067
+79,Neve,Notte,0.0067
+80,Neve,Notte,0.0067
+81,Neve,Notte,0.0067
+82,Neve,Notte,0.0067
+83,Neve,Notte,0.0067
+84,Neve,Notte,0.0067
+85,Neve,Notte,0.0067
+86,Neve,Notte,0.0067
+87,Neve,Notte,0.0067
+88,Neve,Notte,0.0067
+89,Neve,Notte,0.0067
+90,Neve,Notte,0.0067
+91,Neve,Notte,0.0067
+92,Neve,Notte,0.0067
+93,Neve,Notte,0.02
+94,Neve,Notte,0.0067
+95,Neve,Notte,0.0067
+96,Neve,Notte,0.02
+97,Neve,Notte,0.02
+98,Neve,Notte,0.26
+99,Neve,Notte,0.0067
+100,Neve,Notte,0.0067
+101,Neve,Notte,0.0067
+102,Neve,Notte,0.0267
+103,Neve,Notte,0.0267
+104,Neve,Notte,0.0267
+105,Neve,Notte,0.0267
+106,Neve,Notte,0.0267
+107,Neve,Notte,0.0267
+108,Neve,Notte,0.0267
+109,Neve,Notte,0.0267
+110,Neve,Notte,0.0267
+111,Neve,Notte,0.0267
+112,Neve,Notte,0.0267
+113,Neve,Notte,0.0267
+114,Neve,Notte,0.0067
+115,Neve,Notte,0.02
+116,Neve,Notte,0.0067
+117,Neve,Notte,0.0067
+118,Neve,Notte,0.0067
+119,Neve,Notte,0.0067
+120,Neve,Notte,0.0067
+121,Neve,Notte,0.0067
+122,Neve,Notte,0.02
+123,Neve,Notte,0.02
+124,Neve,Notte,0.0067
+125,Neve,Notte,0.28
+126,Neve,Notte,0.28
+127,Neve,Notte,0.28
+128,Neve,Notte,0.0067
+129,Neve,Notte,0.0067
+130,Neve,Notte,0.28
+131,Neve,Notte,0.28
+132,Neve,Notte,0.0067
+133,Neve,Notte,0.0067
+134,Neve,Notte,0.0067
+135,Neve,Notte,0.0067
+136,Neve,Notte,0.08
+137,Neve,Notte,0.08
+138,Neve,Notte,0.08
+139,Neve,Notte,0.04
+140,Neve,Notte,0.04
+141,Neve,Notte,0.04
+142,Neve,Notte,0.0133
+143,Neve,Notte,0.0133
+144,Neve,Notte,0.0133
+145,Neve,Notte,0.0067
+146,Neve,Notte,0.1867
+147,Neve,Notte,0.1867
+148,Neve,Notte,0.08
+149,Neve,Notte,0.08
+150,Neve,Notte,0.08
+151,Neve,Notte,0.0067
+152,Neve,Notte,0.0067
+153,Neve,Notte,0.0067
+154,Neve,Notte,0.0067
+155,Neve,Notte,0.0067
+156,Neve,Notte,0.0067
+157,Neve,Notte,0.0067
+158,Neve,Notte,0.0067
+159,Neve,Notte,0.0067
+160,Neve,Notte,0.0067
+161,Neve,Notte,0.0067
+162,Neve,Notte,0.0067
+163,Neve,Notte,0.0067
+164,Neve,Notte,0.0067
+165,Neve,Notte,0.0067
+166,Neve,Notte,0.0067
+167,Neve,Notte,0.0067
+168,Neve,Notte,0.0067
+169,Neve,Notte,0.0067
+170,Neve,Notte,0.0067
+171,Neve,Notte,0.0267
+172,Neve,Notte,0.0267
+173,Neve,Notte,0.0267
+174,Neve,Notte,0.0267
+175,Neve,Notte,0.0267
+176,Neve,Notte,0.0267
+177,Neve,Notte,0.02
+178,Neve,Notte,0.02
+179,Neve,Notte,0.02
+1,Neve,Pomeriggio,0.0267
+2,Neve,Pomeriggio,0.0267
+3,Neve,Pomeriggio,0.0267
+4,Neve,Pomeriggio,0.0267
+5,Neve,Pomeriggio,0.0267
+6,Neve,Pomeriggio,0.0267
+7,Neve,Pomeriggio,0.0267
+8,Neve,Pomeriggio,0.0267
+9,Neve,Pomeriggio,0.0267
+10,Neve,Pomeriggio,0.0267
+11,Neve,Pomeriggio,0.0267
+12,Neve,Pomeriggio,0.0267
+13,Neve,Pomeriggio,0.0267
+14,Neve,Pomeriggio,0.0267
+15,Neve,Pomeriggio,0.0267
+16,Neve,Pomeriggio,0.0267
+17,Neve,Pomeriggio,0.0267
+18,Neve,Pomeriggio,0.0267
+19,Neve,Pomeriggio,0.0267
+20,Neve,Pomeriggio,0.0267
+21,Neve,Pomeriggio,0.0267
+22,Neve,Pomeriggio,0.0267
+23,Neve,Pomeriggio,0.0267
+24,Neve,Pomeriggio,0.0267
+25,Neve,Pomeriggio,0.0267
+26,Neve,Pomeriggio,0.0267
+27,Neve,Pomeriggio,0.0267
+28,Neve,Pomeriggio,0.0267
+29,Neve,Pomeriggio,0.0267
+30,Neve,Pomeriggio,0.0267
+31,Neve,Pomeriggio,0.0267
+32,Neve,Pomeriggio,0.0267
+33,Neve,Pomeriggio,0.0267
+34,Neve,Pomeriggio,0.1867
+35,Neve,Pomeriggio,0.1867
+36,Neve,Pomeriggio,0.1867
+37,Neve,Pomeriggio,0.1867
+38,Neve,Pomeriggio,0.1867
+39,Neve,Pomeriggio,0.1867
+40,Neve,Pomeriggio,0.1867
+41,Neve,Pomeriggio,0.1867
+42,Neve,Pomeriggio,0.1867
+43,Neve,Pomeriggio,0.0267
+44,Neve,Pomeriggio,0.0267
+45,Neve,Pomeriggio,0.0267
+46,Neve,Pomeriggio,0.0267
+47,Neve,Pomeriggio,0.0267
+48,Neve,Pomeriggio,0.1867
+49,Neve,Pomeriggio,0.0267
+50,Neve,Pomeriggio,0.0267
+51,Neve,Pomeriggio,0.0267
+52,Neve,Pomeriggio,0.0267
+53,Neve,Pomeriggio,0.0267
+54,Neve,Pomeriggio,0.0267
+55,Neve,Pomeriggio,0.0267
+56,Neve,Pomeriggio,0.0267
+57,Neve,Pomeriggio,0.0267
+58,Neve,Pomeriggio,0.0267
+59,Neve,Pomeriggio,0.0267
+60,Neve,Pomeriggio,0.0267
+61,Neve,Pomeriggio,0.0267
+62,Neve,Pomeriggio,0.0267
+63,Neve,Pomeriggio,0.0733
+64,Neve,Pomeriggio,0.0733
+65,Neve,Pomeriggio,0.0733
+66,Neve,Pomeriggio,0.0733
+67,Neve,Pomeriggio,0.0733
+68,Neve,Pomeriggio,0.0733
+69,Neve,Pomeriggio,0.0267
+70,Neve,Pomeriggio,0.0267
+71,Neve,Pomeriggio,0.0267
+72,Neve,Pomeriggio,0.0267
+73,Neve,Pomeriggio,0.0267
+74,Neve,Pomeriggio,0.0267
+75,Neve,Pomeriggio,0.0267
+76,Neve,Pomeriggio,0.0267
+77,Neve,Pomeriggio,0.0267
+78,Neve,Pomeriggio,0.0267
+79,Neve,Pomeriggio,0.0267
+80,Neve,Pomeriggio,0.0267
+81,Neve,Pomeriggio,0.0267
+82,Neve,Pomeriggio,0.0267
+83,Neve,Pomeriggio,0.0267
+84,Neve,Pomeriggio,0.0267
+85,Neve,Pomeriggio,0.0267
+86,Neve,Pomeriggio,0.0267
+87,Neve,Pomeriggio,0.0267
+88,Neve,Pomeriggio,0.0267
+89,Neve,Pomeriggio,0.0267
+90,Neve,Pomeriggio,0.0267
+91,Neve,Pomeriggio,0.0267
+92,Neve,Pomeriggio,0.0267
+93,Neve,Pomeriggio,0.0533
+94,Neve,Pomeriggio,0.0267
+95,Neve,Pomeriggio,0.0267
+96,Neve,Pomeriggio,0.0533
+97,Neve,Pomeriggio,0.0533
+98,Neve,Pomeriggio,0.3067
+99,Neve,Pomeriggio,0.0267
+100,Neve,Pomeriggio,0.0267
+101,Neve,Pomeriggio,0.0267
+102,Neve,Pomeriggio,0.0733
+103,Neve,Pomeriggio,0.0733
+104,Neve,Pomeriggio,0.0733
+105,Neve,Pomeriggio,0.0733
+106,Neve,Pomeriggio,0.0733
+107,Neve,Pomeriggio,0.0733
+108,Neve,Pomeriggio,0.0733
+109,Neve,Pomeriggio,0.0733
+110,Neve,Pomeriggio,0.0733
+111,Neve,Pomeriggio,0.0733
+112,Neve,Pomeriggio,0.0733
+113,Neve,Pomeriggio,0.0733
+114,Neve,Pomeriggio,0.0267
+115,Neve,Pomeriggio,0.0533
+116,Neve,Pomeriggio,0.0267
+117,Neve,Pomeriggio,0.0267
+118,Neve,Pomeriggio,0.0267
+119,Neve,Pomeriggio,0.0267
+120,Neve,Pomeriggio,0.0267
+121,Neve,Pomeriggio,0.0267
+122,Neve,Pomeriggio,0.0533
+123,Neve,Pomeriggio,0.0533
+124,Neve,Pomeriggio,0.0267
+125,Neve,Pomeriggio,0.3333
+126,Neve,Pomeriggio,0.3333
+127,Neve,Pomeriggio,0.3333
+128,Neve,Pomeriggio,0.0267
+129,Neve,Pomeriggio,0.0267
+130,Neve,Pomeriggio,0.3333
+131,Neve,Pomeriggio,0.3333
+132,Neve,Pomeriggio,0.0267
+133,Neve,Pomeriggio,0.0267
+134,Neve,Pomeriggio,0.0267
+135,Neve,Pomeriggio,0.0267
+136,Neve,Pomeriggio,0.1
+137,Neve,Pomeriggio,0.1
+138,Neve,Pomeriggio,0.1
+139,Neve,Pomeriggio,0.0733
+140,Neve,Pomeriggio,0.0733
+141,Neve,Pomeriggio,0.0733
+142,Neve,Pomeriggio,0.04
+143,Neve,Pomeriggio,0.04
+144,Neve,Pomeriggio,0.04
+145,Neve,Pomeriggio,0.0267
+146,Neve,Pomeriggio,0.1533
+147,Neve,Pomeriggio,0.1533
+148,Neve,Pomeriggio,0.1
+149,Neve,Pomeriggio,0.1
+150,Neve,Pomeriggio,0.1
+151,Neve,Pomeriggio,0.0267
+152,Neve,Pomeriggio,0.0267
+153,Neve,Pomeriggio,0.0267
+154,Neve,Pomeriggio,0.0267
+155,Neve,Pomeriggio,0.0267
+156,Neve,Pomeriggio,0.0267
+157,Neve,Pomeriggio,0.0267
+158,Neve,Pomeriggio,0.0267
+159,Neve,Pomeriggio,0.0267
+160,Neve,Pomeriggio,0.0267
+161,Neve,Pomeriggio,0.0267
+162,Neve,Pomeriggio,0.0267
+163,Neve,Pomeriggio,0.0267
+164,Neve,Pomeriggio,0.0267
+165,Neve,Pomeriggio,0.0267
+166,Neve,Pomeriggio,0.0267
+167,Neve,Pomeriggio,0.0267
+168,Neve,Pomeriggio,0.0267
+169,Neve,Pomeriggio,0.0267
+170,Neve,Pomeriggio,0.0267
+171,Neve,Pomeriggio,0.0733
+172,Neve,Pomeriggio,0.0733
+173,Neve,Pomeriggio,0.0733
+174,Neve,Pomeriggio,0.0733
+175,Neve,Pomeriggio,0.0733
+176,Neve,Pomeriggio,0.0733
+177,Neve,Pomeriggio,0.0533
+178,Neve,Pomeriggio,0.0533
+179,Neve,Pomeriggio,0.0533
+1,Neve,Sera,0.0067
+2,Neve,Sera,0.0067
+3,Neve,Sera,0.0067
+4,Neve,Sera,0.0067
+5,Neve,Sera,0.0067
+6,Neve,Sera,0.0067
+7,Neve,Sera,0.0067
+8,Neve,Sera,0.0067
+9,Neve,Sera,0.0067
+10,Neve,Sera,0.0067
+11,Neve,Sera,0.0067
+12,Neve,Sera,0.0067
+13,Neve,Sera,0.0067
+14,Neve,Sera,0.0067
+15,Neve,Sera,0.0067
+16,Neve,Sera,0.0067
+17,Neve,Sera,0.0067
+18,Neve,Sera,0.0067
+19,Neve,Sera,0.0067
+20,Neve,Sera,0.0067
+21,Neve,Sera,0.0067
+22,Neve,Sera,0.0067
+23,Neve,Sera,0.0067
+24,Neve,Sera,0.0067
+25,Neve,Sera,0.0067
+26,Neve,Sera,0.0067
+27,Neve,Sera,0.0067
+28,Neve,Sera,0.0067
+29,Neve,Sera,0.0067
+30,Neve,Sera,0.0067
+31,Neve,Sera,0.0067
+32,Neve,Sera,0.0067
+33,Neve,Sera,0.0067
+34,Neve,Sera,0.1133
+35,Neve,Sera,0.1133
+36,Neve,Sera,0.1133
+37,Neve,Sera,0.1133
+38,Neve,Sera,0.1133
+39,Neve,Sera,0.1133
+40,Neve,Sera,0.1133
+41,Neve,Sera,0.1133
+42,Neve,Sera,0.1133
+43,Neve,Sera,0.0067
+44,Neve,Sera,0.0067
+45,Neve,Sera,0.0067
+46,Neve,Sera,0.0067
+47,Neve,Sera,0.0067
+48,Neve,Sera,0.1133
+49,Neve,Sera,0.0067
+50,Neve,Sera,0.0067
+51,Neve,Sera,0.0067
+52,Neve,Sera,0.0067
+53,Neve,Sera,0.0067
+54,Neve,Sera,0.0067
+55,Neve,Sera,0.0067
+56,Neve,Sera,0.0067
+57,Neve,Sera,0.0067
+58,Neve,Sera,0.0067
+59,Neve,Sera,0.0067
+60,Neve,Sera,0.0067
+61,Neve,Sera,0.0067
+62,Neve,Sera,0.0067
+63,Neve,Sera,0.02
+64,Neve,Sera,0.02
+65,Neve,Sera,0.02
+66,Neve,Sera,0.02
+67,Neve,Sera,0.02
+68,Neve,Sera,0.02
+69,Neve,Sera,0.0067
+70,Neve,Sera,0.0067
+71,Neve,Sera,0.0067
+72,Neve,Sera,0.0067
+73,Neve,Sera,0.0067
+74,Neve,Sera,0.0067
+75,Neve,Sera,0.0067
+76,Neve,Sera,0.0067
+77,Neve,Sera,0.0067
+78,Neve,Sera,0.0067
+79,Neve,Sera,0.0067
+80,Neve,Sera,0.0067
+81,Neve,Sera,0.0067
+82,Neve,Sera,0.0067
+83,Neve,Sera,0.0067
+84,Neve,Sera,0.0067
+85,Neve,Sera,0.0067
+86,Neve,Sera,0.0067
+87,Neve,Sera,0.0067
+88,Neve,Sera,0.0067
+89,Neve,Sera,0.0067
+90,Neve,Sera,0.0067
+91,Neve,Sera,0.0067
+92,Neve,Sera,0.0067
+93,Neve,Sera,0.0133
+94,Neve,Sera,0.0067
+95,Neve,Sera,0.0067
+96,Neve,Sera,0.0133
+97,Neve,Sera,0.0133
+98,Neve,Sera,0.2533
+99,Neve,Sera,0.0067
+100,Neve,Sera,0.0067
+101,Neve,Sera,0.0067
+102,Neve,Sera,0.0467
+103,Neve,Sera,0.0467
+104,Neve,Sera,0.0467
+105,Neve,Sera,0.0467
+106,Neve,Sera,0.0467
+107,Neve,Sera,0.0467
+108,Neve,Sera,0.0467
+109,Neve,Sera,0.0467
+110,Neve,Sera,0.0467
+111,Neve,Sera,0.0467
+112,Neve,Sera,0.0467
+113,Neve,Sera,0.0467
+114,Neve,Sera,0.0067
+115,Neve,Sera,0.0133
+116,Neve,Sera,0.0067
+117,Neve,Sera,0.0067
+118,Neve,Sera,0.0067
+119,Neve,Sera,0.0067
+120,Neve,Sera,0.0067
+121,Neve,Sera,0.0067
+122,Neve,Sera,0.0133
+123,Neve,Sera,0.0133
+124,Neve,Sera,0.0067
+125,Neve,Sera,0.1867
+126,Neve,Sera,0.1867
+127,Neve,Sera,0.1867
+128,Neve,Sera,0.0067
+129,Neve,Sera,0.0067
+130,Neve,Sera,0.1867
+131,Neve,Sera,0.1867
+132,Neve,Sera,0.0067
+133,Neve,Sera,0.0067
+134,Neve,Sera,0.0067
+135,Neve,Sera,0.0067
+136,Neve,Sera,0.08
+137,Neve,Sera,0.08
+138,Neve,Sera,0.08
+139,Neve,Sera,0.0267
+140,Neve,Sera,0.0267
+141,Neve,Sera,0.0267
+142,Neve,Sera,0.02
+143,Neve,Sera,0.02
+144,Neve,Sera,0.02
+145,Neve,Sera,0.0067
+146,Neve,Sera,0.0533
+147,Neve,Sera,0.0533
+148,Neve,Sera,0.08
+149,Neve,Sera,0.08
+150,Neve,Sera,0.08
+151,Neve,Sera,0.0067
+152,Neve,Sera,0.0067
+153,Neve,Sera,0.0067
+154,Neve,Sera,0.0067
+155,Neve,Sera,0.0067
+156,Neve,Sera,0.0067
+157,Neve,Sera,0.0067
+158,Neve,Sera,0.0067
+159,Neve,Sera,0.0067
+160,Neve,Sera,0.0067
+161,Neve,Sera,0.0067
+162,Neve,Sera,0.0067
+163,Neve,Sera,0.0067
+164,Neve,Sera,0.0067
+165,Neve,Sera,0.0067
+166,Neve,Sera,0.0067
+167,Neve,Sera,0.0067
+168,Neve,Sera,0.0067
+169,Neve,Sera,0.0067
+170,Neve,Sera,0.0067
+171,Neve,Sera,0.0467
+172,Neve,Sera,0.0467
+173,Neve,Sera,0.0467
+174,Neve,Sera,0.0467
+175,Neve,Sera,0.0467
+176,Neve,Sera,0.0467
+177,Neve,Sera,0.0133
+178,Neve,Sera,0.0133
+179,Neve,Sera,0.0133
+1,Vento forte,Mattino,0.0467
+2,Vento forte,Mattino,0.0467
+3,Vento forte,Mattino,0.0467
+4,Vento forte,Mattino,0.0467
+5,Vento forte,Mattino,0.0467
+6,Vento forte,Mattino,0.0467
+7,Vento forte,Mattino,0.0467
+8,Vento forte,Mattino,0.0467
+9,Vento forte,Mattino,0.0467
+10,Vento forte,Mattino,0.0467
+11,Vento forte,Mattino,0.0467
+12,Vento forte,Mattino,0.0467
+13,Vento forte,Mattino,0.0467
+14,Vento forte,Mattino,0.0467
+15,Vento forte,Mattino,0.0467
+16,Vento forte,Mattino,0.12
+17,Vento forte,Mattino,0.0467
+18,Vento forte,Mattino,0.0867
+19,Vento forte,Mattino,0.0867
+20,Vento forte,Mattino,0.0867
+21,Vento forte,Mattino,0.0867
+22,Vento forte,Mattino,0.0867
+23,Vento forte,Mattino,0.0867
+24,Vento forte,Mattino,0.0867
+25,Vento forte,Mattino,0.0867
+26,Vento forte,Mattino,0.0467
+27,Vento forte,Mattino,0.0467
+28,Vento forte,Mattino,0.0467
+29,Vento forte,Mattino,0.0467
+30,Vento forte,Mattino,0.0467
+31,Vento forte,Mattino,0.0467
+32,Vento forte,Mattino,0.0467
+33,Vento forte,Mattino,0.0467
+34,Vento forte,Mattino,0.14
+35,Vento forte,Mattino,0.14
+36,Vento forte,Mattino,0.14
+37,Vento forte,Mattino,0.14
+38,Vento forte,Mattino,0.14
+39,Vento forte,Mattino,0.14
+40,Vento forte,Mattino,0.14
+41,Vento forte,Mattino,0.14
+42,Vento forte,Mattino,0.14
+43,Vento forte,Mattino,0.0467
+44,Vento forte,Mattino,0.0467
+45,Vento forte,Mattino,0.0467
+46,Vento forte,Mattino,0.0467
+47,Vento forte,Mattino,0.0467
+48,Vento forte,Mattino,0.14
+49,Vento forte,Mattino,0.0467
+50,Vento forte,Mattino,0.0467
+51,Vento forte,Mattino,0.0467
+52,Vento forte,Mattino,0.0467
+53,Vento forte,Mattino,0.0467
+54,Vento forte,Mattino,0.0467
+55,Vento forte,Mattino,0.0467
+56,Vento forte,Mattino,0.0467
+57,Vento forte,Mattino,0.0467
+58,Vento forte,Mattino,0.0467
+59,Vento forte,Mattino,0.0467
+60,Vento forte,Mattino,0.0467
+61,Vento forte,Mattino,0.0467
+62,Vento forte,Mattino,0.0467
+63,Vento forte,Mattino,0.08
+64,Vento forte,Mattino,0.08
+65,Vento forte,Mattino,0.08
+66,Vento forte,Mattino,0.08
+67,Vento forte,Mattino,0.08
+68,Vento forte,Mattino,0.08
+69,Vento forte,Mattino,0.0467
+70,Vento forte,Mattino,0.0467
+71,Vento forte,Mattino,0.0467
+72,Vento forte,Mattino,0.12
+73,Vento forte,Mattino,0.0467
+74,Vento forte,Mattino,0.0467
+75,Vento forte,Mattino,0.0467
+76,Vento forte,Mattino,0.0867
+77,Vento forte,Mattino,0.0867
+78,Vento forte,Mattino,0.0467
+79,Vento forte,Mattino,0.0467
+80,Vento forte,Mattino,0.0467
+81,Vento forte,Mattino,0.0467
+82,Vento forte,Mattino,0.0467
+83,Vento forte,Mattino,0.0467
+84,Vento forte,Mattino,0.0467
+85,Vento forte,Mattino,0.0467
+86,Vento forte,Mattino,0.0467
+87,Vento forte,Mattino,0.0467
+88,Vento forte,Mattino,0.0467
+89,Vento forte,Mattino,0.0467
+90,Vento forte,Mattino,0.0867
+91,Vento forte,Mattino,0.0867
+92,Vento forte,Mattino,0.0467
+93,Vento forte,Mattino,0.06
+94,Vento forte,Mattino,0.0467
+95,Vento forte,Mattino,0.0467
+96,Vento forte,Mattino,0.06
+97,Vento forte,Mattino,0.06
+98,Vento forte,Mattino,0.3733
+99,Vento forte,Mattino,0.0467
+100,Vento forte,Mattino,0.0467
+101,Vento forte,Mattino,0.0467
+102,Vento forte,Mattino,0.2067
+103,Vento forte,Mattino,0.2067
+104,Vento forte,Mattino,0.2067
+105,Vento forte,Mattino,0.2067
+106,Vento forte,Mattino,0.2067
+107,Vento forte,Mattino,0.2067
+108,Vento forte,Mattino,0.2067
+109,Vento forte,Mattino,0.2067
+110,Vento forte,Mattino,0.2067
+111,Vento forte,Mattino,0.2067
+112,Vento forte,Mattino,0.2067
+113,Vento forte,Mattino,0.2067
+114,Vento forte,Mattino,0.0467
+115,Vento forte,Mattino,0.06
+116,Vento forte,Mattino,0.0467
+117,Vento forte,Mattino,0.0467
+118,Vento forte,Mattino,0.0467
+119,Vento forte,Mattino,0.0467
+120,Vento forte,Mattino,0.0467
+121,Vento forte,Mattino,0.0467
+122,Vento forte,Mattino,0.06
+123,Vento forte,Mattino,0.06
+124,Vento forte,Mattino,0.0467
+125,Vento forte,Mattino,0.1467
+126,Vento forte,Mattino,0.1467
+127,Vento forte,Mattino,0.1467
+128,Vento forte,Mattino,0.0467
+129,Vento forte,Mattino,0.0467
+130,Vento forte,Mattino,0.1467
+131,Vento forte,Mattino,0.1467
+132,Vento forte,Mattino,0.0467
+133,Vento forte,Mattino,0.0867
+134,Vento forte,Mattino,0.0867
+135,Vento forte,Mattino,0.0467
+136,Vento forte,Mattino,0.1133
+137,Vento forte,Mattino,0.1133
+138,Vento forte,Mattino,0.1133
+139,Vento forte,Mattino,0.0667
+140,Vento forte,Mattino,0.0667
+141,Vento forte,Mattino,0.0667
+142,Vento forte,Mattino,0.0467
+143,Vento forte,Mattino,0.0467
+144,Vento forte,Mattino,0.0467
+145,Vento forte,Mattino,0.12
+146,Vento forte,Mattino,0.0533
+147,Vento forte,Mattino,0.0533
+148,Vento forte,Mattino,0.1133
+149,Vento forte,Mattino,0.1133
+150,Vento forte,Mattino,0.1133
+151,Vento forte,Mattino,0.0867
+152,Vento forte,Mattino,0.0867
+153,Vento forte,Mattino,0.0867
+154,Vento forte,Mattino,0.0867
+155,Vento forte,Mattino,0.0867
+156,Vento forte,Mattino,0.0867
+157,Vento forte,Mattino,0.0867
+158,Vento forte,Mattino,0.0867
+159,Vento forte,Mattino,0.0867
+160,Vento forte,Mattino,0.0867
+161,Vento forte,Mattino,0.0867
+162,Vento forte,Mattino,0.0867
+163,Vento forte,Mattino,0.0867
+164,Vento forte,Mattino,0.0867
+165,Vento forte,Mattino,0.0867
+166,Vento forte,Mattino,0.0867
+167,Vento forte,Mattino,0.0867
+168,Vento forte,Mattino,0.0867
+169,Vento forte,Mattino,0.0867
+170,Vento forte,Mattino,0.0867
+171,Vento forte,Mattino,0.2467
+172,Vento forte,Mattino,0.2467
+173,Vento forte,Mattino,0.2467
+174,Vento forte,Mattino,0.2467
+175,Vento forte,Mattino,0.2467
+176,Vento forte,Mattino,0.2467
+177,Vento forte,Mattino,0.1
+178,Vento forte,Mattino,0.1
+179,Vento forte,Mattino,0.1
+1,Vento forte,Notte,0.0467
+2,Vento forte,Notte,0.0467
+3,Vento forte,Notte,0.0467
+4,Vento forte,Notte,0.0467
+5,Vento forte,Notte,0.0467
+6,Vento forte,Notte,0.0467
+7,Vento forte,Notte,0.0467
+8,Vento forte,Notte,0.0467
+9,Vento forte,Notte,0.0467
+10,Vento forte,Notte,0.0467
+11,Vento forte,Notte,0.0467
+12,Vento forte,Notte,0.0467
+13,Vento forte,Notte,0.0467
+14,Vento forte,Notte,0.0467
+15,Vento forte,Notte,0.0467
+16,Vento forte,Notte,0.1133
+17,Vento forte,Notte,0.0467
+18,Vento forte,Notte,0.0733
+19,Vento forte,Notte,0.0733
+20,Vento forte,Notte,0.0733
+21,Vento forte,Notte,0.0733
+22,Vento forte,Notte,0.0733
+23,Vento forte,Notte,0.0733
+24,Vento forte,Notte,0.0733
+25,Vento forte,Notte,0.0733
+26,Vento forte,Notte,0.0467
+27,Vento forte,Notte,0.0467
+28,Vento forte,Notte,0.0467
+29,Vento forte,Notte,0.0467
+30,Vento forte,Notte,0.0467
+31,Vento forte,Notte,0.0467
+32,Vento forte,Notte,0.0467
+33,Vento forte,Notte,0.0467
+34,Vento forte,Notte,0.1333
+35,Vento forte,Notte,0.1333
+36,Vento forte,Notte,0.1333
+37,Vento forte,Notte,0.1333
+38,Vento forte,Notte,0.1333
+39,Vento forte,Notte,0.1333
+40,Vento forte,Notte,0.1333
+41,Vento forte,Notte,0.1333
+42,Vento forte,Notte,0.1333
+43,Vento forte,Notte,0.0467
+44,Vento forte,Notte,0.0467
+45,Vento forte,Notte,0.0467
+46,Vento forte,Notte,0.0467
+47,Vento forte,Notte,0.0467
+48,Vento forte,Notte,0.1333
+49,Vento forte,Notte,0.0467
+50,Vento forte,Notte,0.0467
+51,Vento forte,Notte,0.0467
+52,Vento forte,Notte,0.0467
+53,Vento forte,Notte,0.0467
+54,Vento forte,Notte,0.0467
+55,Vento forte,Notte,0.0467
+56,Vento forte,Notte,0.0467
+57,Vento forte,Notte,0.0467
+58,Vento forte,Notte,0.0467
+59,Vento forte,Notte,0.0467
+60,Vento forte,Notte,0.0467
+61,Vento forte,Notte,0.0467
+62,Vento forte,Notte,0.0467
+63,Vento forte,Notte,0.0733
+64,Vento forte,Notte,0.0733
+65,Vento forte,Notte,0.0733
+66,Vento forte,Notte,0.0733
+67,Vento forte,Notte,0.0733
+68,Vento forte,Notte,0.0733
+69,Vento forte,Notte,0.0467
+70,Vento forte,Notte,0.0467
+71,Vento forte,Notte,0.0467
+72,Vento forte,Notte,0.1133
+73,Vento forte,Notte,0.0467
+74,Vento forte,Notte,0.0467
+75,Vento forte,Notte,0.0467
+76,Vento forte,Notte,0.0733
+77,Vento forte,Notte,0.0733
+78,Vento forte,Notte,0.0467
+79,Vento forte,Notte,0.0467
+80,Vento forte,Notte,0.0467
+81,Vento forte,Notte,0.0467
+82,Vento forte,Notte,0.0467
+83,Vento forte,Notte,0.0467
+84,Vento forte,Notte,0.0467
+85,Vento forte,Notte,0.0467
+86,Vento forte,Notte,0.0467
+87,Vento forte,Notte,0.0467
+88,Vento forte,Notte,0.0467
+89,Vento forte,Notte,0.0467
+90,Vento forte,Notte,0.0733
+91,Vento forte,Notte,0.0733
+92,Vento forte,Notte,0.0467
+93,Vento forte,Notte,0.0667
+94,Vento forte,Notte,0.0467
+95,Vento forte,Notte,0.0467
+96,Vento forte,Notte,0.0667
+97,Vento forte,Notte,0.0667
+98,Vento forte,Notte,0.3667
+99,Vento forte,Notte,0.0467
+100,Vento forte,Notte,0.0467
+101,Vento forte,Notte,0.0467
+102,Vento forte,Notte,0.22
+103,Vento forte,Notte,0.22
+104,Vento forte,Notte,0.22
+105,Vento forte,Notte,0.22
+106,Vento forte,Notte,0.22
+107,Vento forte,Notte,0.22
+108,Vento forte,Notte,0.22
+109,Vento forte,Notte,0.22
+110,Vento forte,Notte,0.22
+111,Vento forte,Notte,0.22
+112,Vento forte,Notte,0.22
+113,Vento forte,Notte,0.22
+114,Vento forte,Notte,0.0467
+115,Vento forte,Notte,0.0667
+116,Vento forte,Notte,0.0467
+117,Vento forte,Notte,0.0467
+118,Vento forte,Notte,0.0467
+119,Vento forte,Notte,0.0467
+120,Vento forte,Notte,0.0467
+121,Vento forte,Notte,0.0467
+122,Vento forte,Notte,0.0667
+123,Vento forte,Notte,0.0667
+124,Vento forte,Notte,0.0467
+125,Vento forte,Notte,0.16
+126,Vento forte,Notte,0.16
+127,Vento forte,Notte,0.16
+128,Vento forte,Notte,0.0467
+129,Vento forte,Notte,0.0467
+130,Vento forte,Notte,0.16
+131,Vento forte,Notte,0.16
+132,Vento forte,Notte,0.0467
+133,Vento forte,Notte,0.0733
+134,Vento forte,Notte,0.0733
+135,Vento forte,Notte,0.0467
+136,Vento forte,Notte,0.0867
+137,Vento forte,Notte,0.0867
+138,Vento forte,Notte,0.0867
+139,Vento forte,Notte,0.0733
+140,Vento forte,Notte,0.0733
+141,Vento forte,Notte,0.0733
+142,Vento forte,Notte,0.0467
+143,Vento forte,Notte,0.0467
+144,Vento forte,Notte,0.0467
+145,Vento forte,Notte,0.1133
+146,Vento forte,Notte,0.1067
+147,Vento forte,Notte,0.1067
+148,Vento forte,Notte,0.0867
+149,Vento forte,Notte,0.0867
+150,Vento forte,Notte,0.0867
+151,Vento forte,Notte,0.0733
+152,Vento forte,Notte,0.0733
+153,Vento forte,Notte,0.0733
+154,Vento forte,Notte,0.0733
+155,Vento forte,Notte,0.0733
+156,Vento forte,Notte,0.0733
+157,Vento forte,Notte,0.0733
+158,Vento forte,Notte,0.0733
+159,Vento forte,Notte,0.0733
+160,Vento forte,Notte,0.0733
+161,Vento forte,Notte,0.0733
+162,Vento forte,Notte,0.0733
+163,Vento forte,Notte,0.0733
+164,Vento forte,Notte,0.0733
+165,Vento forte,Notte,0.0733
+166,Vento forte,Notte,0.0733
+167,Vento forte,Notte,0.0733
+168,Vento forte,Notte,0.0733
+169,Vento forte,Notte,0.0733
+170,Vento forte,Notte,0.0733
+171,Vento forte,Notte,0.2467
+172,Vento forte,Notte,0.2467
+173,Vento forte,Notte,0.2467
+174,Vento forte,Notte,0.2467
+175,Vento forte,Notte,0.2467
+176,Vento forte,Notte,0.2467
+177,Vento forte,Notte,0.0933
+178,Vento forte,Notte,0.0933
+179,Vento forte,Notte,0.0933
+1,Vento forte,Pomeriggio,0.0267
+2,Vento forte,Pomeriggio,0.0267
+3,Vento forte,Pomeriggio,0.0267
+4,Vento forte,Pomeriggio,0.0267
+5,Vento forte,Pomeriggio,0.0267
+6,Vento forte,Pomeriggio,0.0267
+7,Vento forte,Pomeriggio,0.0267
+8,Vento forte,Pomeriggio,0.0267
+9,Vento forte,Pomeriggio,0.0267
+10,Vento forte,Pomeriggio,0.0267
+11,Vento forte,Pomeriggio,0.0267
+12,Vento forte,Pomeriggio,0.0267
+13,Vento forte,Pomeriggio,0.0267
+14,Vento forte,Pomeriggio,0.0267
+15,Vento forte,Pomeriggio,0.0267
+16,Vento forte,Pomeriggio,0.0867
+17,Vento forte,Pomeriggio,0.0267
+18,Vento forte,Pomeriggio,0.0533
+19,Vento forte,Pomeriggio,0.0533
+20,Vento forte,Pomeriggio,0.0533
+21,Vento forte,Pomeriggio,0.0533
+22,Vento forte,Pomeriggio,0.0533
+23,Vento forte,Pomeriggio,0.0533
+24,Vento forte,Pomeriggio,0.0533
+25,Vento forte,Pomeriggio,0.0533
+26,Vento forte,Pomeriggio,0.0267
+27,Vento forte,Pomeriggio,0.0267
+28,Vento forte,Pomeriggio,0.0267
+29,Vento forte,Pomeriggio,0.0267
+30,Vento forte,Pomeriggio,0.0267
+31,Vento forte,Pomeriggio,0.0267
+32,Vento forte,Pomeriggio,0.0267
+33,Vento forte,Pomeriggio,0.0267
+34,Vento forte,Pomeriggio,0.1133
+35,Vento forte,Pomeriggio,0.1133
+36,Vento forte,Pomeriggio,0.1133
+37,Vento forte,Pomeriggio,0.1133
+38,Vento forte,Pomeriggio,0.1133
+39,Vento forte,Pomeriggio,0.1133
+40,Vento forte,Pomeriggio,0.1133
+41,Vento forte,Pomeriggio,0.1133
+42,Vento forte,Pomeriggio,0.1133
+43,Vento forte,Pomeriggio,0.0267
+44,Vento forte,Pomeriggio,0.0267
+45,Vento forte,Pomeriggio,0.0267
+46,Vento forte,Pomeriggio,0.0267
+47,Vento forte,Pomeriggio,0.0267
+48,Vento forte,Pomeriggio,0.1133
+49,Vento forte,Pomeriggio,0.0267
+50,Vento forte,Pomeriggio,0.0267
+51,Vento forte,Pomeriggio,0.0267
+52,Vento forte,Pomeriggio,0.0267
+53,Vento forte,Pomeriggio,0.0267
+54,Vento forte,Pomeriggio,0.0267
+55,Vento forte,Pomeriggio,0.0267
+56,Vento forte,Pomeriggio,0.0267
+57,Vento forte,Pomeriggio,0.0267
+58,Vento forte,Pomeriggio,0.0267
+59,Vento forte,Pomeriggio,0.0267
+60,Vento forte,Pomeriggio,0.0267
+61,Vento forte,Pomeriggio,0.0267
+62,Vento forte,Pomeriggio,0.0267
+63,Vento forte,Pomeriggio,0.0267
+64,Vento forte,Pomeriggio,0.0267
+65,Vento forte,Pomeriggio,0.0267
+66,Vento forte,Pomeriggio,0.0267
+67,Vento forte,Pomeriggio,0.0267
+68,Vento forte,Pomeriggio,0.0267
+69,Vento forte,Pomeriggio,0.0267
+70,Vento forte,Pomeriggio,0.0267
+71,Vento forte,Pomeriggio,0.0267
+72,Vento forte,Pomeriggio,0.0867
+73,Vento forte,Pomeriggio,0.0267
+74,Vento forte,Pomeriggio,0.0267
+75,Vento forte,Pomeriggio,0.0267
+76,Vento forte,Pomeriggio,0.0933
+77,Vento forte,Pomeriggio,0.0933
+78,Vento forte,Pomeriggio,0.0267
+79,Vento forte,Pomeriggio,0.0267
+80,Vento forte,Pomeriggio,0.0267
+81,Vento forte,Pomeriggio,0.0267
+82,Vento forte,Pomeriggio,0.0267
+83,Vento forte,Pomeriggio,0.0267
+84,Vento forte,Pomeriggio,0.0267
+85,Vento forte,Pomeriggio,0.0267
+86,Vento forte,Pomeriggio,0.0267
+87,Vento forte,Pomeriggio,0.0267
+88,Vento forte,Pomeriggio,0.0267
+89,Vento forte,Pomeriggio,0.0267
+90,Vento forte,Pomeriggio,0.0933
+91,Vento forte,Pomeriggio,0.0933
+92,Vento forte,Pomeriggio,0.0267
+93,Vento forte,Pomeriggio,0.04
+94,Vento forte,Pomeriggio,0.0267
+95,Vento forte,Pomeriggio,0.0267
+96,Vento forte,Pomeriggio,0.04
+97,Vento forte,Pomeriggio,0.04
+98,Vento forte,Pomeriggio,0.3667
+99,Vento forte,Pomeriggio,0.0267
+100,Vento forte,Pomeriggio,0.0267
+101,Vento forte,Pomeriggio,0.0267
+102,Vento forte,Pomeriggio,0.22
+103,Vento forte,Pomeriggio,0.22
+104,Vento forte,Pomeriggio,0.22
+105,Vento forte,Pomeriggio,0.22
+106,Vento forte,Pomeriggio,0.22
+107,Vento forte,Pomeriggio,0.22
+108,Vento forte,Pomeriggio,0.22
+109,Vento forte,Pomeriggio,0.22
+110,Vento forte,Pomeriggio,0.22
+111,Vento forte,Pomeriggio,0.22
+112,Vento forte,Pomeriggio,0.22
+113,Vento forte,Pomeriggio,0.22
+114,Vento forte,Pomeriggio,0.0267
+115,Vento forte,Pomeriggio,0.04
+116,Vento forte,Pomeriggio,0.0267
+117,Vento forte,Pomeriggio,0.0267
+118,Vento forte,Pomeriggio,0.0267
+119,Vento forte,Pomeriggio,0.0267
+120,Vento forte,Pomeriggio,0.0267
+121,Vento forte,Pomeriggio,0.0267
+122,Vento forte,Pomeriggio,0.04
+123,Vento forte,Pomeriggio,0.04
+124,Vento forte,Pomeriggio,0.0267
+125,Vento forte,Pomeriggio,0.14
+126,Vento forte,Pomeriggio,0.14
+127,Vento forte,Pomeriggio,0.14
+128,Vento forte,Pomeriggio,0.0267
+129,Vento forte,Pomeriggio,0.0267
+130,Vento forte,Pomeriggio,0.14
+131,Vento forte,Pomeriggio,0.14
+132,Vento forte,Pomeriggio,0.0267
+133,Vento forte,Pomeriggio,0.0933
+134,Vento forte,Pomeriggio,0.0933
+135,Vento forte,Pomeriggio,0.0267
+136,Vento forte,Pomeriggio,0.06
+137,Vento forte,Pomeriggio,0.06
+138,Vento forte,Pomeriggio,0.06
+139,Vento forte,Pomeriggio,0.0267
+140,Vento forte,Pomeriggio,0.0267
+141,Vento forte,Pomeriggio,0.0267
+142,Vento forte,Pomeriggio,0.0267
+143,Vento forte,Pomeriggio,0.0267
+144,Vento forte,Pomeriggio,0.0267
+145,Vento forte,Pomeriggio,0.0867
+146,Vento forte,Pomeriggio,0.0667
+147,Vento forte,Pomeriggio,0.0667
+148,Vento forte,Pomeriggio,0.06
+149,Vento forte,Pomeriggio,0.06
+150,Vento forte,Pomeriggio,0.06
+151,Vento forte,Pomeriggio,0.0533
+152,Vento forte,Pomeriggio,0.0533
+153,Vento forte,Pomeriggio,0.0533
+154,Vento forte,Pomeriggio,0.0533
+155,Vento forte,Pomeriggio,0.0533
+156,Vento forte,Pomeriggio,0.0533
+157,Vento forte,Pomeriggio,0.0533
+158,Vento forte,Pomeriggio,0.0533
+159,Vento forte,Pomeriggio,0.0533
+160,Vento forte,Pomeriggio,0.0533
+161,Vento forte,Pomeriggio,0.0533
+162,Vento forte,Pomeriggio,0.0533
+163,Vento forte,Pomeriggio,0.0533
+164,Vento forte,Pomeriggio,0.0533
+165,Vento forte,Pomeriggio,0.0533
+166,Vento forte,Pomeriggio,0.0533
+167,Vento forte,Pomeriggio,0.0533
+168,Vento forte,Pomeriggio,0.0533
+169,Vento forte,Pomeriggio,0.0533
+170,Vento forte,Pomeriggio,0.0533
+171,Vento forte,Pomeriggio,0.2467
+172,Vento forte,Pomeriggio,0.2467
+173,Vento forte,Pomeriggio,0.2467
+174,Vento forte,Pomeriggio,0.2467
+175,Vento forte,Pomeriggio,0.2467
+176,Vento forte,Pomeriggio,0.2467
+177,Vento forte,Pomeriggio,0.0667
+178,Vento forte,Pomeriggio,0.0667
+179,Vento forte,Pomeriggio,0.0667
+1,Vento forte,Sera,0.0467
+2,Vento forte,Sera,0.0467
+3,Vento forte,Sera,0.0467
+4,Vento forte,Sera,0.0467
+5,Vento forte,Sera,0.0467
+6,Vento forte,Sera,0.0467
+7,Vento forte,Sera,0.0467
+8,Vento forte,Sera,0.0467
+9,Vento forte,Sera,0.0467
+10,Vento forte,Sera,0.0467
+11,Vento forte,Sera,0.0467
+12,Vento forte,Sera,0.0467
+13,Vento forte,Sera,0.0467
+14,Vento forte,Sera,0.0467
+15,Vento forte,Sera,0.0467
+16,Vento forte,Sera,0.1067
+17,Vento forte,Sera,0.0467
+18,Vento forte,Sera,0.0733
+19,Vento forte,Sera,0.0733
+20,Vento forte,Sera,0.0733
+21,Vento forte,Sera,0.0733
+22,Vento forte,Sera,0.0733
+23,Vento forte,Sera,0.0733
+24,Vento forte,Sera,0.0733
+25,Vento forte,Sera,0.0733
+26,Vento forte,Sera,0.0467
+27,Vento forte,Sera,0.0467
+28,Vento forte,Sera,0.0467
+29,Vento forte,Sera,0.0467
+30,Vento forte,Sera,0.0467
+31,Vento forte,Sera,0.0467
+32,Vento forte,Sera,0.0467
+33,Vento forte,Sera,0.0467
+34,Vento forte,Sera,0.16
+35,Vento forte,Sera,0.16
+36,Vento forte,Sera,0.16
+37,Vento forte,Sera,0.16
+38,Vento forte,Sera,0.16
+39,Vento forte,Sera,0.16
+40,Vento forte,Sera,0.16
+41,Vento forte,Sera,0.16
+42,Vento forte,Sera,0.16
+43,Vento forte,Sera,0.0467
+44,Vento forte,Sera,0.0467
+45,Vento forte,Sera,0.0467
+46,Vento forte,Sera,0.0467
+47,Vento forte,Sera,0.0467
+48,Vento forte,Sera,0.16
+49,Vento forte,Sera,0.0467
+50,Vento forte,Sera,0.0467
+51,Vento forte,Sera,0.0467
+52,Vento forte,Sera,0.0467
+53,Vento forte,Sera,0.0467
+54,Vento forte,Sera,0.0467
+55,Vento forte,Sera,0.0467
+56,Vento forte,Sera,0.0467
+57,Vento forte,Sera,0.0467
+58,Vento forte,Sera,0.0467
+59,Vento forte,Sera,0.0467
+60,Vento forte,Sera,0.0467
+61,Vento forte,Sera,0.0467
+62,Vento forte,Sera,0.0467
+63,Vento forte,Sera,0.0867
+64,Vento forte,Sera,0.0867
+65,Vento forte,Sera,0.0867
+66,Vento forte,Sera,0.0867
+67,Vento forte,Sera,0.0867
+68,Vento forte,Sera,0.0867
+69,Vento forte,Sera,0.0467
+70,Vento forte,Sera,0.0467
+71,Vento forte,Sera,0.0467
+72,Vento forte,Sera,0.1067
+73,Vento forte,Sera,0.0467
+74,Vento forte,Sera,0.0467
+75,Vento forte,Sera,0.0467
+76,Vento forte,Sera,0.1
+77,Vento forte,Sera,0.1
+78,Vento forte,Sera,0.0467
+79,Vento forte,Sera,0.0467
+80,Vento forte,Sera,0.0467
+81,Vento forte,Sera,0.0467
+82,Vento forte,Sera,0.0467
+83,Vento forte,Sera,0.0467
+84,Vento forte,Sera,0.0467
+85,Vento forte,Sera,0.0467
+86,Vento forte,Sera,0.0467
+87,Vento forte,Sera,0.0467
+88,Vento forte,Sera,0.0467
+89,Vento forte,Sera,0.0467
+90,Vento forte,Sera,0.1
+91,Vento forte,Sera,0.1
+92,Vento forte,Sera,0.0467
+93,Vento forte,Sera,0.06
+94,Vento forte,Sera,0.0467
+95,Vento forte,Sera,0.0467
+96,Vento forte,Sera,0.06
+97,Vento forte,Sera,0.06
+98,Vento forte,Sera,0.3933
+99,Vento forte,Sera,0.0467
+100,Vento forte,Sera,0.0467
+101,Vento forte,Sera,0.0467
+102,Vento forte,Sera,0.2133
+103,Vento forte,Sera,0.2133
+104,Vento forte,Sera,0.2133
+105,Vento forte,Sera,0.2133
+106,Vento forte,Sera,0.2133
+107,Vento forte,Sera,0.2133
+108,Vento forte,Sera,0.2133
+109,Vento forte,Sera,0.2133
+110,Vento forte,Sera,0.2133
+111,Vento forte,Sera,0.2133
+112,Vento forte,Sera,0.2133
+113,Vento forte,Sera,0.2133
+114,Vento forte,Sera,0.0467
+115,Vento forte,Sera,0.06
+116,Vento forte,Sera,0.0467
+117,Vento forte,Sera,0.0467
+118,Vento forte,Sera,0.0467
+119,Vento forte,Sera,0.0467
+120,Vento forte,Sera,0.0467
+121,Vento forte,Sera,0.0467
+122,Vento forte,Sera,0.06
+123,Vento forte,Sera,0.06
+124,Vento forte,Sera,0.0467
+125,Vento forte,Sera,0.14
+126,Vento forte,Sera,0.14
+127,Vento forte,Sera,0.14
+128,Vento forte,Sera,0.0467
+129,Vento forte,Sera,0.0467
+130,Vento forte,Sera,0.14
+131,Vento forte,Sera,0.14
+132,Vento forte,Sera,0.0467
+133,Vento forte,Sera,0.1
+134,Vento forte,Sera,0.1
+135,Vento forte,Sera,0.0467
+136,Vento forte,Sera,0.08
+137,Vento forte,Sera,0.08
+138,Vento forte,Sera,0.08
+139,Vento forte,Sera,0.0667
+140,Vento forte,Sera,0.0667
+141,Vento forte,Sera,0.0667
+142,Vento forte,Sera,0.0467
+143,Vento forte,Sera,0.0467
+144,Vento forte,Sera,0.0467
+145,Vento forte,Sera,0.1067
+146,Vento forte,Sera,0.0867
+147,Vento forte,Sera,0.0867
+148,Vento forte,Sera,0.08
+149,Vento forte,Sera,0.08
+150,Vento forte,Sera,0.08
+151,Vento forte,Sera,0.0733
+152,Vento forte,Sera,0.0733
+153,Vento forte,Sera,0.0733
+154,Vento forte,Sera,0.0733
+155,Vento forte,Sera,0.0733
+156,Vento forte,Sera,0.0733
+157,Vento forte,Sera,0.0733
+158,Vento forte,Sera,0.0733
+159,Vento forte,Sera,0.0733
+160,Vento forte,Sera,0.0733
+161,Vento forte,Sera,0.0733
+162,Vento forte,Sera,0.0733
+163,Vento forte,Sera,0.0733
+164,Vento forte,Sera,0.0733
+165,Vento forte,Sera,0.0733
+166,Vento forte,Sera,0.0733
+167,Vento forte,Sera,0.0733
+168,Vento forte,Sera,0.0733
+169,Vento forte,Sera,0.0733
+170,Vento forte,Sera,0.0733
+171,Vento forte,Sera,0.24
+172,Vento forte,Sera,0.24
+173,Vento forte,Sera,0.24
+174,Vento forte,Sera,0.24
+175,Vento forte,Sera,0.24
+176,Vento forte,Sera,0.24
+177,Vento forte,Sera,0.0867
+178,Vento forte,Sera,0.0867
+179,Vento forte,Sera,0.0867
+1,Altro,Mattino,0.0133
+2,Altro,Mattino,0.0133
+3,Altro,Mattino,0.0133
+4,Altro,Mattino,0.0133
+5,Altro,Mattino,0.0133
+6,Altro,Mattino,0.0133
+7,Altro,Mattino,0.0133
+8,Altro,Mattino,0.0133
+9,Altro,Mattino,0.0133
+10,Altro,Mattino,0.0133
+11,Altro,Mattino,0.0133
+12,Altro,Mattino,0.0133
+13,Altro,Mattino,0.0133
+14,Altro,Mattino,0.0133
+15,Altro,Mattino,0.0133
+16,Altro,Mattino,0.0667
+17,Altro,Mattino,0.0133
+18,Altro,Mattino,0.0267
+19,Altro,Mattino,0.0267
+20,Altro,Mattino,0.0267
+21,Altro,Mattino,0.0267
+22,Altro,Mattino,0.0267
+23,Altro,Mattino,0.0267
+24,Altro,Mattino,0.0267
+25,Altro,Mattino,0.0267
+26,Altro,Mattino,0.0133
+27,Altro,Mattino,0.0133
+28,Altro,Mattino,0.0133
+29,Altro,Mattino,0.0133
+30,Altro,Mattino,0.0133
+31,Altro,Mattino,0.0133
+32,Altro,Mattino,0.0133
+33,Altro,Mattino,0.0133
+34,Altro,Mattino,0.1467
+35,Altro,Mattino,0.1467
+36,Altro,Mattino,0.1467
+37,Altro,Mattino,0.1467
+38,Altro,Mattino,0.1467
+39,Altro,Mattino,0.1467
+40,Altro,Mattino,0.1467
+41,Altro,Mattino,0.1467
+42,Altro,Mattino,0.1467
+43,Altro,Mattino,0.0133
+44,Altro,Mattino,0.0133
+45,Altro,Mattino,0.0133
+46,Altro,Mattino,0.0133
+47,Altro,Mattino,0.0133
+48,Altro,Mattino,0.1467
+49,Altro,Mattino,0.0133
+50,Altro,Mattino,0.0133
+51,Altro,Mattino,0.0133
+52,Altro,Mattino,0.0133
+53,Altro,Mattino,0.0133
+54,Altro,Mattino,0.0133
+55,Altro,Mattino,0.0133
+56,Altro,Mattino,0.0133
+57,Altro,Mattino,0.0133
+58,Altro,Mattino,0.0133
+59,Altro,Mattino,0.0133
+60,Altro,Mattino,0.0133
+61,Altro,Mattino,0.0133
+62,Altro,Mattino,0.0133
+63,Altro,Mattino,0.0267
+64,Altro,Mattino,0.0267
+65,Altro,Mattino,0.0267
+66,Altro,Mattino,0.0267
+67,Altro,Mattino,0.0267
+68,Altro,Mattino,0.0267
+69,Altro,Mattino,0.0133
+70,Altro,Mattino,0.0133
+71,Altro,Mattino,0.0133
+72,Altro,Mattino,0.0667
+73,Altro,Mattino,0.0133
+74,Altro,Mattino,0.0133
+75,Altro,Mattino,0.0133
+76,Altro,Mattino,0.06
+77,Altro,Mattino,0.06
+78,Altro,Mattino,0.0133
+79,Altro,Mattino,0.0133
+80,Altro,Mattino,0.0133
+81,Altro,Mattino,0.0133
+82,Altro,Mattino,0.0133
+83,Altro,Mattino,0.0133
+84,Altro,Mattino,0.0133
+85,Altro,Mattino,0.0133
+86,Altro,Mattino,0.0133
+87,Altro,Mattino,0.0133
+88,Altro,Mattino,0.0133
+89,Altro,Mattino,0.0133
+90,Altro,Mattino,0.06
+91,Altro,Mattino,0.06
+92,Altro,Mattino,0.0133
+93,Altro,Mattino,0.0333
+94,Altro,Mattino,0.0133
+95,Altro,Mattino,0.0133
+96,Altro,Mattino,0.0333
+97,Altro,Mattino,0.0333
+98,Altro,Mattino,0.26
+99,Altro,Mattino,0.0133
+100,Altro,Mattino,0.0133
+101,Altro,Mattino,0.0133
+102,Altro,Mattino,0.1533
+103,Altro,Mattino,0.1533
+104,Altro,Mattino,0.1533
+105,Altro,Mattino,0.1533
+106,Altro,Mattino,0.1533
+107,Altro,Mattino,0.1533
+108,Altro,Mattino,0.1533
+109,Altro,Mattino,0.1533
+110,Altro,Mattino,0.1533
+111,Altro,Mattino,0.1533
+112,Altro,Mattino,0.1533
+113,Altro,Mattino,0.1533
+114,Altro,Mattino,0.0133
+115,Altro,Mattino,0.0333
+116,Altro,Mattino,0.0133
+117,Altro,Mattino,0.0133
+118,Altro,Mattino,0.0133
+119,Altro,Mattino,0.0133
+120,Altro,Mattino,0.0133
+121,Altro,Mattino,0.0133
+122,Altro,Mattino,0.0333
+123,Altro,Mattino,0.0333
+124,Altro,Mattino,0.0133
+125,Altro,Mattino,0.1333
+126,Altro,Mattino,0.1333
+127,Altro,Mattino,0.1333
+128,Altro,Mattino,0.0133
+129,Altro,Mattino,0.0133
+130,Altro,Mattino,0.1333
+131,Altro,Mattino,0.1333
+132,Altro,Mattino,0.0133
+133,Altro,Mattino,0.06
+134,Altro,Mattino,0.06
+135,Altro,Mattino,0.0133
+136,Altro,Mattino,0.0333
+137,Altro,Mattino,0.0333
+138,Altro,Mattino,0.0333
+139,Altro,Mattino,0.02
+140,Altro,Mattino,0.02
+141,Altro,Mattino,0.02
+142,Altro,Mattino,0.02
+143,Altro,Mattino,0.02
+144,Altro,Mattino,0.02
+145,Altro,Mattino,0.0667
+146,Altro,Mattino,0.0467
+147,Altro,Mattino,0.0467
+148,Altro,Mattino,0.0333
+149,Altro,Mattino,0.0333
+150,Altro,Mattino,0.0333
+151,Altro,Mattino,0.0267
+152,Altro,Mattino,0.0267
+153,Altro,Mattino,0.0267
+154,Altro,Mattino,0.0267
+155,Altro,Mattino,0.0267
+156,Altro,Mattino,0.0267
+157,Altro,Mattino,0.0267
+158,Altro,Mattino,0.0267
+159,Altro,Mattino,0.0267
+160,Altro,Mattino,0.0267
+161,Altro,Mattino,0.0267
+162,Altro,Mattino,0.0267
+163,Altro,Mattino,0.0267
+164,Altro,Mattino,0.0267
+165,Altro,Mattino,0.0267
+166,Altro,Mattino,0.0267
+167,Altro,Mattino,0.0267
+168,Altro,Mattino,0.0267
+169,Altro,Mattino,0.0267
+170,Altro,Mattino,0.0267
+171,Altro,Mattino,0.1667
+172,Altro,Mattino,0.1667
+173,Altro,Mattino,0.1667
+174,Altro,Mattino,0.1667
+175,Altro,Mattino,0.1667
+176,Altro,Mattino,0.1667
+177,Altro,Mattino,0.0467
+178,Altro,Mattino,0.0467
+179,Altro,Mattino,0.0467
+1,Altro,Notte,0.04
+2,Altro,Notte,0.04
+3,Altro,Notte,0.04
+4,Altro,Notte,0.04
+5,Altro,Notte,0.04
+6,Altro,Notte,0.04
+7,Altro,Notte,0.04
+8,Altro,Notte,0.04
+9,Altro,Notte,0.04
+10,Altro,Notte,0.04
+11,Altro,Notte,0.04
+12,Altro,Notte,0.04
+13,Altro,Notte,0.04
+14,Altro,Notte,0.04
+15,Altro,Notte,0.04
+16,Altro,Notte,0.0667
+17,Altro,Notte,0.04
+18,Altro,Notte,0.0533
+19,Altro,Notte,0.0533
+20,Altro,Notte,0.0533
+21,Altro,Notte,0.0533
+22,Altro,Notte,0.0533
+23,Altro,Notte,0.0533
+24,Altro,Notte,0.0533
+25,Altro,Notte,0.0533
+26,Altro,Notte,0.04
+27,Altro,Notte,0.04
+28,Altro,Notte,0.04
+29,Altro,Notte,0.04
+30,Altro,Notte,0.04
+31,Altro,Notte,0.04
+32,Altro,Notte,0.04
+33,Altro,Notte,0.04
+34,Altro,Notte,0.18
+35,Altro,Notte,0.18
+36,Altro,Notte,0.18
+37,Altro,Notte,0.18
+38,Altro,Notte,0.18
+39,Altro,Notte,0.18
+40,Altro,Notte,0.18
+41,Altro,Notte,0.18
+42,Altro,Notte,0.18
+43,Altro,Notte,0.04
+44,Altro,Notte,0.04
+45,Altro,Notte,0.04
+46,Altro,Notte,0.04
+47,Altro,Notte,0.04
+48,Altro,Notte,0.18
+49,Altro,Notte,0.04
+50,Altro,Notte,0.04
+51,Altro,Notte,0.04
+52,Altro,Notte,0.04
+53,Altro,Notte,0.04
+54,Altro,Notte,0.04
+55,Altro,Notte,0.04
+56,Altro,Notte,0.04
+57,Altro,Notte,0.04
+58,Altro,Notte,0.04
+59,Altro,Notte,0.04
+60,Altro,Notte,0.04
+61,Altro,Notte,0.04
+62,Altro,Notte,0.04
+63,Altro,Notte,0.0667
+64,Altro,Notte,0.0667
+65,Altro,Notte,0.0667
+66,Altro,Notte,0.0667
+67,Altro,Notte,0.0667
+68,Altro,Notte,0.0667
+69,Altro,Notte,0.04
+70,Altro,Notte,0.04
+71,Altro,Notte,0.04
+72,Altro,Notte,0.0667
+73,Altro,Notte,0.04
+74,Altro,Notte,0.04
+75,Altro,Notte,0.04
+76,Altro,Notte,0.0733
+77,Altro,Notte,0.0733
+78,Altro,Notte,0.04
+79,Altro,Notte,0.04
+80,Altro,Notte,0.04
+81,Altro,Notte,0.04
+82,Altro,Notte,0.04
+83,Altro,Notte,0.04
+84,Altro,Notte,0.04
+85,Altro,Notte,0.04
+86,Altro,Notte,0.04
+87,Altro,Notte,0.04
+88,Altro,Notte,0.04
+89,Altro,Notte,0.04
+90,Altro,Notte,0.0733
+91,Altro,Notte,0.0733
+92,Altro,Notte,0.04
+93,Altro,Notte,0.0467
+94,Altro,Notte,0.04
+95,Altro,Notte,0.04
+96,Altro,Notte,0.0467
+97,Altro,Notte,0.0467
+98,Altro,Notte,0.34
+99,Altro,Notte,0.04
+100,Altro,Notte,0.04
+101,Altro,Notte,0.04
+102,Altro,Notte,0.18
+103,Altro,Notte,0.18
+104,Altro,Notte,0.18
+105,Altro,Notte,0.18
+106,Altro,Notte,0.18
+107,Altro,Notte,0.18
+108,Altro,Notte,0.18
+109,Altro,Notte,0.18
+110,Altro,Notte,0.18
+111,Altro,Notte,0.18
+112,Altro,Notte,0.18
+113,Altro,Notte,0.18
+114,Altro,Notte,0.04
+115,Altro,Notte,0.0467
+116,Altro,Notte,0.04
+117,Altro,Notte,0.04
+118,Altro,Notte,0.04
+119,Altro,Notte,0.04
+120,Altro,Notte,0.04
+121,Altro,Notte,0.04
+122,Altro,Notte,0.0467
+123,Altro,Notte,0.0467
+124,Altro,Notte,0.04
+125,Altro,Notte,0.18
+126,Altro,Notte,0.18
+127,Altro,Notte,0.18
+128,Altro,Notte,0.04
+129,Altro,Notte,0.04
+130,Altro,Notte,0.18
+131,Altro,Notte,0.18
+132,Altro,Notte,0.04
+133,Altro,Notte,0.0733
+134,Altro,Notte,0.0733
+135,Altro,Notte,0.04
+136,Altro,Notte,0.1
+137,Altro,Notte,0.1
+138,Altro,Notte,0.1
+139,Altro,Notte,0.0533
+140,Altro,Notte,0.0533
+141,Altro,Notte,0.0533
+142,Altro,Notte,0.0467
+143,Altro,Notte,0.0467
+144,Altro,Notte,0.0467
+145,Altro,Notte,0.0667
+146,Altro,Notte,0.0867
+147,Altro,Notte,0.0867
+148,Altro,Notte,0.1
+149,Altro,Notte,0.1
+150,Altro,Notte,0.1
+151,Altro,Notte,0.0533
+152,Altro,Notte,0.0533
+153,Altro,Notte,0.0533
+154,Altro,Notte,0.0533
+155,Altro,Notte,0.0533
+156,Altro,Notte,0.0533
+157,Altro,Notte,0.0533
+158,Altro,Notte,0.0533
+159,Altro,Notte,0.0533
+160,Altro,Notte,0.0533
+161,Altro,Notte,0.0533
+162,Altro,Notte,0.0533
+163,Altro,Notte,0.0533
+164,Altro,Notte,0.0533
+165,Altro,Notte,0.0533
+166,Altro,Notte,0.0533
+167,Altro,Notte,0.0533
+168,Altro,Notte,0.0533
+169,Altro,Notte,0.0533
+170,Altro,Notte,0.0533
+171,Altro,Notte,0.1933
+172,Altro,Notte,0.1933
+173,Altro,Notte,0.1933
+174,Altro,Notte,0.1933
+175,Altro,Notte,0.1933
+176,Altro,Notte,0.1933
+177,Altro,Notte,0.06
+178,Altro,Notte,0.06
+179,Altro,Notte,0.06
+1,Altro,Pomeriggio,0.0267
+2,Altro,Pomeriggio,0.0267
+3,Altro,Pomeriggio,0.0267
+4,Altro,Pomeriggio,0.0267
+5,Altro,Pomeriggio,0.0267
+6,Altro,Pomeriggio,0.0267
+7,Altro,Pomeriggio,0.0267
+8,Altro,Pomeriggio,0.0267
+9,Altro,Pomeriggio,0.0267
+10,Altro,Pomeriggio,0.0267
+11,Altro,Pomeriggio,0.0267
+12,Altro,Pomeriggio,0.0267
+13,Altro,Pomeriggio,0.0267
+14,Altro,Pomeriggio,0.0267
+15,Altro,Pomeriggio,0.0267
+16,Altro,Pomeriggio,0.0667
+17,Altro,Pomeriggio,0.0267
+18,Altro,Pomeriggio,0.0467
+19,Altro,Pomeriggio,0.0467
+20,Altro,Pomeriggio,0.0467
+21,Altro,Pomeriggio,0.0467
+22,Altro,Pomeriggio,0.0467
+23,Altro,Pomeriggio,0.0467
+24,Altro,Pomeriggio,0.0467
+25,Altro,Pomeriggio,0.0467
+26,Altro,Pomeriggio,0.0267
+27,Altro,Pomeriggio,0.0267
+28,Altro,Pomeriggio,0.0267
+29,Altro,Pomeriggio,0.0267
+30,Altro,Pomeriggio,0.0267
+31,Altro,Pomeriggio,0.0267
+32,Altro,Pomeriggio,0.0267
+33,Altro,Pomeriggio,0.0267
+34,Altro,Pomeriggio,0.1
+35,Altro,Pomeriggio,0.1
+36,Altro,Pomeriggio,0.1
+37,Altro,Pomeriggio,0.1
+38,Altro,Pomeriggio,0.1
+39,Altro,Pomeriggio,0.1
+40,Altro,Pomeriggio,0.1
+41,Altro,Pomeriggio,0.1
+42,Altro,Pomeriggio,0.1
+43,Altro,Pomeriggio,0.0267
+44,Altro,Pomeriggio,0.0267
+45,Altro,Pomeriggio,0.0267
+46,Altro,Pomeriggio,0.0267
+47,Altro,Pomeriggio,0.0267
+48,Altro,Pomeriggio,0.1
+49,Altro,Pomeriggio,0.0267
+50,Altro,Pomeriggio,0.0267
+51,Altro,Pomeriggio,0.0267
+52,Altro,Pomeriggio,0.0267
+53,Altro,Pomeriggio,0.0267
+54,Altro,Pomeriggio,0.0267
+55,Altro,Pomeriggio,0.0267
+56,Altro,Pomeriggio,0.0267
+57,Altro,Pomeriggio,0.0267
+58,Altro,Pomeriggio,0.0267
+59,Altro,Pomeriggio,0.0267
+60,Altro,Pomeriggio,0.0267
+61,Altro,Pomeriggio,0.0267
+62,Altro,Pomeriggio,0.0267
+63,Altro,Pomeriggio,0.0467
+64,Altro,Pomeriggio,0.0467
+65,Altro,Pomeriggio,0.0467
+66,Altro,Pomeriggio,0.0467
+67,Altro,Pomeriggio,0.0467
+68,Altro,Pomeriggio,0.0467
+69,Altro,Pomeriggio,0.0267
+70,Altro,Pomeriggio,0.0267
+71,Altro,Pomeriggio,0.0267
+72,Altro,Pomeriggio,0.0667
+73,Altro,Pomeriggio,0.0267
+74,Altro,Pomeriggio,0.0267
+75,Altro,Pomeriggio,0.0267
+76,Altro,Pomeriggio,0.0667
+77,Altro,Pomeriggio,0.0667
+78,Altro,Pomeriggio,0.0267
+79,Altro,Pomeriggio,0.0267
+80,Altro,Pomeriggio,0.0267
+81,Altro,Pomeriggio,0.0267
+82,Altro,Pomeriggio,0.0267
+83,Altro,Pomeriggio,0.0267
+84,Altro,Pomeriggio,0.0267
+85,Altro,Pomeriggio,0.0267
+86,Altro,Pomeriggio,0.0267
+87,Altro,Pomeriggio,0.0267
+88,Altro,Pomeriggio,0.0267
+89,Altro,Pomeriggio,0.0267
+90,Altro,Pomeriggio,0.0667
+91,Altro,Pomeriggio,0.0667
+92,Altro,Pomeriggio,0.0267
+93,Altro,Pomeriggio,0.0333
+94,Altro,Pomeriggio,0.0267
+95,Altro,Pomeriggio,0.0267
+96,Altro,Pomeriggio,0.0333
+97,Altro,Pomeriggio,0.0333
+98,Altro,Pomeriggio,0.32
+99,Altro,Pomeriggio,0.0267
+100,Altro,Pomeriggio,0.0267
+101,Altro,Pomeriggio,0.0267
+102,Altro,Pomeriggio,0.1467
+103,Altro,Pomeriggio,0.1467
+104,Altro,Pomeriggio,0.1467
+105,Altro,Pomeriggio,0.1467
+106,Altro,Pomeriggio,0.1467
+107,Altro,Pomeriggio,0.1467
+108,Altro,Pomeriggio,0.1467
+109,Altro,Pomeriggio,0.1467
+110,Altro,Pomeriggio,0.1467
+111,Altro,Pomeriggio,0.1467
+112,Altro,Pomeriggio,0.1467
+113,Altro,Pomeriggio,0.1467
+114,Altro,Pomeriggio,0.0267
+115,Altro,Pomeriggio,0.0333
+116,Altro,Pomeriggio,0.0267
+117,Altro,Pomeriggio,0.0267
+118,Altro,Pomeriggio,0.0267
+119,Altro,Pomeriggio,0.0267
+120,Altro,Pomeriggio,0.0267
+121,Altro,Pomeriggio,0.0267
+122,Altro,Pomeriggio,0.0333
+123,Altro,Pomeriggio,0.0333
+124,Altro,Pomeriggio,0.0267
+125,Altro,Pomeriggio,0.2
+126,Altro,Pomeriggio,0.2
+127,Altro,Pomeriggio,0.2
+128,Altro,Pomeriggio,0.0267
+129,Altro,Pomeriggio,0.0267
+130,Altro,Pomeriggio,0.2
+131,Altro,Pomeriggio,0.2
+132,Altro,Pomeriggio,0.0267
+133,Altro,Pomeriggio,0.0667
+134,Altro,Pomeriggio,0.0667
+135,Altro,Pomeriggio,0.0267
+136,Altro,Pomeriggio,0.0667
+137,Altro,Pomeriggio,0.0667
+138,Altro,Pomeriggio,0.0667
+139,Altro,Pomeriggio,0.0333
+140,Altro,Pomeriggio,0.0333
+141,Altro,Pomeriggio,0.0333
+142,Altro,Pomeriggio,0.0333
+143,Altro,Pomeriggio,0.0333
+144,Altro,Pomeriggio,0.0333
+145,Altro,Pomeriggio,0.0667
+146,Altro,Pomeriggio,0.1
+147,Altro,Pomeriggio,0.1
+148,Altro,Pomeriggio,0.0667
+149,Altro,Pomeriggio,0.0667
+150,Altro,Pomeriggio,0.0667
+151,Altro,Pomeriggio,0.0467
+152,Altro,Pomeriggio,0.0467
+153,Altro,Pomeriggio,0.0467
+154,Altro,Pomeriggio,0.0467
+155,Altro,Pomeriggio,0.0467
+156,Altro,Pomeriggio,0.0467
+157,Altro,Pomeriggio,0.0467
+158,Altro,Pomeriggio,0.0467
+159,Altro,Pomeriggio,0.0467
+160,Altro,Pomeriggio,0.0467
+161,Altro,Pomeriggio,0.0467
+162,Altro,Pomeriggio,0.0467
+163,Altro,Pomeriggio,0.0467
+164,Altro,Pomeriggio,0.0467
+165,Altro,Pomeriggio,0.0467
+166,Altro,Pomeriggio,0.0467
+167,Altro,Pomeriggio,0.0467
+168,Altro,Pomeriggio,0.0467
+169,Altro,Pomeriggio,0.0467
+170,Altro,Pomeriggio,0.0467
+171,Altro,Pomeriggio,0.1667
+172,Altro,Pomeriggio,0.1667
+173,Altro,Pomeriggio,0.1667
+174,Altro,Pomeriggio,0.1667
+175,Altro,Pomeriggio,0.1667
+176,Altro,Pomeriggio,0.1667
+177,Altro,Pomeriggio,0.0533
+178,Altro,Pomeriggio,0.0533
+179,Altro,Pomeriggio,0.0533
+1,Altro,Sera,0.0333
+2,Altro,Sera,0.0333
+3,Altro,Sera,0.0333
+4,Altro,Sera,0.0333
+5,Altro,Sera,0.0333
+6,Altro,Sera,0.0333
+7,Altro,Sera,0.0333
+8,Altro,Sera,0.0333
+9,Altro,Sera,0.0333
+10,Altro,Sera,0.0333
+11,Altro,Sera,0.0333
+12,Altro,Sera,0.0333
+13,Altro,Sera,0.0333
+14,Altro,Sera,0.0333
+15,Altro,Sera,0.0333
+16,Altro,Sera,0.0533
+17,Altro,Sera,0.0333
+18,Altro,Sera,0.04
+19,Altro,Sera,0.04
+20,Altro,Sera,0.04
+21,Altro,Sera,0.04
+22,Altro,Sera,0.04
+23,Altro,Sera,0.04
+24,Altro,Sera,0.04
+25,Altro,Sera,0.04
+26,Altro,Sera,0.0333
+27,Altro,Sera,0.0333
+28,Altro,Sera,0.0333
+29,Altro,Sera,0.0333
+30,Altro,Sera,0.0333
+31,Altro,Sera,0.0333
+32,Altro,Sera,0.0333
+33,Altro,Sera,0.0333
+34,Altro,Sera,0.14
+35,Altro,Sera,0.14
+36,Altro,Sera,0.14
+37,Altro,Sera,0.14
+38,Altro,Sera,0.14
+39,Altro,Sera,0.14
+40,Altro,Sera,0.14
+41,Altro,Sera,0.14
+42,Altro,Sera,0.14
+43,Altro,Sera,0.0333
+44,Altro,Sera,0.0333
+45,Altro,Sera,0.0333
+46,Altro,Sera,0.0333
+47,Altro,Sera,0.0333
+48,Altro,Sera,0.14
+49,Altro,Sera,0.0333
+50,Altro,Sera,0.0333
+51,Altro,Sera,0.0333
+52,Altro,Sera,0.0333
+53,Altro,Sera,0.0333
+54,Altro,Sera,0.0333
+55,Altro,Sera,0.0333
+56,Altro,Sera,0.0333
+57,Altro,Sera,0.0333
+58,Altro,Sera,0.0333
+59,Altro,Sera,0.0333
+60,Altro,Sera,0.0333
+61,Altro,Sera,0.0333
+62,Altro,Sera,0.0333
+63,Altro,Sera,0.0467
+64,Altro,Sera,0.0467
+65,Altro,Sera,0.0467
+66,Altro,Sera,0.0467
+67,Altro,Sera,0.0467
+68,Altro,Sera,0.0467
+69,Altro,Sera,0.0333
+70,Altro,Sera,0.0333
+71,Altro,Sera,0.0333
+72,Altro,Sera,0.0533
+73,Altro,Sera,0.0333
+74,Altro,Sera,0.0333
+75,Altro,Sera,0.0333
+76,Altro,Sera,0.0533
+77,Altro,Sera,0.0533
+78,Altro,Sera,0.0333
+79,Altro,Sera,0.0333
+80,Altro,Sera,0.0333
+81,Altro,Sera,0.0333
+82,Altro,Sera,0.0333
+83,Altro,Sera,0.0333
+84,Altro,Sera,0.0333
+85,Altro,Sera,0.0333
+86,Altro,Sera,0.0333
+87,Altro,Sera,0.0333
+88,Altro,Sera,0.0333
+89,Altro,Sera,0.0333
+90,Altro,Sera,0.0533
+91,Altro,Sera,0.0533
+92,Altro,Sera,0.0333
+93,Altro,Sera,0.0467
+94,Altro,Sera,0.0333
+95,Altro,Sera,0.0333
+96,Altro,Sera,0.0467
+97,Altro,Sera,0.0467
+98,Altro,Sera,0.3333
+99,Altro,Sera,0.0333
+100,Altro,Sera,0.0333
+101,Altro,Sera,0.0333
+102,Altro,Sera,0.1467
+103,Altro,Sera,0.1467
+104,Altro,Sera,0.1467
+105,Altro,Sera,0.1467
+106,Altro,Sera,0.1467
+107,Altro,Sera,0.1467
+108,Altro,Sera,0.1467
+109,Altro,Sera,0.1467
+110,Altro,Sera,0.1467
+111,Altro,Sera,0.1467
+112,Altro,Sera,0.1467
+113,Altro,Sera,0.1467
+114,Altro,Sera,0.0333
+115,Altro,Sera,0.0467
+116,Altro,Sera,0.0333
+117,Altro,Sera,0.0333
+118,Altro,Sera,0.0333
+119,Altro,Sera,0.0333
+120,Altro,Sera,0.0333
+121,Altro,Sera,0.0333
+122,Altro,Sera,0.0467
+123,Altro,Sera,0.0467
+124,Altro,Sera,0.0333
+125,Altro,Sera,0.1867
+126,Altro,Sera,0.1867
+127,Altro,Sera,0.1867
+128,Altro,Sera,0.0333
+129,Altro,Sera,0.0333
+130,Altro,Sera,0.1867
+131,Altro,Sera,0.1867
+132,Altro,Sera,0.0333
+133,Altro,Sera,0.0533
+134,Altro,Sera,0.0533
+135,Altro,Sera,0.0333
+136,Altro,Sera,0.0667
+137,Altro,Sera,0.0667
+138,Altro,Sera,0.0667
+139,Altro,Sera,0.0467
+140,Altro,Sera,0.0467
+141,Altro,Sera,0.0467
+142,Altro,Sera,0.0333
+143,Altro,Sera,0.0333
+144,Altro,Sera,0.0333
+145,Altro,Sera,0.0533
+146,Altro,Sera,0.1
+147,Altro,Sera,0.1
+148,Altro,Sera,0.0667
+149,Altro,Sera,0.0667
+150,Altro,Sera,0.0667
+151,Altro,Sera,0.04
+152,Altro,Sera,0.04
+153,Altro,Sera,0.04
+154,Altro,Sera,0.04
+155,Altro,Sera,0.04
+156,Altro,Sera,0.04
+157,Altro,Sera,0.04
+158,Altro,Sera,0.04
+159,Altro,Sera,0.04
+160,Altro,Sera,0.04
+161,Altro,Sera,0.04
+162,Altro,Sera,0.04
+163,Altro,Sera,0.04
+164,Altro,Sera,0.04
+165,Altro,Sera,0.04
+166,Altro,Sera,0.04
+167,Altro,Sera,0.04
+168,Altro,Sera,0.04
+169,Altro,Sera,0.04
+170,Altro,Sera,0.04
+171,Altro,Sera,0.1533
+172,Altro,Sera,0.1533
+173,Altro,Sera,0.1533
+174,Altro,Sera,0.1533
+175,Altro,Sera,0.1533
+176,Altro,Sera,0.1533
+177,Altro,Sera,0.0533
+178,Altro,Sera,0.0533
+179,Altro,Sera,0.0533
