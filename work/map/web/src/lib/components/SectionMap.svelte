@@ -2,7 +2,6 @@
 	import { onMount, onDestroy } from 'svelte';
 	import type { Snippet } from 'svelte';
 	import maplibregl from 'maplibre-gl';
-	import 'maplibre-gl/dist/maplibre-gl.css';
 
 	import type { Layer } from '$lib/types';
 	import { martinSource } from '$lib/tiles/martin';
@@ -47,7 +46,7 @@
 		children?: Snippet;
 	} = $props();
 
-	let container: HTMLDivElement | undefined = $state();
+	let container: HTMLDivElement | undefined;
 	let map: maplibregl.Map | undefined;
 	let mapReady = $state(false);
 
@@ -80,38 +79,54 @@
 
 	onMount(() => {
 		if (!container) return;
-		map = new maplibregl.Map({ container, style: BASEMAP, center, zoom });
-		map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+		try {
+			map = new maplibregl.Map({
+				container,
+				style: BASEMAP,
+				center,
+				zoom,
+				attributionControl: false
+			});
+			map.addControl(new maplibregl.NavigationControl(), 'top-right');
+			map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right');
+		} catch (e) {
+			console.error('Failed to initialize MapLibre:', e);
+			return;
+		}
 
 		map.on('load', () => {
 			if (!map) return;
-			// layers in ordine: il primo dell'array sta sotto
+
 			for (const layer of layers) {
-				if (layer.kind !== 'vector' || !layer.sourceTable || !layer.geomType) continue;
-				map.addSource(`src-${layer.slug}`, martinSource(layer.sourceTable));
-				const { filters: _f, legend: _l, minzoom: _mz, ...mapStyle } =
-					(layer.style ?? {}) as Record<string, unknown>;
-				const base = defaults.vector[layer.geomType] as Record<string, unknown>;
-				const merged = applyStyle(
-					Object.keys(mapStyle).length ? mapStyle : null, base, layer.sourceTable,
-				) as Record<string, unknown>;
-				const spec: Record<string, unknown> = {
-					...merged,
-					id: mlId(layer.slug),
-					source: `src-${layer.slug}`,
-					layout: {
-						...((merged.layout as Record<string, unknown>) ?? {}),
-						visibility: visible.has(layer.slug) ? 'visible' : 'none',
-					},
-				};
-				if (typeof _mz === 'number') spec['minzoom'] = _mz;
-				map.addLayer(spec as maplibregl.LayerSpecification);
-				if (interactive.includes(layer.slug)) attachClick(layer.slug, mlId(layer.slug));
+				try {
+					if (layer.kind !== 'vector' || !layer.sourceTable || !layer.geomType) continue;
+					map.addSource(`src-${layer.slug}`, martinSource(layer.sourceTable));
+					const { filters: _f, legend: _l, minzoom: _mz, ...mapStyle } =
+						(layer.style ?? {}) as Record<string, unknown>;
+					const base = defaults.vector[layer.geomType] as Record<string, unknown>;
+					const merged = applyStyle(
+						Object.keys(mapStyle).length ? mapStyle : null, base, layer.sourceTable,
+					) as Record<string, unknown>;
+					const spec: Record<string, unknown> = {
+						...merged,
+						id: mlId(layer.slug),
+						source: `src-${layer.slug}`,
+						layout: {
+							...((merged.layout as Record<string, unknown>) ?? {}),
+							visibility: visible.has(layer.slug) ? 'visible' : 'none',
+						},
+					};
+					if (typeof _mz === 'number') spec['minzoom'] = _mz;
+					map.addLayer(spec as maplibregl.LayerSpecification);
+					if (interactive.includes(layer.slug)) attachClick(layer.slug, mlId(layer.slug));
+				} catch (e) {
+					console.error(`Failed to add layer ${layer.slug}:`, e);
+				}
 			}
 
 			if (onMapClick) {
 				map.on('click', (e) => {
-					// non intercettare i click già gestiti dai layer interattivi
 					const ids = interactive.map(mlId).filter((id) => map!.getLayer(id));
 					const hit = ids.length ? map!.queryRenderedFeatures(e.point, { layers: ids }) : [];
 					if (!hit.length) onMapClick(e.lngLat);
@@ -119,7 +134,25 @@
 			}
 
 			mapReady = true;
+			// Forza il resize per sicurezza in caso di container inizialmente a 0
+			map.resize();
 		});
+
+		map.on('error', (e) => {
+			console.error('MapLibre error:', e);
+		});
+	});
+
+	// Reattività sulla visibilità dei layer
+	$effect(() => {
+		if (!map || !mapReady) return;
+		for (const layer of layers) {
+			const id = mlId(layer.slug);
+			if (map.getLayer(id)) {
+				const isVisible = visible.has(layer.slug);
+				map.setLayoutProperty(id, 'visibility', isVisible ? 'visible' : 'none');
+			}
+		}
 	});
 
 	$effect(() => {
@@ -160,10 +193,20 @@
 		map.flyTo({ center: flyTarget.center, zoom: flyTarget.zoom });
 	});
 
+	$effect(() => {
+		if (!map || !mapReady || flyTarget) return;
+		map.setCenter(center);
+	});
+
+	$effect(() => {
+		if (!map || !mapReady || flyTarget) return;
+		map.setZoom(zoom);
+	});
+
 	onDestroy(() => map?.remove());
 </script>
 
-<div class="relative h-full w-full overflow-hidden">
-	<div bind:this={container} class="absolute inset-0"></div>
+<div class="relative h-full w-full overflow-hidden bg-neutral-100">
+	<div bind:this={container} class="absolute inset-0 bg-neutral-200"></div>
 	{@render children?.()}
 </div>

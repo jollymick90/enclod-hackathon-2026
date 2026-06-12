@@ -40,7 +40,7 @@
 		</div>
 	</header>
 
-	<main bind:this={main} class="flex-1 min-h-0 overflow-y-auto">
+	<main bind:this={main} class="flex-1 min-h-0 overflow-y-auto flex flex-col">
 		{@render children()}
 	</main>
 </div>
