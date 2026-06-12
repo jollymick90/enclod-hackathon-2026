@@ -14,6 +14,7 @@ services:
       - ./infra/postgres/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
       - ./infra/postgres/02-accidents.sql:/docker-entrypoint-initdb.d/02-accidents.sql:ro
       - ./infra/postgres/03-training.sql:/docker-entrypoint-initdb.d/03-training.sql:ro
+      - ./infra/postgres/04-segnalazioni.sql:/docker-entrypoint-initdb.d/04-segnalazioni.sql:ro
     networks:
       - mappa_net
     healthcheck:
