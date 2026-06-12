@@ -7,6 +7,7 @@
 	import { martinSource } from '$lib/tiles/martin';
 	import { defaults } from '$lib/style/defaults';
 	import { applyStyle } from '$lib/style/apply';
+	import { riskColor, STORICO_COLOR, SCENARIO_METEO, SCENARIO_FASCE } from '$lib/risk';
 
 	// ── Road sub-types ───────────────────────────────────────────────────────
 	type RoadSub = { id: string; label: string; color: string; fclasses: string[] | null; width: number };
@@ -155,38 +156,12 @@
 
 	// ── Scenario predittivo (B1): ricolora i segmenti col risk del modello ──
 	const RISK_SLUG = 'rischio-storico';
-	const SCENARIO_METEO = ['Sereno', 'Pioggia', 'Nebbia', 'Neve', 'Vento forte', 'Altro'];
-	const SCENARIO_FASCE = ['Mattino', 'Pomeriggio', 'Sera', 'Notte'];
 
 	const hasRiskLayer = $derived(vectorLayers.some((l) => l.slug === RISK_SLUG));
 	let scenarioMeteo = $state('');
 	let scenarioFascia = $state('');
 	let scenarioMax = $state(0);
 	let scenarioError = $state('');
-
-	// Colore assoluto sul risk del modello (0 → verde, RISK_FULL → rosso pieno)
-	const RISK_FULL = 0.5;
-	function riskColor(r: number): string {
-		const stops: [number, string][] = [
-			[0, '#2f9e44'], [0.15, '#ffd43b'], [0.3, '#f76707'], [0.5, '#c92a2a'],
-		];
-		const t = Math.min(r, RISK_FULL);
-		for (let i = stops.length - 1; i >= 0; i--) if (t >= stops[i][0]) {
-			if (i === stops.length - 1) return stops[i][1];
-			const [a, ca] = stops[i], [b, cb] = stops[i + 1];
-			const k = (t - a) / (b - a);
-			const hex = (c: string) => [1, 3, 5].map((j) => parseInt(c.slice(j, j + 2), 16));
-			const [r1, g1, b1] = hex(ca), [r2, g2, b2] = hex(cb);
-			const mix = (x: number, y: number) => Math.round(x + (y - x) * k);
-			return `rgb(${mix(r1, r2)},${mix(g1, g2)},${mix(b1, b2)})`;
-		}
-		return stops[0][1];
-	}
-
-	const STORICO_COLOR = [
-		'interpolate', ['linear'], ['get', 'indice'],
-		0, '#2f9e44', 15, '#ffd43b', 40, '#f76707', 70, '#c92a2a',
-	];
 
 	async function applicaScenario() {
 		if (!map || !mapReady || !map.getLayer(mlId(RISK_SLUG))) return;
