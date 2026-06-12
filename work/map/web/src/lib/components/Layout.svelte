@@ -1,25 +1,37 @@
 <script lang="ts">
+	import { page } from '$app/state';
 	let { children } = $props();
+
+	const NAV = [
+		{ href: '/analisi', label: 'Analisi' },
+		{ href: '/previsione', label: 'Previsione' },
+		{ href: '/priorita', label: 'Priorità' },
+		{ href: '/cittadino', label: 'Cittadino' },
+	];
 </script>
 
-<div class="min-h-screen bg-neutral-50 text-neutral-900">
-	<header class="border-b border-neutral-200 bg-white">
-		<div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
-			<a href="/" class="font-semibold tracking-tight text-lg">Road Condition Intelligence</a>
-			<nav class="flex items-center gap-4 text-sm">
-				<a href="/mvp" class="text-neutral-600 hover:text-neutral-900 transition">MVP</a>
-				<a href="/priorita" class="text-neutral-600 hover:text-neutral-900 transition">Priorità</a>
-				<a href="/catalog" class="text-neutral-600 hover:text-neutral-900 transition">Catalog</a>
-				<a href="/explorer" class="text-neutral-600 hover:text-neutral-900 transition">Explorer</a>
+<div class="h-dvh flex flex-col bg-neutral-50 text-neutral-900">
+	<header class="shrink-0 z-30 border-b border-neutral-200 bg-white">
+		<div class="px-3 sm:px-6 h-14 flex items-center justify-between gap-2">
+			<a href="/" class="font-semibold tracking-tight text-base sm:text-lg whitespace-nowrap">
+				SaferRoads <span class="text-blue-700">Vicenza</span>
+			</a>
+			<nav class="flex items-center gap-1 sm:gap-3 text-sm overflow-x-auto">
+				{#each NAV as item (item.href)}
+					<a
+						href={item.href}
+						class="px-2 py-1 rounded-md whitespace-nowrap transition {page.url.pathname.startsWith(item.href)
+							? 'bg-blue-50 text-blue-800 font-medium'
+							: 'text-neutral-600 hover:text-neutral-900'}"
+					>
+						{item.label}
+					</a>
+				{/each}
 			</nav>
 		</div>
 	</header>
 
-	<main class="mx-auto max-w-6xl px-6 py-8">
+	<main class="flex-1 min-h-0 overflow-y-auto">
 		{@render children()}
 	</main>
-
-	<footer class="mt-16 border-t border-neutral-200 py-6 text-center text-xs text-neutral-500">
-		self-hosted · vector via Martin · raster via TiTiler
-	</footer>
 </div>

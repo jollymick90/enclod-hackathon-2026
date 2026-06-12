@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<title>geo-sentinel</title>
+	<title>SaferRoads Vicenza</title>
 </svelte:head>
 
 <Layout>{@render children()}</Layout>
