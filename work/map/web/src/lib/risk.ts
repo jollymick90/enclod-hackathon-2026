@@ -49,8 +49,9 @@ export const STORICO_COLOR = [
 
 // Frase "raccontabile" dal ranking storico — template deterministici, niente testo libero.
 export function frasePosizione(posizione: number, totale: number): string {
+	if (totale <= 1) return 'È l\'unica tratta monitorata qui.';
 	if (posizione === 1) return `È la tratta più pericolosa tra le ${totale} monitorate.`;
-	if (posizione <= 5) return `È tra le 5 tratte più pericolose delle ${totale} monitorate.`;
+	if (posizione <= 5 && totale > 5) return `È tra le 5 tratte più pericolose delle ${totale} monitorate.`;
 	if (posizione <= Math.ceil(totale * 0.1))
 		return `È nel 10% di tratte più pericolose (${posizione}ª su ${totale}).`;
 	return `È la ${posizione}ª tratta su ${totale} per pericolosità storica.`;
