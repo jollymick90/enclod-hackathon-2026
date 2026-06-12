@@ -33,6 +33,34 @@
 
 	// osm-roads viene rimpiazzato dai sotto-layer; escluso dal grouping normale
 	const OSM_ROADS_SLUG = 'osm-roads';
+	const OSM_TRAFFIC_SLUG = 'osm-traffic';
+	const OSM_MAXSPEED_SLUG = 'osm-maxspeed';
+
+	// ── Traffic sub-types (punti: attraversamenti, semafori, incroci…) ──────
+	type TrafficSub = {
+		id: string; label: string; color: string;
+		fclasses: string[] | null; minzoom: number; defaultOn: boolean;
+	};
+
+	const TRAFFIC_SUBTYPES: TrafficSub[] = [
+		{ id: 'traffic-crossing', label: 'Attraversamenti',    color: '#1971c2', fclasses: ['pedestrian_crossing'],                                                  minzoom: 11, defaultOn: true  },
+		{ id: 'traffic-signals',  label: 'Semafori',           color: '#e03131', fclasses: ['traffic_signals'],                                                      minzoom: 10, defaultOn: true  },
+		{ id: 'traffic-stop',     label: 'Stop',               color: '#f08c00', fclasses: ['stop'],                                                                 minzoom: 11, defaultOn: true  },
+		{ id: 'traffic-junction', label: 'Incroci/rotatorie',  color: '#9c36b5', fclasses: ['mini_roundabout', 'motorway_junction', 'turning_circle', 'railway_crossing'], minzoom: 9,  defaultOn: true  },
+		{ id: 'traffic-camera',   label: 'Autovelox',          color: '#212529', fclasses: ['speed_camera'],                                                          minzoom: 8,  defaultOn: true  },
+		{ id: 'traffic-lamp',     label: 'Illuminazione',      color: '#ffd43b', fclasses: ['street_lamp'],                                                           minzoom: 12, defaultOn: false },
+		{ id: 'traffic-other',    label: 'Altro (parcheggi…)', color: '#adb5bd', fclasses: null,                                                                      minzoom: 12, defaultOn: false },
+	];
+
+	const TRAFFIC_EXPLICIT = TRAFFIC_SUBTYPES
+		.filter((s) => s.fclasses !== null)
+		.flatMap((s) => s.fclasses as string[]);
+
+	function subFilter(fclasses: string[] | null, allExplicit: string[]): unknown[] {
+		if (fclasses === null)
+			return ['!', ['in', ['get', 'fclass'], ['literal', allExplicit]]];
+		return ['in', ['get', 'fclass'], ['literal', fclasses]];
+	}
 
 	// ── Props ────────────────────────────────────────────────────────────────
 	const DEFAULT_VISIBLE = new Set([
@@ -50,12 +78,16 @@
 		filterOptions?: Record<string, Record<string, (string | number)[]>>;
 	} = $props();
 
-	// Espandi 'osm-roads' nei suoi sotto-layer
+	// Espandi 'osm-roads'/'osm-traffic' nei loro sotto-layer
 	function expandVisible(dv: Set<string>): Set<string> {
 		const s = new Set(dv);
 		if (s.has(OSM_ROADS_SLUG)) {
 			s.delete(OSM_ROADS_SLUG);
 			for (const sub of ROAD_SUBTYPES) s.add(sub.id);
+		}
+		if (s.has(OSM_TRAFFIC_SLUG)) {
+			s.delete(OSM_TRAFFIC_SLUG);
+			for (const sub of TRAFFIC_SUBTYPES) if (sub.defaultOn) s.add(sub.id);
 		}
 		return s;
 	}
@@ -71,42 +103,53 @@
 	let container: HTMLDivElement | undefined = $state();
 	let map: maplibregl.Map | undefined;
 	let mapReady     = $state(false);
-	let hasRoads     = $derived(vectorLayers.some((l) => l.slug === OSM_ROADS_SLUG));
 
 	// ── Grouping ─────────────────────────────────────────────────────────────
+	type SubLike = { id: string; label: string; color: string };
 	type SidebarItem =
 		| { kind: 'layer'; layer: Layer }
-		| { kind: 'road';  sub: RoadSub };
+		| { kind: 'road';  sub: SubLike };
 
 	type SidebarGroup = { label: string; items: SidebarItem[] };
 
 	function buildGroups(all: Layer[]): SidebarGroup[] {
-		const noRoads = all.filter((l) => l.slug !== OSM_ROADS_SLUG);
+		// roads e traffic sono rimpiazzati dai sotto-layer; maxspeed va nel gruppo strade
+		const rest = all.filter(
+			(l) => l.slug !== OSM_ROADS_SLUG && l.slug !== OSM_TRAFFIC_SLUG && l.slug !== OSM_MAXSPEED_SLUG,
+		);
+		const roadsLayer    = all.find((l) => l.slug === OSM_ROADS_SLUG);
+		const trafficLayer  = all.find((l) => l.slug === OSM_TRAFFIC_SLUG);
+		const maxspeedLayer = all.find((l) => l.slug === OSM_MAXSPEED_SLUG);
 
-		const solution  = noRoads.filter((l) => !l.tags.includes('osm'));
-		const osmBase   = noRoads.filter((l) => l.tags.includes('osm') && (
+		const solution  = rest.filter((l) => !l.tags.includes('osm'));
+		const osmBase   = rest.filter((l) => l.tags.includes('osm') && (
 			l.slug.includes('water') || l.slug.includes('railway') ||
 			l.slug.includes('landuse') || l.slug.includes('natural') ||
 			l.slug.includes('protected') || l.slug.includes('adminarea')));
-		const osmPeople = noRoads.filter((l) => l.tags.includes('osm') && (
+		const osmPeople = rest.filter((l) => l.tags.includes('osm') && (
 			l.slug.includes('place') || l.slug.includes('poi') ||
 			l.slug.includes('pofw') || l.slug.includes('building')));
-		const osmMob    = noRoads.filter((l) => l.tags.includes('osm') && (
+		const osmMob    = rest.filter((l) => l.tags.includes('osm') && (
 			l.slug.includes('traffic') || l.slug.includes('transport')));
 
 		const toItems = (ls: Layer[]): SidebarItem[] => ls.map((l) => ({ kind: 'layer', layer: l }));
 
-		const roadGroup: SidebarGroup = {
-			label: 'OSM — Strade',
-			items: ROAD_SUBTYPES.map((sub) => ({ kind: 'road', sub })),
-		};
+		const roadItems: SidebarItem[] = roadsLayer
+			? ROAD_SUBTYPES.map((sub) => ({ kind: 'road', sub }) as SidebarItem)
+			: [];
+		if (maxspeedLayer) roadItems.push({ kind: 'layer', layer: maxspeedLayer });
+
+		const trafficItems: SidebarItem[] = trafficLayer
+			? TRAFFIC_SUBTYPES.map((sub) => ({ kind: 'road', sub }) as SidebarItem)
+			: [];
 
 		return [
-			solution.length  ? { label: 'Soluzione',            items: toItems(solution)  } : null,
-			hasRoads         ? roadGroup                                                     : null,
-			osmBase.length   ? { label: 'OSM — Territorio',     items: toItems(osmBase)   } : null,
+			solution.length ? { label: 'Soluzione', items: toItems(solution) } : null,
+			roadItems.length ? { label: 'OSM — Strade', items: roadItems } : null,
+			trafficItems.length ? { label: 'OSM — Sicurezza stradale', items: trafficItems } : null,
+			osmBase.length ? { label: 'OSM — Territorio', items: toItems(osmBase) } : null,
 			osmPeople.length ? { label: 'OSM — Luoghi/edifici', items: toItems(osmPeople) } : null,
-			osmMob.length    ? { label: 'OSM — Mobilità',       items: toItems(osmMob)    } : null,
+			osmMob.length ? { label: 'OSM — Mobilità', items: toItems(osmMob) } : null,
 		].filter(Boolean) as SidebarGroup[];
 	}
 
@@ -221,6 +264,32 @@
 						if (filter) spec['filter'] = filter;
 						map.addLayer(spec as maplibregl.LayerSpecification);
 						attachPopup(`Strada — ${sub.label}`, mlId(sub.id));
+					}
+					continue;
+				}
+
+				if (layer.slug === OSM_TRAFFIC_SLUG) {
+					// Sotto-layer punto per categoria di sicurezza stradale
+					map.addSource(`src-${OSM_TRAFFIC_SLUG}`, martinSource(layer.sourceTable!));
+					for (const sub of TRAFFIC_SUBTYPES) {
+						const spec: Record<string, unknown> = {
+							id: mlId(sub.id),
+							source: `src-${OSM_TRAFFIC_SLUG}`,
+							'source-layer': layer.sourceTable!,
+							type: 'circle',
+							minzoom: sub.minzoom,
+							filter: subFilter(sub.fclasses, TRAFFIC_EXPLICIT),
+							layout: { visibility: visible.has(sub.id) ? 'visible' : 'none' },
+							paint: {
+								'circle-color': sub.color,
+								'circle-radius': ['interpolate', ['linear'], ['zoom'], 10, 2, 13, 4, 16, 7],
+								'circle-opacity': 0.85,
+								'circle-stroke-width': 0.8,
+								'circle-stroke-color': '#ffffff',
+							},
+						};
+						map.addLayer(spec as maplibregl.LayerSpecification);
+						attachPopup(`Sicurezza — ${sub.label}`, mlId(sub.id));
 					}
 					continue;
 				}

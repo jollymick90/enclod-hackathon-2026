@@ -34,7 +34,7 @@
 	<div class="mt-6">
 		<MultiLayerMap
 			layers={data.layers}
-			defaultVisible={new Set(['training-incidenti', 'osm-roads'])}
+			defaultVisible={new Set(['rischio-storico', 'training-incidenti', 'osm-roads', 'osm-traffic'])}
 			filterOptions={data.filterOptions}
 		/>
 	</div>

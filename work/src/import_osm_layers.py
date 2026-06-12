@@ -283,6 +283,39 @@ def registra_layer(conn, meta: dict):
     conn.commit()
 
 
+MAXSPEED_STYLE = {
+    "filter": [">", ["get", "maxspeed"], 0],
+    "paint": {
+        "line-color": ["step", ["get", "maxspeed"],
+                       "#40c057", 40, "#fab005", 60, "#f76707", 80, "#e03131", 100, "#862e9c"],
+        "line-width": ["interpolate", ["linear"], ["zoom"], 8, 1, 12, 2.5, 15, 4],
+    },
+    "filters": ["maxspeed"],
+    "legend": [
+        {"label": "≤ 30 km/h", "color": "#40c057"},
+        {"label": "40-50 km/h", "color": "#fab005"},
+        {"label": "60-70 km/h", "color": "#f76707"},
+        {"label": "80-90 km/h", "color": "#e03131"},
+        {"label": "≥ 100 km/h", "color": "#862e9c"},
+    ],
+}
+
+
+def registra_maxspeed(conn, roads_meta: dict):
+    """Layer derivato: stessa tabella osm_roads, colorato per limite di velocità."""
+    meta = dict(roads_meta)
+    meta.update({
+        "slug": "osm-maxspeed",
+        "title": "OSM — Limiti di velocità",
+        "desc": ("strade colorate per limite di velocità OSM (solo gli archi con "
+                 "limite mappato; gli altri sono nascosti)"),
+        "style": MAXSPEED_STYLE,
+        "geom_type": "line",
+        "zoom": 10,
+    })
+    registra_layer(conn, meta)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--only", help="lista di temi separati da virgola (default: tutti)")
@@ -309,6 +342,8 @@ def main():
             if meta:
                 registra_layer(conn, meta)
                 caricati.append(meta)
+                if k == "roads":
+                    registra_maxspeed(conn, meta)
 
     print(f"\n{'slug':28} {'feature':>9}  tabella")
     for m in caricati:
