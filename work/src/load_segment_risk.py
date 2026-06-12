@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Carica le predizioni del modello (contratto 3, docs/08-spec.md) in data.segment_risk.
+"""Carica le predizioni del modello (contratto 3, docs/_deprecated/08-spec.md) in data.segment_risk.
 
 Input atteso: work/output/segment_risk.csv con colonne
     segment_id, meteo, fascia_oraria, risk

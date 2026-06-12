@@ -8,7 +8,7 @@ storica 0-100 per segmento.
 
 Crea inoltre la tabella-contratto `data.segment_risk` per lo step 2: lo scoring
 del modello predittivo per scenario (segmento × meteo × fascia oraria) — vedi
-docs/07-risk-engine.md.
+docs/_deprecated/07-risk-engine.md.
 
 Output:
   - data.road_segments (PostGIS) + layer catalogo 'rischio-storico'

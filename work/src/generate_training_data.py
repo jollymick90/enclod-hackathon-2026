@@ -30,6 +30,24 @@ N_NEGATIVI = 2200   # ~3x i positivi (738). Modifica questo valore per speriment
 SEED       = 42
 SP_TARGET  = {'46', '349', '350'}  # corridoi coperti dal dataset incidenti
 
+# Distribuzione climatologica del meteo durante la guida (vicentino, stima di
+# dominio — da tarare col team). Deve sommare a 1. Con campionamento uniforme
+# (1/6 di neve) il modello impara "neve = riga sintetica = sicura" e inverte
+# la direzione del rischio (leakage verificato sui numeri).
+METEO_PESI = {
+    'Sereno': 0.60, 'Pioggia': 0.15, 'Nebbia': 0.07,
+    'Neve': 0.03, 'Vento forte': 0.05, 'Altro': 0.10,
+}
+# Fondo ammesso per ogni meteo (ripetizioni = pesi impliciti)
+FONDI_PER_METEO = {
+    'Sereno':      ['Asciutto', 'Asciutto', 'Asciutto', 'Bagnato'],
+    'Pioggia':     ['Bagnato', 'Bagnato', 'Sdrucciolevole'],
+    'Nebbia':      ['Asciutto', 'Bagnato'],
+    'Neve':        ['Innevato', 'Sdrucciolevole', 'Ghiacciato'],
+    'Vento forte': ['Asciutto', 'Bagnato'],
+    'Altro':       ['Asciutto', 'Bagnato', 'Sdrucciolevole'],
+}
+
 ROOT     = Path(__file__).parent.parent.parent
 CSV_PATH = ROOT / "data" / "dataset" / "Incidenti_Comuni_ProVI_2010-2023.csv"
 GPKG_SP  = ROOT / "data" / "dataset" / "extracted" / "sp_osm" / "SP OSM 6707.gpkg"
@@ -118,8 +136,9 @@ def genera_negativi(df: pd.DataFrame, corridoi: gpd.GeoDataFrame,
     neg['mese']             = rng.integers(1, 13, size=n_gen)
     neg['giorno_settimana'] = rng.choice(df['giorno_settimana'].dropna().unique(), size=n_gen)
     neg['fascia_oraria']    = rng.choice(df['fascia_oraria'].dropna().unique(), size=n_gen)
-    neg['meteo']            = rng.choice(df['meteo'].dropna().unique(), size=n_gen)
-    neg['fondo']            = rng.choice(df['fondo'].dropna().unique(), size=n_gen)
+    # meteo con pesi climatologici (esposizione reale) e fondo coerente col meteo
+    neg['meteo'] = rng.choice(list(METEO_PESI), size=n_gen, p=list(METEO_PESI.values()))
+    neg['fondo'] = [rng.choice(FONDI_PER_METEO[m]) for m in neg['meteo']]
     neg['segnaletica']      = rng.choice(df['segnaletica'].dropna().unique(), size=n_gen)
     neg['tipo_luogo']       = rng.choice(df['tipo_luogo'].dropna().unique(), size=n_gen)
     neg['incidente']        = 0

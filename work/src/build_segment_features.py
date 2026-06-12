@@ -8,7 +8,7 @@ Per ognuno dei 179 segmenti km calcola, entro BUFFER_M dalla geometria:
   - comune: dal confine comunale che contiene il centroide del segmento
 
 Aggiorna data.road_segments (i popup della mappa mostrano le nuove colonne) e
-produce i due file-contratto per il team ML (vedi docs/08-spec.md):
+produce i due file-contratto per il team ML (vedi docs/_deprecated/08-spec.md):
   - work/output/segment_features.csv
   - work/output/training_arricchito.csv  (training v2 + feature di segmento)
 

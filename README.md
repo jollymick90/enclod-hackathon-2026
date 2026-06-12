@@ -13,11 +13,9 @@ l'evento, dentro `work/` (vedi regola sotto).
 enclod-hackathon-2026/
 ├── README.md                 ← questo file (indice + orientamento)
 ├── data/                     ← TUTTI i dataset scaricati (una sottocartella per dataset)
-├── docs/                     ← materiale di riferimento (ok da preparare prima)
-│   ├── 01-strategia.md       ← scelta challenge, angolo, stack, approccio AI
-│   ├── 02-dataset-guide.md   ← cosa cercare in ogni dataset (checklist esplorazione)
-│   ├── 03-pitch-template.md  ← scaletta del pitch sui criteri della giuria
-│   └── 04-ip.md             ← proprietà intellettuale
+├── docs/
+│   ├── sfida-scelta.md       ← documento canonico: sfide scelte + descrizione soluzione
+│   └── _deprecated/          ← vecchia documentazione (strategia, spec, plan…), solo storico
 ├── work/                     ← QUI si costruisce live (vuoto adesso, è giusto così)
 │   ├── notebooks/            ← esplorazione dati, prototipi
 │   ├── src/                  ← codice della soluzione

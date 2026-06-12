@@ -1,5 +1,5 @@
 """
-Genera "Negative Cases" sintetici seguendo le istruzioni di docs/PROMPT.md:
+Genera "Negative Cases" sintetici seguendo le istruzioni di docs/_deprecated/PROMPT.md:
 
 - >= 2 record di NON-incidente per ogni record reale (scenario/contesto)
 - comune, nome_strada, tipo_luogo, indirizzo (e lon/lat/kmt_etm) INVARIATI rispetto alla fonte
