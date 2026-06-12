@@ -17,7 +17,7 @@ enclod-hackathon-2026/
 │   ├── 01-strategia.md       ← scelta challenge, angolo, stack, approccio AI
 │   ├── 02-dataset-guide.md   ← cosa cercare in ogni dataset (checklist esplorazione)
 │   ├── 03-pitch-template.md  ← scaletta del pitch sui criteri della giuria
-│   └── 04-ip-e-caemate.md    ← proprietà intellettuale + nota CAEmate
+│   └── 04-ip.md             ← proprietà intellettuale
 ├── work/                     ← QUI si costruisce live (vuoto adesso, è giusto così)
 │   ├── notebooks/            ← esplorazione dati, prototipi
 │   ├── src/                  ← codice della soluzione

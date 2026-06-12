@@ -5,7 +5,7 @@
 Scelta giusta per te: i dataset rilasciati pesano nettamente verso le infrastrutture
 (incidenti, sensori IoT, rete stradale, spargimento sale, Sentinel-1 SAR), ed è il
 binario dove la tua expertise di dominio (manutenzione predittiva / monitoraggio
-infrastrutturale, futuro lavoro in CAEmate) ti dà credibilità reale davanti alla
+infrastrutturale) ti dà credibilità reale davanti alla
 giuria. Sai cosa serve davvero a un manutentore.
 
 **Rovescio della medaglia**: proprio perché è il binario "ovvio" dato il dataset,
@@ -64,10 +64,3 @@ L'idea "RAG con vector DB sugli incidenti" è quasi sempre sbagliata per dati
 
 Il "copilota che spiega la mappa" è una feature più solida e difendibile del
 "chatbot che fa RAG sugli incidenti".
-
-## Nota CAEmate
-
-Il codice/know-how proprietario di CAEmate è "pre-existing proprietary" → da non
-toccare durante l'evento. La tua **competenza di dominio** (manutenzione predittiva,
-InSAR, monitoraggio infrastrutturale) invece è tua: usala quanto vuoi, è il tuo vero
-vantaggio competitivo qui.
