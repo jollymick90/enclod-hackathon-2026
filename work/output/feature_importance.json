@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "Tipo di luogo",
+    "importance": 0.2401
+  },
+  {
+    "feature": "Segnaletica",
+    "importance": 0.2347
+  },
+  {
+    "feature": "Comune",
+    "importance": 0.1435
+  },
+  {
+    "feature": "Mese",
+    "importance": 0.1101
+  },
+  {
+    "feature": "Meteo",
+    "importance": 0.0902
+  },
+  {
+    "feature": "Strada",
+    "importance": 0.0623
+  },
+  {
+    "feature": "Fondo stradale",
+    "importance": 0.055
+  },
+  {
+    "feature": "Fascia oraria",
+    "importance": 0.034
+  },
+  {
+    "feature": "Giorno",
+    "importance": 0.0301
+  }
+]
