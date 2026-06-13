@@ -112,7 +112,16 @@ Poi dal tuo PC apri **http://IP_VM/** — home, /analisi, /previsione, /priorita
 
 ## Aggiornare dopo una modifica
 
-I passaggi dipendono da **cosa** è cambiato. Tre casi (puoi combinarli):
+**Scorciatoia con gli script** (dalla ROOT del repo, stack di sviluppo locale acceso):
+
+```bash
+work/map/deploy-update-code.sh utente@IP_VM          # Caso A: solo codice
+work/map/deploy-update-data.sh utente@IP_VM          # Caso B: dati DB (+ codice), preserva le segnalazioni
+work/map/deploy-update-data.sh utente@IP_VM --wipe   # Caso B ripartendo pulito (cancella le segnalazioni)
+```
+
+Gli script fanno tutto (tar/dump/scp + comandi sulla VM via ssh). Sotto i passaggi
+manuali equivalenti, se preferisci capire/eseguire a mano. Tre casi (combinabili):
 
 ### Caso A — solo codice della web app (pagine `.svelte`/`.ts`, componenti)
 
