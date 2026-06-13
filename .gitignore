@@ -25,3 +25,10 @@ node_modules/
 .env.local
 .env.*.local
 .superpowers/
+
+# artefatti di deploy
+work/map/geosentinel.dump
+work/map/*.tgz
+saferroads.tgz
+web-image.tar
+work/map/.env

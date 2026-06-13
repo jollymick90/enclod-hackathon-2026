@@ -1,0 +1,83 @@
+# Deploy su VM (solo IP, niente DNS). Un'unica porta pubblica: 80.
+# Differenze dal docker-compose.yml di sviluppo:
+#  - nginx (proxy) davanti a web + martin → stessa origine, niente CORS
+#  - db, martin, web NON espongono porte sull'host (solo rete interna)
+#  - db SENZA seed: i dati si ripristinano da un dump del DB locale (vedi guida)
+#  - web riceve l'URL pubblico via .env (PUBLIC_BASE_URL)
+#
+# Uso:  docker compose -f docker-compose.deploy.yml up -d --build
+# Richiede un file .env accanto a questo con:  PUBLIC_BASE_URL=http://IP_DELLA_VM
+
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: geosentinel
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - mappa_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d geosentinel"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  martin:
+    image: ghcr.io/maplibre/martin:latest
+    restart: unless-stopped
+    command: ["--config", "/config/config.yaml"]
+    volumes:
+      - ./infra/martin/config.yaml:/config/config.yaml:ro
+    networks:
+      - mappa_net
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@db:5432/geosentinel
+      # URL che il BROWSER usa per le tile: passa dal proxy, stessa origine.
+      PUBLIC_MARTIN_URL: ${PUBLIC_BASE_URL}/tiles
+      # Origine pubblica: serve a SvelteKit dietro proxy (CSRF, link assoluti).
+      ORIGIN: ${PUBLIC_BASE_URL}
+      PORT: "3000"
+      HOST: "0.0.0.0"
+      FEATURE_IMPORTANCE_PATH: /data/output/feature_importance.json
+    volumes:
+      - ../output:/data/output:ro
+    networks:
+      - mappa_net
+    depends_on:
+      db:
+        condition: service_healthy
+      martin:
+        condition: service_started
+
+  proxy:
+    image: nginx:alpine
+    restart: unless-stopped
+    volumes:
+      - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "80:80"
+    networks:
+      - mappa_net
+    depends_on:
+      - web
+      - martin
+
+volumes:
+  db_data:
+
+networks:
+  mappa_net:
+    driver: bridge
