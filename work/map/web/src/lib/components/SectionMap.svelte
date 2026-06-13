@@ -24,6 +24,8 @@
 		center = [11.35, 45.65] as [number, number],
 		zoom = 10,
 		basemapOpacity = 1,
+		heatmapSlugs = [],
+		heatmapActive = new Set<string>(),
 		flyTarget = null,
 		onFeatureClick,
 		onMapClick,
@@ -38,6 +40,8 @@
 		center?: [number, number];
 		zoom?: number;
 		basemapOpacity?: number;
+		heatmapSlugs?: string[];
+		heatmapActive?: Set<string>;
 		flyTarget?: { center: [number, number]; zoom: number } | null;
 		onFeatureClick?: (
 			id: string,
@@ -122,6 +126,23 @@
 					if (typeof _mz === 'number') spec['minzoom'] = _mz;
 					map.addLayer(spec as maplibregl.LayerSpecification);
 					if (interactive.includes(layer.slug)) attachClick(layer.slug, mlId(layer.slug));
+
+					// layer heatmap opzionale sulla stessa sorgente (densità incidenti)
+					if (heatmapSlugs.includes(layer.slug)) {
+						map.addLayer({
+							id: `hm-${layer.slug}`,
+							source: `src-${layer.slug}`,
+							'source-layer': layer.sourceTable,
+							type: 'heatmap',
+							layout: { visibility: heatmapActive.has(layer.slug) ? 'visible' : 'none' },
+							paint: {
+								'heatmap-weight': 1,
+								'heatmap-intensity': ['interpolate', ['linear'], ['zoom'], 10, 1, 16, 3],
+								'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 10, 8, 16, 28],
+								'heatmap-opacity': 0.75,
+							},
+						} as maplibregl.LayerSpecification);
+					}
 				} catch (e) {
 					console.error(`Failed to add layer ${layer.slug}:`, e);
 				}
@@ -145,15 +166,16 @@
 		});
 	});
 
-	// Reattività sulla visibilità dei layer
+	// Reattività sulla visibilità dei layer (heatmap attiva → mostra densità, nasconde punti)
 	$effect(() => {
 		if (!map || !mapReady) return;
 		for (const layer of layers) {
 			const id = mlId(layer.slug);
-			if (map.getLayer(id)) {
-				const isVisible = visible.has(layer.slug);
-				map.setLayoutProperty(id, 'visibility', isVisible ? 'visible' : 'none');
-			}
+			const hmOn = heatmapActive.has(layer.slug);
+			if (map.getLayer(id))
+				map.setLayoutProperty(id, 'visibility', visible.has(layer.slug) && !hmOn ? 'visible' : 'none');
+			if (map.getLayer(`hm-${layer.slug}`))
+				map.setLayoutProperty(`hm-${layer.slug}`, 'visibility', hmOn ? 'visible' : 'none');
 		}
 	});
 
@@ -166,9 +188,13 @@
 
 	$effect(() => {
 		if (!map || !mapReady) return;
-		for (const [slug, filter] of Object.entries(filterBySlug))
+		for (const [slug, filter] of Object.entries(filterBySlug)) {
 			if (map.getLayer(mlId(slug)))
 				map.setFilter(mlId(slug), filter as maplibregl.FilterSpecification | null);
+			// stesso filtro sull'eventuale heatmap della stessa sorgente
+			if (map.getLayer(`hm-${slug}`))
+				map.setFilter(`hm-${slug}`, filter as maplibregl.FilterSpecification | null);
+		}
 	});
 
 	$effect(() => {

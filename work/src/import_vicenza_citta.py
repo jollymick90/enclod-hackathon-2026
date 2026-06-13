@@ -47,11 +47,19 @@ STYLE = {
 }
 
 
-def pulisci_via(v) -> str | None:
+def _testo(v) -> str | None:
+    """Normalizza un valore testuale, trattando NaN/vuoti come None."""
     if v is None:
         return None
-    s = re.sub(r"^\d+\s+", "", str(v).strip())  # "8220 VIALE..." -> "VIALE..."
-    return s or None
+    s = str(v).strip()
+    if s.lower() in ("", "nan", "none", "<na>"):
+        return None
+    return s
+
+
+def pulisci_via(v) -> str | None:
+    s = _testo(v)
+    return re.sub(r"^\d+\s+", "", s) if s else None  # "8220 VIALE..." -> "VIALE..."
 
 
 def gravita(morti: int, feriti: int) -> str:
@@ -89,7 +97,7 @@ def main():
             int(r["GIORNO"]) if r["GIORNO"] is not None else None,
             pulisci_via(r["VIA1"]),
             pulisci_via(r["VIA2"]),
-            (str(r["NATURA_INC"]).strip() or None) if r["NATURA_INC"] is not None else None,
+            _testo(r["NATURA_INC"]),
             int(r["NUMERO_VEI"]) if r["NUMERO_VEI"] is not None else None,
             feriti, morti, gravita(morti, feriti), lon, lat,
         ))
