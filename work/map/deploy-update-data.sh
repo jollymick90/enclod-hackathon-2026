@@ -48,7 +48,10 @@ tar xzf "$HOME/saferroads.tgz" -C "$HOME/$REMOTE_DIR"
 
 echo "  - ripristino il dump (sostituisce il DB)…"
 $DC cp "$HOME/geosentinel.dump" db:/tmp/geosentinel.dump
-$DC exec -T db pg_restore --clean --if-exists --no-owner -U postgres -d geosentinel /tmp/geosentinel.dump
+# pg_restore esce non-zero anche solo per warning benigni: NON deve fermare lo script,
+# altrimenti Martin e web non verrebbero aggiornati.
+$DC exec -T db pg_restore --clean --if-exists --no-owner -U postgres -d geosentinel /tmp/geosentinel.dump \
+  || echo "    (pg_restore ha segnalato warning: proseguo)"
 
 if [ "$WIPE" != "yes" ] && [ -s "$HOME/segnalazioni.sql" ]; then
   echo "  - reimporto le segnalazioni e riallineo la sequenza id…"
@@ -60,7 +63,11 @@ fi
 echo "  - riavvio Martin e ribuildo web…"
 $DC restart martin
 $DC up -d --build web
-echo "  OK: dati + web aggiornati."
+
+# verifica: la tabella città c'è davvero?
+N_CITTA="$($DC exec -T db psql -U postgres -d geosentinel -tAc \
+  'SELECT count(*) FROM data.incidenti_vicenza_citta' 2>/dev/null || echo 0)"
+echo "  OK: dati + web aggiornati. Incidenti Vicenza città nel DB: ${N_CITTA}"
 EOF
 
 echo "==> Fatto. Ricarica http://<IP_VM>/"
