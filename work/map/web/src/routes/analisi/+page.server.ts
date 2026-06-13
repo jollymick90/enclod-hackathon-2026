@@ -9,7 +9,7 @@ const FIELDS = [
 ];
 
 export const load: PageServerLoad = async ({ url }) => {
-	const layers = await loadLayers(['osm-roads', 'rischio-storico', 'incidenti-vicenza']);
+	const layers = await loadLayers(['osm-roads', 'rischio-storico', 'incidenti-vicenza', 'osm-traffic']);
 
 	const filterOptions: Record<string, (string | number)[]> = {};
 	for (const f of FIELDS) {

@@ -26,9 +26,34 @@
 		'primary', 'primary_link', 'secondary', 'secondary_link',
 	]]];
 
+	// elementi di sicurezza (data.osm_traffic) — categorie come il layer "Sicurezza stradale"
+	const SAFETY = [
+		{ id: 'crossing', label: 'Attraversamenti', color: '#1971c2', fclasses: ['pedestrian_crossing'] },
+		{ id: 'signals', label: 'Semafori', color: '#e03131', fclasses: ['traffic_signals'] },
+		{ id: 'stop', label: 'Stop', color: '#f08c00', fclasses: ['stop'] },
+		{ id: 'junction', label: 'Incroci/rotatorie', color: '#9c36b5', fclasses: ['mini_roundabout', 'motorway_junction', 'turning_circle', 'railway_crossing'] },
+		{ id: 'camera', label: 'Autovelox', color: '#212529', fclasses: ['speed_camera'] },
+		{ id: 'lamp', label: 'Lampioni', color: '#ffd43b', fclasses: ['street_lamp'] },
+	];
+
 	let sel = $state<Record<string, string>>({});
 	let altriOpen = $state(false);
+	let sicurezzaOpen = $state(false);
+	let safety = $state<Set<string>>(new Set());
 	let selected = $state<number | null>(data.trattaIniziale?.id ?? null);
+
+	function toggleSafety(id: string) {
+		const next = new Set(safety);
+		if (next.has(id)) next.delete(id);
+		else next.add(id);
+		safety = next;
+	}
+
+	// fclass delle categorie attive; lista vuota = layer nascosto (nessun match)
+	const trafficFilter = $derived([
+		'in', ['get', 'fclass'],
+		['literal', SAFETY.filter((s) => safety.has(s.id)).flatMap((s) => s.fclasses)],
+	]);
 
 	// etichette user-friendly (requisito C3): mesi a nome, giorni in ordine, anni decrescenti
 	function opzioni(field: string): { value: string; label: string }[] {
@@ -67,10 +92,10 @@
 <div class="h-full">
 	<SectionMap
 		layers={data.layers}
-		visible={new Set(['osm-roads', 'rischio-storico', 'incidenti-vicenza'])}
+		visible={new Set(['osm-roads', 'rischio-storico', 'incidenti-vicenza', 'osm-traffic'])}
 		interactive={['rischio-storico']}
 		lineColorBySlug={{ 'osm-roads': '#cbd5e1' }}
-		filterBySlug={{ 'osm-roads': ROAD_CTX, 'incidenti-vicenza': accFilter }}
+		filterBySlug={{ 'osm-roads': ROAD_CTX, 'incidenti-vicenza': accFilter, 'osm-traffic': trafficFilter }}
 		flyTarget={data.trattaIniziale
 			? { center: [data.trattaIniziale.lng, data.trattaIniziale.lat], zoom: 13 }
 			: null}
@@ -113,6 +138,35 @@
 							</select>
 						</label>
 					{/each}
+				{/if}
+			</div>
+
+			<!-- elementi di sicurezza (OSM) -->
+			<div class="mt-3 border-t border-neutral-100 pt-2">
+				<button
+					onclick={() => (sicurezzaOpen = !sicurezzaOpen)}
+					class="text-left text-xs font-medium text-blue-700 hover:underline"
+				>
+					{sicurezzaOpen ? '−' : '+'} Elementi di sicurezza{safety.size > 0 ? ` (${safety.size})` : ''}
+				</button>
+				{#if sicurezzaOpen}
+					<div class="mt-1 flex flex-col gap-1">
+						{#each SAFETY as s (s.id)}
+							<label class="flex items-center gap-2 text-xs text-neutral-700">
+								<input
+									type="checkbox"
+									checked={safety.has(s.id)}
+									onchange={() => toggleSafety(s.id)}
+									class="accent-blue-600"
+								/>
+								<span class="h-2.5 w-2.5 shrink-0 rounded-full" style="background:{s.color}"></span>
+								{s.label}
+							</label>
+						{/each}
+						<p class="mt-0.5 text-[10px] leading-snug text-neutral-400">
+							Compaiono ingrandendo la mappa su una strada.
+						</p>
+					</div>
 				{/if}
 			</div>
 		</div>

@@ -10,6 +10,7 @@
 		{ href: '/analisi', label: 'Analisi' },
 		{ href: '/previsione', label: 'Previsione' },
 		{ href: '/priorita', label: 'Priorità' },
+		{ href: '/vicenza-citta', label: 'Vicenza città' },
 		{ href: '/cittadino', label: 'Cittadino' },
 	];
 

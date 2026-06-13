@@ -106,21 +106,42 @@ def fill_style(color, legend_label, opacity=0.45, minzoom=None, color_expr=None,
     return s
 
 
-def point_style(color, legend_label, minzoom=None):
+def point_style(color, legend_label, minzoom=None, color_expr=None, legend=None):
     s = {
         "paint": {
-            "circle-color": color,
+            "circle-color": color_expr or color,
             "circle-radius": ZOOM_RADIUS,
             "circle-opacity": 0.75,
             "circle-stroke-width": 0.5,
             "circle-stroke-color": "#ffffff",
         },
         "filters": ["fclass"],
-        "legend": [{"label": legend_label, "color": color}],
+        "legend": legend or [{"label": legend_label, "color": color}],
     }
     if minzoom is not None:
         s["minzoom"] = minzoom
     return s
+
+
+# Elementi di sicurezza stradale colorati per categoria (usati dai toggle in /analisi).
+TRAFFIC_COLORS = [
+    "match", ["get", "fclass"],
+    "pedestrian_crossing", "#1971c2",
+    "traffic_signals", "#e03131",
+    "stop", "#f08c00",
+    ["mini_roundabout", "motorway_junction", "turning_circle", "railway_crossing"], "#9c36b5",
+    "speed_camera", "#212529",
+    "street_lamp", "#ffd43b",
+    "#adb5bd",
+]
+TRAFFIC_LEGEND = [
+    {"label": "Attraversamenti", "color": "#1971c2"},
+    {"label": "Semafori", "color": "#e03131"},
+    {"label": "Stop", "color": "#f08c00"},
+    {"label": "Incroci/rotatorie", "color": "#9c36b5"},
+    {"label": "Autovelox", "color": "#212529"},
+    {"label": "Lampioni", "color": "#ffd43b"},
+]
 
 
 # chiave breve -> (shapefile, tabella, geom_type catalogo, titolo, descrizione tema, style, zoom)
@@ -177,7 +198,8 @@ THEMES = {
     "traffic": ("gis_osm_traffic_free_1.shp", "osm_traffic", "point",
                 "OSM — Infrastruttura traffico (punti)",
                 "semafori, attraversamenti, dossi, autovelox… (da zoom 11)",
-                point_style("#fab005", "Traffico", minzoom=11), 12),
+                point_style("#fab005", "Traffico", minzoom=11,
+                            color_expr=TRAFFIC_COLORS, legend=TRAFFIC_LEGEND), 12),
     "traffic_areas": ("gis_osm_traffic_a_free_1.shp", "osm_traffic_areas", "polygon",
                       "OSM — Infrastruttura traffico (aree)", "parcheggi e aree di servizio",
                       fill_style("#ffd43b", "Traffico areale", minzoom=11), 12),
