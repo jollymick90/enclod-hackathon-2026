@@ -23,7 +23,7 @@ COPYFILE_DISABLE=1 tar czf /tmp/saferroads.tgz \
   --exclude='work/map/geosentinel.dump' \
   work/map work/output
 
-echo "==> [2/3] Copio su $VM…"
+echo "==> [2/3] Copio su ${VM}…"
 scp /tmp/saferroads.tgz "$VM:~/saferroads.tgz"
 
 echo "==> [3/3] Estraggo e ribuildo 'web' sulla VM…"
