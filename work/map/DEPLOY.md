@@ -47,6 +47,7 @@ tar czf saferroads.tgz \
   --exclude='work/map/web/node_modules' \
   --exclude='work/map/web/.svelte-kit' \
   --exclude='work/map/web/build' \
+  --exclude='work/map/geosentinel.dump' \
   work/map work/output
 ```
 
@@ -109,20 +110,72 @@ Poi dal tuo PC apri **http://IP_VM/** — home, /analisi, /previsione, /priorita
 
 ---
 
-## Aggiornare il codice dopo una modifica
+## Aggiornare dopo una modifica
 
-Ricopia il sorgente e ribuilda solo `web` (il DB resta col suo volume):
+I passaggi dipendono da **cosa** è cambiato. Tre casi (puoi combinarli):
+
+### Caso A — solo codice della web app (pagine `.svelte`/`.ts`, componenti)
+
+Il DB non si tocca: le segnalazioni dei cittadini fatte sulla VM restano.
 
 ```bash
-# locale
+# locale (dalla ROOT del repo)
 tar czf saferroads.tgz --exclude='work/map/web/node_modules' \
-  --exclude='work/map/web/.svelte-kit' --exclude='work/map/web/build' work/map work/output
+  --exclude='work/map/web/.svelte-kit' --exclude='work/map/web/build' \
+  --exclude='work/map/geosentinel.dump' work/map work/output
 scp saferroads.tgz utente@IP_VM:~/
 # VM
 tar xzf ~/saferroads.tgz -C ~/saferroads
 cd ~/saferroads/work/map
 docker compose -f docker-compose.deploy.yml up -d --build web
 ```
+
+### Caso B — sono cambiati i DATI nel database
+
+Es. nuovi layer, import incidenti Vicenza città, stile dei layer aggiornato,
+nuovi segmenti/scoring. Questi vivono nel DB, quindi vanno **ri-dumpati in locale
+e ri-ripristinati** sulla VM (oltre a ricopiare il codice se è cambiato anche quello).
+
+```bash
+# 1) LOCALE: rigenera il dump (stack di sviluppo su, dopo aver rilanciato gli
+#    eventuali script di import/build che hanno cambiato il DB)
+cd work/map
+docker compose exec -T db pg_dump -U postgres -Fc geosentinel > geosentinel.dump
+
+# 2) LOCALE: ricopia dump (+ codice, se serve, come nel Caso A)
+scp geosentinel.dump utente@IP_VM:~/
+
+# 3) VM: ripristina (SOSTITUISCE il contenuto del DB) e ribuilda web
+cd ~/saferroads/work/map
+docker compose -f docker-compose.deploy.yml cp ~/geosentinel.dump db:/tmp/geosentinel.dump
+docker compose -f docker-compose.deploy.yml exec db \
+  pg_restore --clean --if-exists --no-owner -U postgres -d geosentinel /tmp/geosentinel.dump
+docker compose -f docker-compose.deploy.yml restart martin   # riscopre le tabelle
+docker compose -f docker-compose.deploy.yml up -d --build web # solo se è cambiato anche il codice
+```
+
+> ⚠️ **`pg_restore --clean` azzera le segnalazioni dei cittadini** (e ogni dato
+> creato sulla VM): riparte dalla foto del DB locale. Per conservarle, prima del
+> restore esportale e poi reimportale:
+> ```bash
+> # VM, PRIMA del restore
+> docker compose -f docker-compose.deploy.yml exec -T db \
+>   pg_dump -U postgres -t data.segnalazioni --data-only geosentinel > ~/segnalazioni.sql
+> # VM, DOPO il restore
+> docker compose -f docker-compose.deploy.yml exec -T db \
+>   psql -U postgres -d geosentinel < ~/segnalazioni.sql
+> ```
+
+### Caso C — solo file in `work/output` (es. `feature_importance.json` rigenerato)
+
+`web` legge `work/output` da un volume montato in sola lettura: basta sostituire
+il file, **niente rebuild né restart**.
+
+```bash
+# locale
+scp work/output/feature_importance.json utente@IP_VM:~/saferroads/work/output/
+```
+(ricarica la pagina /previsione: il riquadro "Cosa pesa di più sul rischio" si aggiorna)
 
 ## Note
 
