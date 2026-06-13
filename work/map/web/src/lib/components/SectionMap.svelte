@@ -23,6 +23,7 @@
 		geojsonLayers = [],
 		center = [11.35, 45.65] as [number, number],
 		zoom = 10,
+		basemapOpacity = 1,
 		flyTarget = null,
 		onFeatureClick,
 		onMapClick,
@@ -36,6 +37,7 @@
 		geojsonLayers?: GeoJsonLayer[];
 		center?: [number, number];
 		zoom?: number;
+		basemapOpacity?: number;
 		flyTarget?: { center: [number, number]; zoom: number } | null;
 		onFeatureClick?: (
 			id: string,
@@ -167,6 +169,11 @@
 		for (const [slug, filter] of Object.entries(filterBySlug))
 			if (map.getLayer(mlId(slug)))
 				map.setFilter(mlId(slug), filter as maplibregl.FilterSpecification | null);
+	});
+
+	$effect(() => {
+		if (!map || !mapReady || !map.getLayer('osm')) return;
+		map.setPaintProperty('osm', 'raster-opacity', basemapOpacity);
 	});
 
 	$effect(() => {

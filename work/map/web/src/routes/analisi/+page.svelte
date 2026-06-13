@@ -36,11 +36,26 @@
 		{ id: 'lamp', label: 'Lampioni', color: '#ffd43b', fclasses: ['street_lamp'] },
 	];
 
+	// strade principali e provinciali (no autostrade, no minori) — colore per categoria
+	const ROAD_MAIN_COLORS = ['match', ['get', 'fclass'],
+		'trunk', '#f08c00', 'trunk_link', '#f08c00',
+		'primary', '#f59f00', 'primary_link', '#f59f00',
+		'secondary', '#fcc419', 'secondary_link', '#fcc419',
+		'#cbd5e1'];
+	const ROAD_MAIN = ['trunk', 'trunk_link', 'primary', 'primary_link', 'secondary', 'secondary_link'];
+
 	let sel = $state<Record<string, string>>({});
 	let altriOpen = $state(false);
 	let sicurezzaOpen = $state(false);
 	let safety = $state<Set<string>>(new Set());
+	let stradeOn = $state(false);
+	let basemapOpacity = $state(1);
 	let selected = $state<number | null>(data.trattaIniziale?.id ?? null);
+
+	const roadsColor = $derived(stradeOn ? ROAD_MAIN_COLORS : '#cbd5e1');
+	const roadsFilter = $derived(
+		stradeOn ? ['in', ['get', 'fclass'], ['literal', ROAD_MAIN]] : ROAD_CTX,
+	);
 
 	function toggleSafety(id: string) {
 		const next = new Set(safety);
@@ -94,8 +109,9 @@
 		layers={data.layers}
 		visible={new Set(['osm-roads', 'rischio-storico', 'incidenti-vicenza', 'osm-traffic'])}
 		interactive={['rischio-storico']}
-		lineColorBySlug={{ 'osm-roads': '#cbd5e1' }}
-		filterBySlug={{ 'osm-roads': ROAD_CTX, 'incidenti-vicenza': accFilter, 'osm-traffic': trafficFilter }}
+		{basemapOpacity}
+		lineColorBySlug={{ 'osm-roads': roadsColor }}
+		filterBySlug={{ 'osm-roads': roadsFilter, 'incidenti-vicenza': accFilter, 'osm-traffic': trafficFilter }}
 		flyTarget={data.trattaIniziale
 			? { center: [data.trattaIniziale.lng, data.trattaIniziale.lat], zoom: 13 }
 			: null}
@@ -168,6 +184,23 @@
 						</p>
 					</div>
 				{/if}
+			</div>
+
+			<!-- opzioni mappa -->
+			<div class="mt-3 border-t border-neutral-100 pt-2 flex flex-col gap-2">
+				<label class="flex items-center gap-2 text-xs text-neutral-700">
+					<input type="checkbox" bind:checked={stradeOn} class="accent-blue-600" />
+					Strade principali e provinciali
+				</label>
+				<label class="block text-xs text-neutral-500">
+					Sfondo mappa: {Math.round(basemapOpacity * 100)}%
+					<input
+						type="range"
+						min="0" max="1" step="0.05"
+						bind:value={basemapOpacity}
+						class="mt-0.5 w-full accent-blue-600"
+					/>
+				</label>
 			</div>
 		</div>
 
